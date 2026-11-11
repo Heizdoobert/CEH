@@ -1,0 +1,154 @@
+Student Material-
+Professional.Series
+
+EC-Counclil
+Official Curricula
+
+FC-Council CEH” Certified Ethical Hacker
+Ethical Hacking and
+
+as
+Countermeasures
+ZG
+
+oO
+oo” Version 13
+
+EC-Council
+
+Copyright © 2024 by EC-Council. All rights reserved. Except as permitted under the Copyright Act of 1976, no part
+of this publication may be reproduced or distributed in any form or by any means, or stored in a database or retrieval
+system, without the prior written permission of the publisher, with the exception that the program listings may be
+entered, stored, and executed in a computer system, but may not be reproduced for publication without the prior
+written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain
+other noncommercial uses permitted by copyright law. For permission requests, write to EC-Council, addressed
+“Attention: EC-Council,” at the address below:
+
+EC-Council New Mexico
+101C Sun Ave NE
+Albuquerque, NM 87109
+
+Information contained in this publication has been obtained by EC-Council from sources believed to be reliable. EC-
+Council takes reasonable measures to ensure that the content is current and accurate; however, because of the
+possibility of human or mechanical error, we do not guarantee the accuracy, adequacy, or completeness of any
+information and are not responsible for any errors or omissions nof for the accuracy of the results obtained from
+use of such information.
+
+The courseware is a result of extensive research and contributions from subject-matter experts from all over the
+world. Due credits for all such contributions and references are given in the courseware in the research endnotes.
+We are committed to protecting intellectual property(fights. If you are a copyright owner (an exclusive licensee or
+their agent) and you believe that any part of the coufseware constitutes an infringement of copyright, or a breach
+of an agreed license or contract, you may notify uSat legal@eccouncil.org. In the event of a justified complaint, EC-
+Council will remove the material in question and make necessary rectifications.
+
+The courseware may contain references to other information resources and security solutions, but such references
+should not be considered as an endorsement of or recommendation by EC-Council.
+
+Readers are encouraged to report errors, omissions, and inaccuracies to EC-Council at legal@eccouncil.org. If you
+have any issues, please contact us at support@eccouncil.org.
+
+NOTICE TO THE READER
+
+EC-Council does not warrant or guarantee any of the products, methodologies, or frameworks described herein nor
+does it perform any independent analysis in connection with any of the product information contained herein. EC-
+Council does not assume, and expressly disclaims, any obligation to obtain and include information other than that
+provided to it by the manufacturer. The reader is expressly warned to consider and adopt all safety precautions that
+might be indicated by the activities described herein and to avoid all potential hazards. By following the instruction
+contained herein, the reader willingly assumes all risks in connection with such instructions. EC-Council makes no
+representations or warranties of any kind, including but not limited to the warranties of fitness for particular purpose
+or merchantability, nor are any such representations implied with respect to the material set forth herein, and EC-
+Council takes no responsibility with respect to such material. EC-Council shall not be liable for any special,
+consequential, or exemplary damages resulting, in whole or in part, from the reader’s use of or reliance upon this
+material.
+
+Page Il Ethical Hacking and Countermeasures Copyright © by EC-Council
+All Rights Reserved. Reproduction is Strictly Prohibited.
+
+Foreword
+
+Since you are reading this CEHv13 courseware, you most likely realize the importance of
+information systems security. However, we would like to put forth our motive behind compiling
+a resource such as this one and what you can gain from this course.
+
+You might find yourself asking what sets this course apart from the others out there. The truth is
+that no single courseware can address all the issues of information security in a detailed manner.
+Moreover, the rate at which exploits, tools, and methods are being discovered by the security
+community makes it difficult for one program to cover all the necessary facets of information
+security. This doesn’t mean that this course is inadequate in any way as we have worked to cover
+all major domains in such a manner that the reader will be able to appreciate the way security
+has evolved over time as well as gain insight in to the fundamental workings relevant to each
+domain. It is a blend of academic and practical wisdom supplemented with tools that the reader
+can readily access in order to obtain a hands-on experience.
+
+The emphasis throughout the courseware is on gaining practical know-how, which explains the
+stress on free and accessible tools. You will read about some of the most widespread attacks
+seen, the popular tools used by attackers, and how attacks have been carried out using ordinary
+resources.
+
+You may also want to know what to expect once’ you have completed the course. This courseware
+is a resource material. Any penetration (tester can tell you that there is no one straight
+methodology or sequence of steps that ‘you can follow while auditing a client site. There is no
+one template that will meet all your needs. Your testing strategy will vary with the client, the
+basic information about the system or situation, and the resources at your disposal. However,
+for each stage you choose — be it enumeration, firewall, penetration of other domains - you will
+find something in this courseware that you can definitely use.
+
+Finally, this is not the end! This courseware is to be considered a constant work-in-progress
+because we will be adding value to this courseware over time. You may find some aspects
+extremely detailed, while others may have less detail. We are constantly asking ourselves if the
+content helps explain the core point of the lesson, and we constant calibrate our material with
+that in mind. We would love to hear your viewpoints and suggestions so please send us your
+feedback to help in our quest to constantly improve our courseware.
+
+Page Ill Ethical Hacking and Countermeasures Copyright © by EC-Council
+All Rights Reserved. Reproduction is Strictly Prohibited.
+
+About the EC-Council CEH Program
+
+If you want to stop hackers from invading your network, first you've got to invade their minds.
+
+Computers around the world are systematically being victimized by rampant hacking. This
+hacking is not only widespread, but is being executed so flawlessly that the attackers compromise
+a system, steal everything of value and completely erase their tracks.
+
+The goal of the ethical hacker is to help the organization take preemptive measures against
+malicious attacks by attacking the system himself; all the while staying within legal limits. This
+philosophy stems from the proven practice of trying to catch a thief, by thinking like a thief. As
+technology advances and organization depend on technology increasingly, information assets
+have evolved into critical components of survival.
+
+If hacking involves creativity and thinking ‘out-of-the-box’, then vulnerability testing and security
+audits will not ensure the security proofing of an organization. To ensure that organizations have
+adequately protected their information assets, they must adopt the approach of ‘defense in
+depth’. In other words, they must penetrate their networks and assess the security posture for
+vulnerabilities and exposure.
+
+The Ethical Hacker is an individual who is usually employed with the organization and who can
+be trusted to undertake an attempt to penetrate networks and/or computer systems using the
+same methods as a Hacker. Hacking is a felony in somé€ countries. When it is done by request and
+under a contract between an Ethical Hacker and/an Organization, it is legal. The most important
+point is that an Ethical Hacker has authorization.to probe the target.
+
+The CEH Program certifies individuals in the specific network security discipline of Ethical Hacking
+from a vendor-neutral perspective. The Certified Ethical Hacker certification will fortify the
+application knowledge of security officérs, auditors, security professionals, site administrators,
+and anyone who is concerned about the integrity of the network infrastructure. A Certified
+Ethical Hacker is a skilled professional who understands and knows how to look for the
+weaknesses and vulnerabilities in target systems and uses the same knowledge and tools as a
+malicious hacker.
+
+To achieve the Certified Ethical Hacker Certification, you must pass the CEH exam 312-50.
+
+Please visit https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/ for more
+information.
+
+Course Prerequisites
+
+It is highly recommended that candidates pursuing this course have a fundamental
+understanding of operating systems, file systems, computer networks, TCP/IP protocols,
+information security controls, basic network troubleshooting, data leakage, data backup, and risk
+management.
+
+Page IV Ethical Hacking and Countermeasures Copyright © by EC-Council
+All Rights Reserved. Reproduction is Strictly Prohibited.
+

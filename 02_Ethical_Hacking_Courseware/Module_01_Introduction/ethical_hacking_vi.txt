@@ -1,0 +1,155 @@
+Tài liệu dành cho sinh viên-
+Chuyên nghiệp.Series
+
+Hội đồng EC
+Chương trình giảng dạy chính thức
+
+FC-Council CEH” Hacker có đạo đức được chứng nhận
+Hack đạo đức và
+
+như
+Biện pháp đối phó
+ZG
+
+oO
+ồ” Phiên bản 13
+
+Hội đồng EC
+
+Bản quyền © 2024 của EC-Council.Mọi quyền được bảo lưu.Trừ khi được cho phép theo Đạo luật Bản quyền năm 1976, không có phần nào
+của ấn phẩm này có thể được sao chép hoặc phân phối dưới bất kỳ hình thức nào hoặc bằng bất kỳ phương tiện nào hoặc được lưu trữ trong cơ sở dữ liệu hoặc truy xuất
+hệ thống mà không có sự cho phép trước bằng văn bản của nhà xuất bản, ngoại trừ việc danh sách chương trình có thể
+được nhập, lưu trữ và thực thi trong hệ thống máy tính nhưng không được sao chép để xuất bản nếu không có sự cho phép trước
+sự cho phép bằng văn bản của nhà xuất bản, ngoại trừ trường hợp trích dẫn ngắn gọn trong các bài phê bình và một số
+các mục đích sử dụng phi thương mại khác được luật bản quyền cho phép.Đối với các yêu cầu cấp phép, hãy viết thư cho EC-Council, có địa chỉ
+“Chú ý: EC-Council,” tại địa chỉ dưới đây:
+
+Hội đồng EC New Mexico
+101C Sun Ave NE
+Albuquerque, NM 87109
+
+Thông tin trong ấn phẩm này được EC-Council thu thập từ các nguồn được cho là đáng tin cậy.EC-
+Hội đồng thực hiện các biện pháp hợp lý để đảm bảo rằng nội dung được cập nhật và chính xác;tuy nhiên, vì
+khả năng xảy ra lỗi do con người hoặc máy móc, chúng tôi không đảm bảo tính chính xác, đầy đủ hoặc đầy đủ của bất kỳ
+thông tin và không chịu trách nhiệm về bất kỳ sai sót hoặc thiếu sót nào về tính chính xác của kết quả thu được từ
+việc sử dụng những thông tin đó.
+
+Chương trình học này là kết quả của sự nghiên cứu sâu rộng và sự đóng góp của các chuyên gia về chủ đề từ khắp nơi trên thế giới.
+thế giới.Các khoản tín dụng phù hợp cho tất cả những đóng góp và tài liệu tham khảo như vậy được đưa ra trong chương trình học ở phần chú thích nghiên cứu.
+Chúng tôi cam kết bảo vệ tài sản trí tuệ(chiến đấu. Nếu bạn là chủ sở hữu bản quyền (người được cấp phép độc quyền hoặc
+đại lý của họ) và bạn tin rằng bất kỳ phần nào của coufseware đều cấu thành hành vi vi phạm bản quyền hoặc vi phạm
+về giấy phép hoặc hợp đồng đã được thỏa thuận, bạn có thể thông báo cho uSat legal@eccouncil.org.Trong trường hợp có khiếu nại chính đáng, EC-
+Hội đồng sẽ loại bỏ tài liệu được đề cập và thực hiện các chỉnh sửa cần thiết.
+
+Chương trình học có thể chứa các tham chiếu đến các nguồn thông tin và giải pháp bảo mật khác, nhưng các tham chiếu đó
+không nên được coi là sự chứng thực hoặc khuyến nghị của Hội đồng EC.
+
+Người đọc được khuyến khích báo cáo những sai sót, thiếu sót và không chính xác cho Hội đồng EC theo địa chỉ legal@eccouncil.org.Nếu bạn
+có bất kỳ vấn đề gì, vui lòng liên hệ với chúng tôi tại support@eccouncil.org.
+
+THÔNG BÁO CHO NGƯỜI ĐỌC
+
+EC-Council không bảo đảm hoặc đảm bảo bất kỳ sản phẩm, phương pháp hoặc khuôn khổ nào được mô tả ở đây cũng như không
+nó có thực hiện bất kỳ phân tích độc lập nào liên quan đến bất kỳ thông tin sản phẩm nào có trong tài liệu này không.EC-
+Hội đồng không thừa nhận và từ chối rõ ràng bất kỳ nghĩa vụ nào trong việc thu thập và bao gồm thông tin khác ngoài thông tin đó.
+do nhà sản xuất cung cấp cho nó.Người đọc được cảnh báo rõ ràng phải xem xét và áp dụng tất cả các biện pháp phòng ngừa an toàn có thể
+có thể được biểu thị bằng các hoạt động được mô tả ở đây và để tránh tất cả các mối nguy hiểm tiềm ẩn.Bằng cách làm theo hướng dẫn
+trong tài liệu này, người đọc sẵn sàng chấp nhận mọi rủi ro liên quan đến những hướng dẫn đó.Hội đồng EC không đồng ý
+tuyên bố hoặc bảo đảm dưới bất kỳ hình thức nào, bao gồm nhưng không giới hạn ở các bảo đảm về sự phù hợp cho mục đích cụ thể
+hoặc khả năng bán được, cũng như không có bất kỳ tuyên bố nào như vậy được ngụ ý đối với tài liệu được nêu ở đây và EC-
+Hội đồng không chịu trách nhiệm đối với tài liệu đó.Hội đồng EC sẽ không chịu trách nhiệm về bất kỳ vấn đề đặc biệt,
+những thiệt hại do hậu quả hoặc mang tính điển hình gây ra, toàn bộ hoặc một phần, từ việc người đọc sử dụng hoặc tin cậy vào thông tin này
+vật chất.
+
+Trang Il Các biện pháp đối phó và hack có đạo đức Bản quyền © của EC-Council
+Mọi quyền được bảo lưu.Nghiêm cấm việc sao chép.
+
+Lời nói đầu
+
+Vì bạn đang đọc chương trình học CEHv13 này nên rất có thể bạn sẽ nhận ra tầm quan trọng của
+an ninh hệ thống thông tin.Tuy nhiên, chúng tôi muốn đưa ra động cơ đằng sau việc biên soạn
+một nguồn tài nguyên
+chẳng hạn như khóa học này và những gì bạn có thể đạt được từ khóa học này.
+
+Bạn có thể tự hỏi điều gì khiến khóa học này khác biệt với những khóa học khác.Sự thật là
+rằng không một chương trình học đơn lẻ nào có thể giải quyết tất cả các vấn đề về bảo mật thông tin một cách chi tiết.
+Hơn nữa, tốc độ khai thác, công cụ và phương pháp đang được cơ quan bảo mật phát hiện.
+cộng đồng gây khó khăn cho một chương trình trong việc bao quát tất cả các khía cạnh thông tin cần thiết
+an ninh.Điều này không có nghĩa là khóa học này không đầy đủ vì chúng tôi đã nỗ lực đề cập đến
+tất cả các lĩnh vực chính theo cách mà người đọc có thể đánh giá cao cách thức bảo mật
+đã phát triển theo thời gian cũng như đạt được cái nhìn sâu sắc về các hoạt động cơ bản liên quan đến từng
+miền.Nó là sự kết hợp giữa trí tuệ học thuật và thực tiễn được bổ sung bằng các công cụ mà người đọc
+có thể dễ dàng truy cập để có được trải nghiệm thực tế.
+
+Sự nhấn mạnh xuyên suốt chương trình học là đạt được bí quyết thực tế, điều này giải thích
+nhấn mạnh vào các công cụ miễn phí và dễ tiếp cận.Bạn sẽ đọc về một số cuộc tấn công phổ biến nhất
+đã thấy, các công cụ phổ biến được kẻ tấn công sử dụng và cách các cuộc tấn công được thực hiện bằng cách sử dụng thông thường
+tài nguyên.
+
+Bạn cũng có thể muốn biết điều gì sẽ xảy ra sau khi hoàn thành khóa học.Chương trình học này
+là nguồn tài liệuBất kỳ sự thâm nhập nào (người kiểm tra có thể cho bạn biết rằng không có ai thẳng thắn
+phương pháp hoặc trình tự các bước mà bạn có thể thực hiện khi kiểm tra trang web của khách hàng.không có
+một mẫu có thể đáp ứng mọi nhu cầu của bạn.Chiến lược thử nghiệm của bạn sẽ thay đổi tùy theo khách hàng,
+thông tin cơ bản về hệ thống hoặc tình huống và các tài nguyên mà bạn có thể sử dụng.Tuy nhiên,
+đối với mỗi giai đoạn bạn chọn — có thể là liệt kê, tường lửa, thâm nhập các miền khác - bạn sẽ
+tìm thứ gì đó trong chương trình học này mà bạn chắc chắn có thể sử dụng.
+
+Cuối cùng, đây không phải là kết thúc!Chương trình học này được coi là một quá trình hoàn thiện liên tục
+bởi vì chúng tôi sẽ tăng thêm giá trị cho chương trình học này theo thời gian.Bạn có thể tìm thấy một số khía cạnh
+cực kỳ chi tiết, trong khi những cái khác có thể ít chi tiết hơn.Chúng tôi liên tục tự hỏi liệu
+nội dung giúp giải thích điểm cốt lõi của bài học và chúng tôi liên tục hiệu chỉnh tài liệu của mình bằng
+điều đó trong tâm trí.Chúng tôi rất mong được nghe quan điểm và đề xuất của bạn vì vậy vui lòng gửi cho chúng tôi
+phản hồi để giúp chúng tôi nỗ lực không ngừng cải tiến chương trình học của mình.
+
+Trang Ill Các biện pháp đối phó và hack có đạo đức Bản quyền © của EC-Council
+Mọi quyền được bảo lưu.Nghiêm cấm việc sao chép.
+
+Giới thiệu về Chương trình CEH của EC-Council
+
+Nếu bạn muốn ngăn chặn tin tặc xâm nhập vào mạng của mình, trước tiên bạn phải xâm chiếm tâm trí của chúng.
+
+Máy tính trên toàn thế giới đang trở thành nạn nhân của nạn hack tràn lan một cách có hệ thống.Cái này
+Việc hack không chỉ phổ biến mà còn được thực hiện hoàn hảo đến mức những kẻ tấn công phải thỏa hiệp
+một hệ thống, đánh cắp mọi thứ có giá trị và xóa hoàn toàn dấu vết của chúng.
+
+Mục tiêu của hacker đạo đức là giúp tổ chức thực hiện các biện pháp phủ đầu chống lại
+các cuộc tấn công độc hại bằng cách tấn công chính hệ thống;trong khi vẫn ở trong giới hạn pháp lý.Cái này
+triết lý bắt nguồn từ thực tiễn đã được chứng minh là cố gắng bắt một tên trộm bằng cách suy nghĩ như một tên trộm.Như
+tiến bộ công nghệ và tổ chức ngày càng phụ thuộc vào công nghệ, tài sản thông tin
+đã phát triển thành những thành phần quan trọng của sự sống còn.
+
+Nếu việc hack liên quan đến sự sáng tạo và tư duy “sáng tạo”, thì việc kiểm tra lỗ hổng và bảo mật
+kiểm toán sẽ không đảm bảo việc chứng minh an ninh của một tổ chức.Để đảm bảo rằng các tổ chức có
+được bảo vệ đầy đủ tài sản thông tin của mình, họ phải áp dụng phương pháp 'bảo vệ
+chiều sâu'.Nói cách khác, họ phải thâm nhập vào mạng của mình và đánh giá tình hình bảo mật cho
+tình trạng dễ bị tổn thương và phơi nhiễm.
+
+Hacker có đạo đức là một cá nhân thường làm việc cho tổ chức và là người có thể
+được tin cậy để thực hiện nỗ lực xâm nhập mạng và/hoặc hệ thống máy tính bằng cách sử dụng
+các phương pháp tương tự như Hacker.Hacking là một trọng tội ở một số quốc gia.Khi nó được thực hiện theo yêu cầu một
+thứ
+theo hợp đồng giữa Hacker có đạo đức và/một Tổ chức, điều đó là hợp pháp.Điều quan trọng nhất
+vấn đề là Hacker có đạo đức có quyền thăm dò mục tiêu.
+
+Chương trình CEH chứng nhận các cá nhân trong lĩnh vực an ninh mạng cụ thể là Hack đạo đức
+từ góc độ trung lập với nhà cung cấp.Chứng nhận Hacker có đạo đức được chứng nhận sẽ củng cố
+kiến thức ứng dụng của nhân viên an ninh, kiểm toán viên, chuyên gia bảo mật, quản trị viên trang web,
+và bất kỳ ai quan tâm đến tính toàn vẹn của cơ sở hạ tầng mạng.Được chứng nhận
+Ethical Hacker là một chuyên gia lành nghề, hiểu và biết cách tìm kiếm
+điểm yếu và lỗ hổng trong hệ thống mục tiêu và sử dụng kiến thức và công cụ tương tự như
+hacker độc hại.
+
+Để đạt được Chứng chỉ Hacker có đạo đức được chứng nhận, bạn phải vượt qua kỳ thi CEH 312-50.
+
+Vui lòng truy cập https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh/ để biết thêm
+thông tin.
+
+Điều kiện tiên quyết của khóa học
+
+Rất khuyến khích các ứng viên theo đuổi khóa học này có nền tảng cơ bản
+hiểu biết về hệ điều hành, hệ thống tập tin, mạng máy tính, giao thức TCP/IP,
+kiểm soát bảo mật thông tin, xử lý sự cố mạng cơ bản, rò rỉ dữ liệu, sao lưu dữ liệu và rủi ro
+quản lý.
+
+Trang IV Các biện pháp đối phó và tấn công có đạo đức Copyright © by EC-Council
+Mọi quyền được bảo lưu.Nghiêm cấm việc sao chép.

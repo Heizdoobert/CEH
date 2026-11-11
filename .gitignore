@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & Scratch
+.agents/
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,78 @@
+version: '3.8'
+
+services:
+  # Target 1: Damn Vulnerable Web Application (Classic PHP/MySQL Web Exploits: SQLi, XSS, CSRF, File Inclusion, Command Execution)
+  dvwa:
+    image: vulnerables/web-dvwa:latest
+    container_name: sec_lab_dvwa
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      - MYSQL_PASS=root
+    networks:
+      sec-lab-net:
+        ipv4_address: 172.28.0.10
+
+  # Target 2: OWASP Juice Shop (Modern SPA Web & API Exploits: NoSQLi, Broken Auth, JWT Tampering, SSRF, BOLA)
+  juice-shop:
+    image: bkimminich/juice-shop:latest
+    container_name: sec_lab_juiceshop
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=unsafe
+    networks:
+      sec-lab-net:
+        ipv4_address: 172.28.0.20
+
+  # Target 3: Custom Vulnerable REST API (OWASP API Security Top 10 Target: BOLA, Mass Assignment, BFLA, SSRF)
+  vulnerable-api:
+    build:
+      context: ./vulnerable-api
+      dockerfile: Dockerfile
+    container_name: sec_lab_vulnerable_api
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=development
+    networks:
+      sec-lab-net:
+        ipv4_address: 172.28.0.30
+
+  # Target 4: Vulnerable Linux Target Host (Simulating Legacy & Misconfigured Network Services: FTP, SSH, HTTP)
+  metasploitable-node:
+    image: tleemcjr/metasploitable2:latest
+    container_name: sec_lab_metasploitable
+    restart: unless-stopped
+    ports:
+      - "2121:21"
+      - "2222:22"
+      - "8088:80"
+    networks:
+      sec-lab-net:
+        ipv4_address: 172.28.0.40
+
+  # Inspection / Attacker Pod: Network Sniffer & Packet Analyzer (tshark, tcpdump, curl, nmap)
+  traffic-sniffer:
+    image: nicolaka/netshoot:latest
+    container_name: sec_lab_sniffer
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    command: ["sleep", "infinity"]
+    networks:
+      sec-lab-net:
+        ipv4_address: 172.28.0.50
+
+networks:
+  sec-lab-net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.28.0.0/16
+          gateway: 172.28.0.1

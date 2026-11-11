@@ -1,0 +1,3655 @@
+Giới thiệu về mạng
+
+Charles Severance
+
+s
+
+Giới thiệu
+teppi82@ gmail. com
+
+Dùng Internet có vẻ dễ dàng. Chúng tôi đi đến một địa chỉ web và
+lên một trang. Hoặc chúng tôi đi đến trang web xã hội yêu thích của chúng tôi và xem hình ảnh của chúng tôi
+bạn bè, gia đình và thú nuôi. Nhưng nó cần rất nhiều phần mềm phức tạp và
+Phần cứng để làm cho Internet có vẻ đơn giản. Thiết kế của
+
+Công nghệ tạo ra Internet ngày nay bắt đầu từ những năm 1960,
+Và đã có hơn 20 năm nghiên cứu về cách xây dựng
+Công nghệ làm việc trên mạng trước khi "Internet" đầu tiên được xây dựng
+Vào cuối những năm 1980 của các học giả trong một dự án gọi là KSFNet.
+Từ đó, nghiên cứu và phát triển vào cải thiện công nghệ mạng
+đã tiếp tục như mạng lưới đã trở nên lớn hơn và nhanh hơn và toàn cầu
+được phân phối với hàng tỉ máy tính.
+
+Để hiểu rõ hơn về cách Internet ngày nay hoạt động, chúng ta sẽ xem xét
+tại cách mà con người và máy tính đã giao tiếp bằng công nghệ trong nhiều năm qua.
+
+Nói chuyện ở một khoảng cách
+-----------------------------
+
+Hãy tưởng tượng một nhóm năm người trong một căn phòng ngồi trong một vòng tròn. Miễn là họ còn
+Lịch sự và không có nhiều hơn một cuộc trò chuyện cùng một lúc, nó khá là
+Tự nhiên cho bất kỳ ai để nói chuyện với bất kỳ người khác trong phòng. Họ chỉ cần
+có thể nghe thấy nhau và phối hợp làm thế nào để sử dụng không gian chung trong phòng.
+
+Nhưng điều gì sẽ xảy ra nếu chúng tôi đặt những người này trong các phòng khác nhau để họ có thể không còn
+thấy hay nghe nhau? Làm thế nào có thể đôi người giao tiếp với nhau
+Sau đó? Một cách có thể là chạy một sợi dây giữa mỗi cặp người với một
+Micro ở đầu này và đầu kia là loa. Bây giờ mọi người vẫn có thể
+nghe tất cả các cuộc nói chuyện. Họ vẫn cần phải lịch sự để đảm bảo
+rằng chỉ có một cuộc trò chuyện diễn ra cùng một lúc.
+
+Mỗi người cần có bốn loa (một loa cho mỗi người khác)
+và đủ các mảnh dây để kết nối tất cả micro và loa.
+Đây là một vấn đề với năm người và nó trở nên tồi tệ hơn khi có
+là hàng trăm hay hàng ngàn người.
+
+Dùng dây điện, micro và loa là cách hệ thống điện thoại sớm
+Từ những năm 1900 cho phép mọi người gọi điện thoại. Bởi vì họ không thể
+có dây khác nhau giữa mỗi cặp điện thoại, những hệ thống đã làm
+không cho phép tất cả các cặp người được kết nối cùng một lúc.
+Mỗi người đều có một kết nối riêng với một "người bầu cử". Người điều khiển
+sẽ kết nối hai dây với nhau để cho phép một cặp đôi nói chuyện,
+và sau đó ngắt kết nối chúng khi cuộc nói chuyện kết thúc.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Hệ thống điện thoại địa phương đầu tiên hoạt động tốt khi nhà của khách hàng hoặc
+kinh doanh là gần tòa nhà của nhà điều hành và một dây có thể được cắt
+trực tiếp từ tòa nhà điều hành đến nhà của một người.
+
+Nhưng điều gì sẽ xảy ra nếu hàng ngàn người đang cách nhau hàng trăm cây số cần phải
+có thể giao tiếp không? Chúng ta không thể chạy 100 cây số từ mỗi nhà.
+đến một văn phòng trung tâm. Những gì các công ty điện thoại làm là có
+nhiều văn phòng trung tâm và chạy một vài đường dây giữa các văn phòng trung tâm, sau đó
+chia sẻ kết nối giữa các văn phòng trung tâm. Trong một khoảng cách dài, một kết nối
+Có thể chạy qua một số văn phòng trung tâm. Trước khi sợi quang xuất hiện,
+Cuộc gọi điện thoại đường dài được thực hiện giữa các thành phố trên các cực với rất nhiều
+của những sợi dây khác nhau. Số dây trên các cột tượng trưng cho số lượng
+Có thể đồng thời gọi điện thoại đường dài có thể sử dụng những dây điện đó.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Kể từ khi chi phí của các dây đi lên khi độ dài của dây gia tăng, những
+mối quan hệ lâu dài giữa các văn phòng khá tốn kém để cài đặt và duy trì,
+và chúng khan hiếm. Vì vậy, trong những ngày đầu của điện thoại, cuộc gọi địa phương
+nói chung là khá rẻ tiền. Nhưng cuộc gọi đường dài thì đắt hơn
+Và chúng được tính tiền từng phút một. Điều này có lý bởi vì mỗi phút bạn
+Nói chuyện trên một cuộc gọi đường dài, sử dụng dây điện đường dài của bạn có nghĩa là không
+ai đó có thể sử dụng chúng. Các công ty điện thoại muốn bạn giữ cuộc gọi
+ngắn để đường dài của họ có thể dành cho khách hàng khác.
+
+Khi các công ty điện thoại bắt đầu sử dụng sợi quang, kỹ thuật tiên tiến hơn
+được sử dụng để thực hiện nhiều cuộc trò chuyện đường dài đồng thời trên một đơn
+Sợi dây. Khi bạn nhìn vào một bức ảnh cũ và thấy rất nhiều sợi dây trên một cực,
+nó thường có nghĩa là dây điện thoại và không dùng để truyền điện.
+
+Máy tính trò chuyện khác nhau
+-----------------------------------
+
+Khi con người nói chuyện qua điện thoại, họ gọi điện, nói chuyện một thời gian, và sau đó
+Cúp máy. Theo thống kê, hầu hết thời gian, con người không nói chuyện qua điện thoại.
+Ít nhất là trước khi ai cũng có điện thoại thông minh. Nhưng máy tính, bao gồm
+các ứng dụng trong điện thoại thông minh của bạn, giao tiếp khác với con người.
+Đôi khi máy điện toán gửi tin nhắn ngắn để kiểm tra xem máy tính khác có sẵn sàng không.
+Máy tính đôi khi gửi thông tin cỡ trung bình như một hình ảnh hoặc một
+Tin nhắn điện tử dài. Và đôi khi máy tính gửi rất nhiều thông tin như
+Toàn bộ phim hoặc một phần của phần mềm để cài đặt mà có thể mất vài phút hoặc thậm chí
+Giờ tải xuống. Vì vậy, thông điệp giữa máy tính có thể ngắn, trung bình hoặc dài.
+
+Trong những ngày đầu tiên của việc kết nối máy tính với nhau, cặp máy tính
+được kết nối với dây điện. Cách đơn giản nhất để gửi dữ liệu từ một
+Máy tính khác là xếp hàng các thông điệp đi ra trong một hàng đợi và gửi
+tin nhắn nối tiếp nhau nhanh như máy tính và dây điện
+Mang theo dữ liệu. Mỗi tin nhắn sẽ chờ đến lượt mình.
+Trước khi nó được gửi đi, và sau đó nó sẽ có cơ hội để được gửi đi.
+kết nối.
+
+\index{leasted dòng}
+Khi máy tính ở cùng một tòa nhà, chủ tòa nhà có thể chạy dây điện.
+để kết nối họ. Nếu máy tính ở cùng một thị trấn, chủ sở hữu của
+Máy tính thường phải thuê dây điện thoại từ công ty điện thoại tới
+Kết nối máy tính của họ. Họ thường để công ty điện thoại kết nối
+dây điện với nhau trong trung tâm văn phòng để nó không cần thiết cho một
+Máy tính gọi máy tính khác để gửi dữ liệu. Những dòng thuê này là
+Tiện lợi cho việc liên lạc với máy tính bởi vì họ "luôn bật", nhưng họ đã
+Cũng khá tốn kém vì chúng được sử dụng 24 giờ một ngày.
+
+Khi máy tính còn xa hơn, ở các thành phố khác nhau,
+Đường dây được mở rộng bằng cách kết nối dây điện lâu hơn với văn phòng trung tâm.
+Kể từ khi có quá ít dây giữa các văn phòng trung tâm, những
+Đường dây thuê dài khá đắt tiền và chi phí tăng lên
+Càng lâu càng tốt. ♪ Nhưng nếu bạn có đủ ♪
+tiền, bạn có thể thuê kết nối trực tiếp giữa máy tính của bạn để họ có thể
+trao đổi dữ liệu. Nó hoạt động khá tốt miễn là bạn chỉ sử dụng một thương hiệu
+của máy tính, bởi vì mỗi công ty máy tính có cách sử dụng riêng của họ
+dây điện thoại để kết nối máy tính và gửi dữ liệu.
+
+Name
+-------------------------------------------------------------------------------------
+
+\index{Early Networks}
+\index{Store và mạng trước}
+Vào những năm 1970 và 1980, những người làm việc tại các trường đại học trên khắp thế giới muốn
+gửi dữ liệu và tin nhắn cho nhau bằng những máy tính này
+kết nối. Kể từ khi chi phí cho mỗi kết nối là quá cao và tăng
+với khoảng cách, máy tính thường chỉ có kết nối với các khác gần đó
+Máy tính. Nhưng nếu cái máy tính mà anh đã làm
+kết nối đến máy tính khác và máy tính đó là
+kết nối đến một máy tính khác, và cứ thế, bạn có thể gửi một thông điệp dài
+khoảng cách miễn là mỗi máy tính dọc theo con đường thông điệp đồng ý
+lưu trữ và gửi tin nhắn của bạn.
+
+[Store-và-Forward Networks](../sketchnote/Store Fwd)
+
+Theo thời gian, với tương đối ít kết nối bạn có thể gửi dữ liệu dài
+Khoảng cách qua một vá kết nối mạng miễn là bạn còn
+Bệnh nhân. Trên đường đi, sau khi tin nhắn của bạn đến một máy tính, nó
+Sẽ phải đợi đến khi đến lượt nó được gửi đến máy tính tiếp theo dọc theo
+con đường. Name
+trong khi (có lẽ giờ, phụ thuộc vào giao thông), và sau đó được chuyển tiếp thêm một
+kết nối (hay "hop".
+
+Gửi toàn bộ tin nhắn từng lần một theo cách này, một tin nhắn có thể mất vài phút,
+Giờ, hoặc thậm chí nhiều ngày để đến đích cuối cùng, tùy thuộc vào
+giao thông ở mỗi thang máy. Nhưng ngay cả khi phải mất vài giờ để gửi email
+Thông điệp để tìm ra con đường của nó từ nơi này đến nơi khác, đây là
+Vẫn nhanh hơn và dễ dàng hơn là gửi thư hay bưu thiếp.
+
+Gói tin và bộ chỉ đường
+---------------------
+
+\index{pet}
+Sự đổi mới quan trọng nhất cho phép thông điệp di chuyển nhanh hơn
+Một mạng đa công là để phá vỡ mỗi thông điệp thành mảnh nhỏ và gửi
+từng mảnh một. Trên mạng, những mảnh tin nhắn này là
+được gọi là "cái túi". Ý tưởng chia thông điệp thành các gói đã được tiên phong
+vào những năm 1960, nhưng nó không được sử dụng rộng rãi cho đến những năm 1980 vì nó đòi hỏi
+điện toán mạnh hơn và phần mềm mạng phức tạp hơn.
+
+Khi tin nhắn được chia thành gói và mỗi gói được gửi riêng,
+nếu một thông điệp ngắn được gửi sau một thông điệp lớn đã
+bắt đầu, thông điệp ngắn không phải đợi cho đến khi toàn bộ thông điệp dài
+đã xong. Gói đầu tiên của thông điệp ngắn chỉ phải chờ
+gói hiện thời của thông điệp lớn cần được hoàn tất. Name
+Gửi gói tin từ tin nhắn dài và ngắn cho đến sau một thời gian
+Comment
+Đang sử dụng toàn bộ kết nối mạng.
+
+Chia thông điệp thành gói cũng giảm đi rất nhiều số lượng lưu trữ
+cần thiết trong máy tính trung gian bởi vì thay vì cần lưu trữ một
+Toàn bộ thông điệp trong vòng vài giờ, máy tính trung gian chỉ
+Cần thiết để lưu trữ một vài gói trong vài giây trong khi gói chờ
+chúng đã rẽ vào đường dẫn.
+
+[Gửi gói tin] (./sketchnote/Pettes)
+
+\index{IMP}
+\index{ Trình xử lý thông điệp mặt đất}
+\index{router}
+Khi các mạng lưới di chuyển ra xa khỏi các tiếp cận cửa hàng và tua tiếp, họ bắt đầu
+Bao gồm những máy tính có mục đích đặc biệt chuyên về gói chuyển động. Những
+ban đầu được gọi là "Những bộ xử lý thông điệp mặt đối mặt" hay "IMPs" bởi vì
+Họ đóng vai trò như giao diện giữa các máy tính chung mục đích và
+Phần còn lại của mạng lưới. Sau đó những máy tính này dành riêng cho truyền thông
+
+Họ được gọi là "người đánh lừa" vì mục đích của họ là để di chuyển các gói hàng họ nhận được
+hướng tới điểm đến cuối cùng của họ.
+
+Bằng cách xây dựng các tuyến đường chuyên về chuyển hàng qua nhiều nơi
+nhảy, nó trở nên đơn giản hơn để kết nối máy tính từ nhiều nhà cung cấp đến cùng một
+mạng lưới. Để kết nối bất kỳ máy tính nào tới mạng, bây giờ tất cả những gì bạn cần làm là
+Kết nối nó với một bộ định tuyến và phần còn lại của thông tin liên lạc là
+Được xử lý bởi những người khác.
+
+\index{LAN}
+\index{Lcal  Network}
+Khi nhiều máy tính tại một địa điểm được kết nối với nhau trong một
+"Local A Network" (hoặc LAN) sử dụng mạng lưới vật lý,
+Bạn có thể kết nối bộ chỉ đường đến địa phương
+mạng lưới. Bằng cách gửi dữ liệu qua bộ chỉ dẫn, tất cả các máy tính trên
+Mạng nội bộ có thể gửi dữ liệu qua mạng khu vực "Wide." (hoặc kênh Looking Network).
+
+Địa chỉ và gói tin
+-----------------------
+
+Trong các mạng cửa hàng đầu tiên và sau đó nó là quan trọng để biết nguồn và
+Máy tính đích cho mọi tin nhắn. Mỗi máy tính được đặt một tên duy nhất
+hay số điện thoại được gọi là mũ của máy tính. Để gửi tin nhắn
+vào máy tính khác, bạn cần thêm nguồn và địa chỉ đích vào
+thông điệp trước khi gửi đi. Bằng cách có một nguồn tin và
+Địa chỉ đích trong mỗi tin nhắn, máy tính cất giữ và chuyển tiếp
+thông điệp sẽ có thể chọn đường dẫn tốt nhất cho thông điệp nếu nhiều hơn
+một con đường có sẵn.
+
+Khi một thông điệp dài được chia thành gói nhỏ hơn nhiều và mỗi gói đã
+Gửi riêng cho mỗi người, phải thêm địa chỉ gốc và đích vào mỗi người
+gói hàng, để r bánh xe có thể chọn đường tốt nhất để đi tới mỗi gói của các
+Tin nhắn. Ngoài địa chỉ nguồn và đích, nó cũng cần thiết
+để thêm dữ liệu vào mỗi gói chỉ ra "offset" hoặc vị trí của gói trong
+Thông điệp tổng quát để máy tính nhận có thể đặt gói lại
+Cùng với nhau để tái tạo lại thông điệp gốc.
+
+Cùng nhau sắp đặt
+-------------------------
+
+Vì vậy, khi chúng tôi kết hợp tất cả những điều này với nhau, chúng tôi có thể hiểu các hoạt động cơ bản của
+Hôm nay là Internet. Chúng tôi có máy tính chuyên biệt gọi là " roters" biết
+Làm thế nào để đi bộ gói dọc theo một con đường từ một nguồn đến đích. Mỗi gói
+sẽ đi qua nhiều tuyến đường trong cuộc hành trình của nó từ máy tính nguồn
+đến máy tính đích.
+
+Mặc dù gói hàng có thể là một phần của một thông điệp lớn hơn, các r bánh xe về phía trước
+Mỗi gói riêng dựa trên nguồn và địa chỉ đích.
+Các gói khác nhau từ cùng thông điệp có thể đi đường khác nhau từ
+Nguồn gốc của đích đến. Và đôi khi gói hàng thậm chí còn bị hỏng;
+Sau đó gói có thể đến trước một gói trước đó, có lẽ bởi vì một dữ liệu
+"Tradioc Jam". Mỗi gói chứa một "tắt bộ" từ đầu
+Thông điệp để máy tính đích có thể lắp lại các gói trong
+Thứ tự chính xác để tái tạo lại thông điệp gốc.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Bằng cách tạo ra một mạng lưới sử dụng nhiều hop ngắn,
+Chi phí nói chung để liên lạc qua một khu vực lớn địa lý có thể được lan truyền
+băng qua rất nhiều nhóm và cá nhân kết nối. Bình thường,
+gói tin sẽ tìm đường dẫn ngắn nhất giữa nguồn và đích, nhưng nếu
+một liên kết trên con đường đó là một quá tải hoặc bị phá vỡ, các tuyến đường có thể hợp tác và
+Chuyển hướng giao thông để đi thêm một chút đường dài hơn mà sẽ nhận gói từ một
+Nguồn tin đến điểm đến càng nhanh càng tốt.
+
+Trung tâm của Internet là một tập hợp các rmen hợp tác mà di chuyển gói từ
+Nhiều nguồn tin đến nhiều nơi cùng một lúc. Mỗi máy tính hay cục bộ
+mạng khu vực kết nối đến bộ chỉ đường chuyển giao từ nó
+địa điểm đến những nơi khác nhau trên Internet. Một bộ định tuyến có thể xử lý
+dữ liệu từ một máy tính đơn giống như một điện thoại thông minh, từ một số
+Máy tính trong cùng một tòa nhà, hoặc từ hàng ngàn máy tính kết nối
+đến mạng lưới khuôn viên đại học. Thuật ngữ "Internet" đến từ ý tưởng
+"làm việc qua mạng", nó nắm bắt ý tưởng kết nối nhiều mạng lưới lại với nhau.
+Máy tính của chúng tôi kết nối đến mạng nội bộ và Internet kết nối với địa phương
+mạng lưới cùng nhau để tất cả máy tính của chúng ta có thể nói chuyện với nhau.
+
+Bản chú giải
+---------
+
+** Mã mũ**: một số được gán cho máy tính để tin nhắn
+có thể chuyển tới máy tính.
+
+**hop**: một kết nối vật lý duy nhất. Gói tài liệu trên Internet
+sẽ thường làm cho một số "shop" để có được từ máy tính nguồn của nó đến
+đích đến.
+
+**LAN**: mạng địa phương. Name
+bởi khả năng của một tổ chức để chạy dây hoặc sức mạnh của một radio
+Máy phát.
+
+**leasled dòng**: Một kết nối "luôn luôn lên" mà một tổ chức thuê
+từ một công ty điện thoại hoặc tiện ích khác để gửi dữ liệu qua lâu hơn
+Khoảng cách.
+
+**por (telephone)**: Một người làm việc cho công ty điện thoại
+và giúp mọi người gọi điện thoại.
+
+Một phần nhỏ của một thông điệp lớn. Tin nhắn lớn hoặc
+tập tin được chia thành nhiều gói và gửi qua Internet.
+Kích cỡ lớn nhất là từ 1000 đến 3000 ký tự.
+
+**router**: một máy tính chuyên biệt được thiết kế để nhận tín hiệu đến
+gói tin trên nhiều liên kết và nhanh chóng chuyển gói phần tốt nhất ra ngoài
+liên kết để tăng tốc độ gói đến đích.
+
+**store- and-back network**: Name
+Name
+thời gian trong một máy tính trung gian chờ kết nối mạng bị hạn chế
+để trở thành hiện thực.
+
+\index{WAN}
+\index{Wide  Network}
+Mạng khu vực rộng. Một mạng mà bao gồm khoảng cách dài hơn, lên đến
+Gửi dữ liệu đi khắp thế giới. Một WN thường được xây dựng
+sử dụng liên kết liên lạc được sở hữu và quản lý bởi một số
+các tổ chức khác nhau.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+Một, những người trực điện thoại sớm đã làm gì?
+a) Giữ vững tháp điện thoại di động
+b) Các sợi dây được nối để người ta nói
+c) Dây đồng đã cài đặt giữa các thành phố
+d) Gói đã sắp xếp khi họ đi đến đích đúng
+
+Đường dây thuê là gì?
+a) Một giới hạn giữa các thiết bị điện thoại cho thuê và sở hữu
+b) Một sự kết nối giữa bàn phím và màn hình
+c) Một dây điện thoại chạy từ văn phòng điện thoại này sang văn phòng khác
+d) Một kết nối điện thoại "luôn luôn trên"
+
+3. Một thông điệp có thể được lưu trong máy tính trung gian trong bao lâu
+cho một mạng lưới cửa hàng và tua lại?
+a) ít hơn một giây
+b) không quá bốn giây
+c) chưa đầy một phút
+d) có thể dài chừng vài tiếng
+
+4 là gì?
+
+a) Một kỹ thuật gói hàng cho việc vận chuyển
+b) Một hộp nhỏ dùng để chứa
+c) Một phần của thông điệp lớn hơn được gửi qua mạng
+d) Số lượng dữ liệu có thể được cất giữ trên một thẻ bấm sơ khởi
+
+Cái nào giống bộ định tuyến nhất?
+a) Một cơ sở sắp xếp thư tín
+b) Một tủ lạnh
+c) Một chuyến xe lửa tốc độ cao
+d) Một dây cáp viễn thông dưới biển
+
+6, tên được đặt cho các định tuyến mạng cũ là gì?
+a) Các bộ xử lý thông điệp có đức tin
+b) Chuyển động Internet Perceptrons
+c) Chương trình thông điệp tức thời
+d) Bộ xử lý thông điệp giao diện
+
+7. Ngoài việc chia những thông điệp lớn thành những đoạn nhỏ hơn
+gửi đi, còn điều gì khác cần thiết để định hướng cho đúng mỗi đoạn?
+a) Một địa chỉ nguồn và đích trên mỗi đoạn thông điệp
+b) Một mã nhận diện và mật khẩu cho mỗi đoạn thông điệp
+c) Một bộ ắc quy nhỏ để duy trì kho cho mỗi đoạn văn
+d) Một đơn vị theo dõi nhỏ như GPS để tìm tin nhắn bị mất
+
+8 Tại sao gửi tin nhắn đi khắp thế giới là điều gần như tự do
+
+sử dụng Internet?
+a) Bởi vì chính phủ chi trả cho tất cả các kết nối
+b) Bởi vì quảng cáo chi trả cho tất cả các kết nối
+c) Vì có quá nhiều người chia sẻ tất cả tài nguyên
+d) Bởi vì nó là bất hợp pháp để sạc cho kết nối đường dài
+
+Kiến trúc mạng
+(TIẾNG BỒN)
+
+\index{NSFNet}
+Để thiết kế và xây dựng một hệ thống phức tạp như Internet,
+Các kỹ sư cố gắng để phá vỡ một
+Thử thách vấn đề thành những vấn đề nhỏ hơn có thể giải quyết
+Một cách độc lập và sau đó đặt lại với nhau để giải quyết vấn đề lớn ban đầu.
+Những kỹ sư xây dựng internet đầu tiên đã giải quyết vấn đề tổng thể vào
+bốn tiểu đề cơ bản có thể được thực hiện độc lập bằng cách khác nhau
+Các nhóm.
+
+[Một mô hình 4-Layer TCP/IP].
+
+\index{Link Layer}
+\index{ Lớp internetwork}
+\index{Transport Layer}
+\index{Một lớp ứng dụng}
+Họ cung cấp cho bốn lĩnh vực kỹ thuật bốn sau đây
+Tên: (1) Link, (2) Công việc Internet, (3) Vận chuyển và (4) Ứng dụng. Chúng ta
+Tưởng tượng những khu vực khác nhau này khi lớp chồng lên nhau,
+với lớp liên kết ở phía dưới và lớp ứng dụng ở phía trên. Hạt
+Lớp liên kết xử lý kết nối hoặc kết nối không dây từ bạn
+Máy tính tới mạng khu vực địa phương và lớp ứng dụng là những gì chúng tôi là kết thúc
+Người dùng tương tác với. Trình duyệt web là một ví dụ về một ứng dụng trong điều này
+Kiến trúc Internet.
+
+\index{TCP Mô hình}
+Chúng tôi không chính thức đề cập đến mô hình này là mô hình "TCP/IP" trong đề cập đến
+giao thức điều khiển giao thông (TCP) được dùng để thực hiện lớp vận chuyển
+và giao thức Internet (IP) được dùng để thực hiện lớp Internetwork.
+
+Chúng tôi sẽ xem xét một cách nhanh chóng mỗi lớp, bắt đầu từ các "cùng" của
+chồng.
+
+Lớp liên kết
+---------------
+
+Lớp Liên kết chịu trách nhiệm kết nối máy tính của bạn với địa phương
+mạng lưới và chuyển dữ liệu qua một chiếc hop. Lớp liên kết phổ biến nhất
+Công nghệ hiện nay là mạng không dây. Khi bạn sử dụng một thiết bị không dây,
+thiết bị chỉ gửi dữ liệu một khoảng cách giới hạn. Một điện thoại thông minh
+Liên lạc với một tòa tháp cách đây vài cây số. Nếu anh đang dùng...
+Điện thoại thông minh trên xe lửa, nó cần phải chuyển sang một tòa tháp mới mỗi vài phút
+Khi tàu chạy. Name
+Thường liên lạc với một trạm căn cứ trong vòng 200 mét. Name
+Máy tính kết nối bằng kết nối mạng thường dùng cáp
+dài 100 mét hoặc ngắn hơn. Công nghệ lớp liên kết thường
+Chia sẻ với nhiều máy tính cùng một vị trí.
+
+Lớp liên kết cần phải giải quyết hai vấn đề cơ bản khi xử lý chúng
+Chia sẻ mạng lưới địa phương. Vấn đề đầu tiên là làm thế nào để mã hóa và gửi dữ liệu
+Qua đường link. Nếu liên kết là không dây, các kỹ sư phải đồng ý với nhau.
+Tần số radio sẽ được sử dụng để truyền dữ liệu và dữ liệu kỹ thuật số
+được mã hóa trong sóng vô tuyến. Đối với kết nối có dây, họ phải đồng ý về
+điện thế nào để sử dụng trên dây và làm thế nào nhanh để gửi các bit qua
+dây. Đối với công nghệ lớp liên kết sử dụng sợi quang, họ phải đồng ý về
+tần số ánh sáng sẽ được sử dụng và gửi dữ liệu nhanh đến mức nào.
+
+Ngoài việc đồng ý làm thế nào để gửi dữ liệu bằng cách sử dụng một phương tiện chia sẻ như một
+Mạng không dây, họ cũng cần đồng ý làm thế nào để hợp tác với người khác
+Máy tính mà có thể muốn gửi dữ liệu cùng một lúc. Nếu tất cả các máy tính
+trên mạng cố gắng truyền tải bất cứ khi nào họ có dữ liệu để gửi, tin nhắn của họ
+sẽ va chạm. Kết quả sẽ là hỗn loạn, và tiếp nhận các trạm chỉ nhận được
+tiếng ồn. Vì vậy, chúng ta cần phải tìm một cách công bằng để cho phép mỗi trạm để chờ đợi của nó lần lượt
+dùng mạng chia sẻ.
+
+Ý tưởng phá vỡ một thông điệp lớn thành gói và sau đó gửi mỗi gói
+Chia sẻ riêng rẽ sẽ dễ dàng hơn. Nếu chỉ có một máy tính muốn gửi dữ liệu,
+nó sẽ gửi các gói của nó ngay lập tức và di chuyển dữ liệu của nó qua các
+mạng lưới càng nhanh càng tốt. Nhưng nếu ba máy tính muốn gửi dữ liệu
+Trong cùng một lúc, mỗi máy tính sẽ gửi một gói và sau đó chờ đợi trong khi khác
+2 máy tính gửi gói hàng. Sau mỗi máy tính khác gửi một gói,
+
+Máy tính đầu tiên sẽ gửi gói tiếp theo. Như thế này máy tính đang chia sẻ
+Truy cập vào mạng lưới một cách công bằng.
+
+Nhưng làm thế nào để một máy tính biết nếu các máy tính khác muốn gửi dữ liệu cùng một
+Thời gian? Các kỹ sư đã thiết kế một phương pháp khéo léo để giải quyết vấn đề gọi là
+"Sự truy cập đa giác quan với khả năng phát hiện va chạm", hay CNMA/CD. Nó là...
+Tên dài cho một khái niệm đơn giản và tao nhã. Khi máy tính của bạn muốn
+Gửi dữ liệu, trước tiên nó lắng nghe để xem máy tính khác đã gửi dữ liệu chưa.
+trên mạng. Nếu không có máy tính khác đang gửi dữ liệu, của bạn
+Máy tính bắt đầu gửi dữ liệu. Như máy tính của bạn đang gửi dữ liệu nó cũng
+lắng nghe để xem nếu nó có thể nhận được dữ liệu riêng của nó. Nếu máy tính của bạn nhận được riêng của nó
+dữ liệu, nó biết rằng kênh vẫn còn rõ ràng và tiếp tục truyền tải. Nhưng
+Nếu hai máy tính bắt đầu gửi cùng một lúc dữ liệu va chạm, và
+Máy tính của bạn không nhận dữ liệu riêng của nó. Khi phát hiện va chạm, cả hai
+Máy tính ngừng truyền, chờ một chút, và thử lại đoạn truyền. Hai người
+Máy tính va chạm chờ thời gian khác nhau để thử lại
+truyền tín hiệu để giảm khả năng va chạm lần thứ 2.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Khi máy tính của bạn hoàn tất gửi một gói dữ liệu, nó tạm dừng
+cung cấp cho các máy tính khác đã chờ đợi một cơ hội để gửi dữ liệu.
+Nếu một máy tính khác cảm nhận được rằng máy tính của bạn đã ngừng
+Name
+sẽ phát hiện các máy tính khác sử dụng mạng và chờ cho đến khi đó
+Gói tin máy tính đã hoàn tất trước khi gửi gói tiếp theo của nó.
+
+Cơ chế đơn giản này hoạt động tốt khi chỉ một máy tính muốn gửi dữ liệu.
+Nó cũng hoạt động tốt khi nhiều máy tính muốn gửi dữ liệu cùng một lúc. Khi
+Chỉ có một máy tính đang gửi dữ liệu, rằng máy tính có thể sử dụng tốt chia sẻ
+mạng bằng cách gửi từng gói một, và khi nhiều máy tính muốn sử dụng
+mạng chia sẻ cùng một lúc, mỗi máy tính nhận được một phần công bằng của liên kết.
+
+Một số lớp liên kết, như kết nối tế bào cho điện thoại thông minh, WiFi
+kết nối, hay vệ tinh hay bộ điều giải cáp, là kết nối và cần thiết
+Các kỹ thuật như CNMA/CD để bảo đảm quyền truy cập công bằng đến nhiều máy tính khác nhau
+kết nối đến mạng. Những lớp liên kết khác như cáp quang và thuê
+con đường thường không được chia sẻ và được dùng để kết nối các tuyến đường.
+Những kết nối không chia sẻ này vẫn là một phần của lớp liên kết.
+
+Các kỹ sư làm việc trên công nghệ lớp học liên kết tập trung giải quyết các vấn đề
+Vì vậy máy tính có thể truyền dữ liệu
+băng qua một liên kết đơn mà phạm vi trong khoảng cách từ một vài mét đến dài như
+Hàng trăm cây số. Nhưng để di chuyển dữ liệu lớn hơn khoảng cách, chúng tôi cần phải gửi của chúng tôi
+gói tin thông qua nhiều đường dẫn được kết nối bởi nhiều lớp liên kết. Mỗi lần
+gói hàng của chúng tôi đi qua lớp liên kết khác từ một đường dẫn đến một đường cái khác chúng tôi gọi là
+Nó là "hop". Để gửi dữ liệu nửa vòng trái đất, nó sẽ đi qua
+20 bộ đồ, hay 20 cái.
+
+Lớp làm việc trên Internet (IP)
+-----------------------------
+
+Một khi gói hàng của anh được định sẵn trên Internet vượt qua đường link đầu tiên,
+Nó sẽ nằm trong một bộ định tuyến. Gói tin của bạn có địa chỉ và đích
+địa chỉ và bộ chỉ đường cần xem địa chỉ đích
+ra cách tốt nhất để chuyển gói hàng của bạn đến đích. Với mỗi con đường
+Xử lý gói đồ định mệnh cho bất kỳ địa điểm nào trong số hàng tỉ
+Máy tính, không thể để mỗi bộ chỉ đường biết chính xác vị trí và
+tốt nhất là đến mọi máy tính đích. Vì vậy, các định tuyến làm cho nó
+Đoán xem làm thế nào để gói hàng của bạn đến gần đích.
+
+Mỗi mối khác trên đường cũng làm tốt nhất của nó để nhận được gói của bạn
+gần máy tính đích hơn. Khi gói hàng của bạn đến gần với cuối cùng
+Điểm đến, các định tuyến có một ý tưởng tốt hơn về nơi gói của bạn
+Cần phải đi. Khi các gói đạt kết nối cuối cùng trong cuộc hành trình của nó,
+Lớp liên kết biết chính xác nơi để gửi gói hàng của bạn.
+
+Chúng ta cũng dùng cách tương tự để tự đi khi đi nghỉ hè. A
+Chuyến du lịch cũng có rất nhiều chuyến nhảy. Có lẽ chuyến bay đầu tiên là lái xe của bạn hoặc
+Đi taxi hoặc xe buýt đến nhà ga. Sau đó bạn đi xe lửa địa phương từ nhỏ của bạn
+một thành phố lớn hơn. Trong thành phố lớn, bạn đi một chuyến xe lửa đường dài đến một
+Thành phố lớn ở một nước khác. Sau đó bạn đi một chuyến xe lửa địa phương đến nhỏ
+Ngôi làng mà con sẽ ở lại cho kỳ nghỉ. Khi bạn nhận được xuống xe lửa, bạn
+Đi xe buýt, và khi ra khỏi xe buýt, anh sẽ về khách sạn.
+
+Nếu bạn đang trên tàu giữa hai thành phố lớn và bạn hỏi
+Điều khiển vị trí chính xác khách sạn của bạn trong ngôi làng nhỏ, người điều khiển
+sẽ không biết. Người điều khiển chỉ biết làm thế nào để bạn đến gần hơn
+Điểm đến, và trong khi bạn đang trên con tàu đường dài đó là tất cả những gì
+Quan trọng. Khi bạn lên xe buýt ở làng đích, bạn có thể hỏi
+Tài xế xe buýt ở gần khách sạn nhất. Và khi bạn nhận ra
+Xe buýt ở trạm xe buýt, bạn có thể hỏi một người trên đường phố nơi
+để tìm khách sạn và có câu trả lời chính xác.
+
+Bạn càng xa điểm đến, bạn càng ít cần biết
+Chính xác chi tiết về cách đến đó. Khi bạn ở rất xa, tất cả những gì bạn cần
+biết làm thế nào để đến được đích. Name
+Làm việc cùng một cách. Chỉ những con đường gần đích
+Máy tính biết chính xác đường dẫn đến máy tính đó. Tất cả các rạp trong
+giữa cuộc hành trình để thông điệp của bạn đến gần đích.
+
+Nhưng cũng giống như khi bạn đang đi du lịch, những vấn đề bất ngờ hoặc sự chậm trễ có thể đến
+Nó cần sự thay đổi trong kế hoạch khi gói hàng của bạn được gửi qua mạng.
+
+[A multi-Step Trip](../sketchnote/Multiple  Step trip)
+
+Bộ chỉ đường trao đổi tin nhắn đặc biệt để thông báo cho nhau về bất kỳ loại
+bị tắc giao thông hoặc mất mạng để có thể chuyển gói từ đường đi
+đó không còn là con đường khác nữa. Các định tuyến tạo thành
+Trung tâm Internet là thông minh và thích nghi nhanh chóng cho cả nhỏ lẫn lớn
+hoặc thất bại trong kết nối mạng. Đôi khi có sự kết nối
+Chậm lại vì quá tải. Name
+cơ thể bị hư khi một đội xây dựng nhầm lẫn đào lên một sợi dây bị chôn vùi và
+cắt đi. Đôi khi có một thảm họa thiên nhiên như một cơn bão hay bão
+Nó sẽ chặn đường đi và đường dẫn trong một khu vực lớn địa lý. Hạt
+Các ngư lôi nhanh chóng phát hiện ra những con đường này và đổi hướng xung quanh chúng nếu có thể.
+
+Nhưng đôi khi có chuyện không hay xảy ra và gói đồ bị mất. Đối phó với
+Những gói bị mất là lý do cho lớp tiếp theo trong kiến trúc của chúng ta.
+
+Lớp vận chuyển (TCP)
+---------------------------
+
+Lớp công việc Internet vừa đơn giản vừa phức tạp. Nó nhìn vào một
+Địa chỉ đích của gói và tìm thấy một đường dẫn qua nhiều mạng hops
+chuyển gói hàng đến máy tính đích. Nhưng đôi khi những gói này
+bị lạc hoặc bị chậm trễ. Những lúc khác gói hàng đến đích
+ra của thứ tự vì một gói sau tìm thấy một đường dẫn nhanh hơn qua mạng
+hơn là một gói trước đó. Mỗi gói chứa địa chỉ của máy tính nguồn,
+địa chỉ máy tính đích, và một bù đắp của nơi này gói "fits"
+so với sự khởi đầu của thông điệp. Biết sự bù đắp của mỗi gói
+từ đầu thông điệp và chiều dài của gói, đích
+Máy tính có thể tái tạo thông điệp gốc ngay cả khi nhận gói tin
+Mất trật tự.
+
+\index{acccthations}
+\index{ACK}
+Khi máy tính đích xây dựng lại thông điệp và gửi nó đến
+ứng dụng nhận, nó thường xuyên gửi một
+công nhận trở lại máy tính nguồn cho biết nó bao nhiêu thông điệp
+đã nhận và tái tạo. Nhưng nếu máy tính đích tìm thấy các bộ phận
+của thông điệp tái tạo bị mất, điều này có nghĩa là những gói này đã được
+bị mất hoặc bị trì hoãn nghiêm trọng. Sau khi đợi một chút, máy tính đích gửi
+yêu cầu máy tính nguồn thay đổi dữ liệu dường như bị mất.
+
+Máy tính gửi phải cất giữ bản sao của phần gốc
+mà đã được gửi cho đến khi máy tính đích công nhận thành công biên nhận
+những gói hàng. Một khi máy tính nguồn nhận được sự công nhận của
+Thu thập thành công một phần của thông điệp, nó có thể bỏ đi các dữ liệu mà
+đã được công nhận và gửi thêm vài dữ liệu.
+
+\index{window kích cỡ}
+\index{courtesy}
+Số lượng dữ liệu mà máy tính nguồn gửi trước khi đợi một
+Thừa nhận được gọi là kích thước gió. Nếu kích cỡ cửa sổ quá nhỏ,
+truyền dữ liệu bị chậm vì máy tính nguồn luôn đợi
+Vì nhận ra. Nếu máy tính nguồn gửi quá nhiều dữ liệu trước khi đợi
+Để được công nhận, nó có thể vô tình gây ra vấn đề giao thông
+quá tải định tuyến hoặc đường liên lạc đường dài. Vấn đề là
+Giải quyết bằng cách giữ kích thước cửa sổ nhỏ ở đầu và thời gian như thế nào
+Phải rất lâu mới nhận được sự công nhận đầu tiên. Nếu công nhận
+đến một cách nhanh chóng, máy tính nguồn từ từ tăng kích thước cửa sổ và nếu
+máy tính nguồn giữ cửa sổ
+Kích thước nhỏ để không quá tải mạng. Giống như lớp Link,
+Sự lịch sự nhỏ trên Internet đi một chặng đường dài để đảm bảo sử dụng tốt
+Chia sẻ cơ sở hạ tầng mạng.
+
+\index{ kiểm soát luồng}
+Chiến lược này có nghĩa là khi mạng có kết nối tốc độ cao và là
+nạp nhẹ thì dữ liệu sẽ được gửi nhanh, và nếu mạng có
+nạp nặng hoặc kết nối chậm sẽ bị chậm lại để khớp
+giới hạn của mạng kết nối giữa nguồn và đích
+Máy tính.
+
+Lớp ứng dụng
+-----------------------
+
+\index{Một lớp ứng dụng}
+.index{Layer! Ứng dụng
+Các lớp liên kết, công việc Internet và vận chuyển cùng nhau làm việc một cách nhanh chóng và
+Di chuyển đáng tin cậy dữ liệu giữa hai máy tính qua một mạng lưới chung.
+Với khả năng di chuyển dữ liệu đáng tin cậy, câu hỏi tiếp theo là
+Các ứng dụng mạng sẽ được xây dựng để sử dụng các kết nối mạng này.
+
+\index{remote log in}
+Khi Internet được sử dụng rộng rãi đầu tiên xuất hiện vào giữa những năm 80, đầu tiên
+Ứng dụng mạng cho phép người dùng đăng nhập vào máy tính từ xa, truyền tập tin
+giữa máy tính, gửi thư giữa máy tính và thậm chí trò chuyện bằng văn bản thời gian thực
+giữa máy tính.
+
+\index{Web}
+\index{CENE}
+Đầu thập niên 1990, khi Internet đến với nhiều người hơn và khả năng của máy tính
+Để xử lý hình ảnh được cải thiện, ứng dụng World Wide Web được phát triển bởi
+Các nhà khoa học ở cơ sở vật lý năng lượng cao. Các trang web tập trung vào
+Đọc và chỉnh sửa tài liệu siêu văn bản với ảnh. Hôm nay web là
+ứng dụng mạng phổ biến nhất trên thế giới. Nhưng tất cả những người khác
+Những ứng dụng cũ trên Internet vẫn còn được sử dụng rộng rãi.
+
+\index{ kfmclient}
+\index{ Server}
+\index{ khách hàng-máy chủ}
+\index{URL}
+\index{Uniform Locator
+Mỗi ứng dụng thường được chia làm hai nửa. Một nửa
+ứng dụng được gọi là "máy chủ". Nó chạy trên máy tính đích và
+chờ kết nối mạng tới. Nửa kia của ứng dụng
+được gọi là "khách hàng" và chạy trên máy tính nguồn. Khi bạn duyệt
+web sử dụng phần mềm như Firefox, Chrome, hoặc Internet Explorer, bạn đang
+đang chạy một ứng dụng khách "web" mà tạo kết nối đến máy phục vụ web
+và hiển thị các trang và tài liệu được cất giữ trên các máy phục vụ web đó. Hạt
+Ghi chú tài nguyên đồng bộ (URLs) mà trình duyệt web hiển thị trong thanh địa chỉ
+là các máy chủ web mà khách hàng của bạn đang liên lạc để lấy tài liệu cho
+bạn để xem.
+
+Khi chúng tôi phát triển một nửa máy chủ và một nửa khách hàng của một ứng dụng mạng,
+Chúng ta cũng phải xác định một "giao thức ứng dụng" mà mô tả làm thế nào hai
+Một nửa của ứng dụng sẽ trao đổi tin nhắn qua mạng. Các giao thức
+sử dụng cho mỗi ứng dụng khá khác nhau và chuyên biệt để đáp ứng nhu cầu
+của một ứng dụng đặc biệt. Sau đó chúng tôi sẽ khám phá một số ứng dụng này
+giao thức lớp.
+
+Xếp lớp
+---------------------
+
+\index{ Mô hình Layered}
+Chúng tôi thường trình bày bốn lớp khác nhau (Lik, Internetwork, vận chuyển và
+Ứng dụng) chồng chồng lên nhau với lớp ứng dụng ở đầu
+và lớp Link ở phía dưới. Lý do chúng tôi chỉ cho họ cách này là bởi vì
+Mỗi lớp sử dụng các lớp trên và dưới lớp để tạo mạng
+Liên lạc.
+
+Tất cả bốn lớp chạy trong máy tính của bạn nơi bạn chạy ứng dụng khách
+(như một trình duyệt), và
+tất cả bốn lớp cũng chạy trong máy tính đích nơi máy chủ ứng dụng
+đang chạy. Bạn khi người dùng kết thúc tương tác với các ứng dụng tạo ra các
+Lớp trên cùng của chồng, và lớp dưới biểu thị WiFi, tế bào, hoặc
+nối kết kết nối tới máy tính của bạn và phần còn lại của Internet.
+
+Các định tuyến mà chuyển gói của bạn từ này sang gói khác để di chuyển gói của bạn
+Đến điểm đến của họ không có sự hiểu biết về hoặc vận chuyển hoặc
+Các lớp ứng dụng. Các tuyến đường hoạt động tại các công ty Internet và các lớp liên kết. Hạt
+Name
+cần thiết cho rtrirs để di chuyển gói của bạn qua loạt các liên kết (shop) để lấy
+họ đến điểm đến. Các lớp giao thông và ứng dụng chỉ được hình thành
+Sau khi Internet làm việc lớp chuyển gói hàng đến máy tính đích.
+
+Nếu bạn muốn viết ứng dụng mạng của riêng mình, bạn sẽ có khả năng
+Chỉ nói chuyện với lớp vận chuyển và hoàn toàn không quan tâm đến
+Công việc Internet và các lớp liên kết. Chúng cần thiết cho chức năng vận chuyển
+lớp, nhưng khi bạn viết chương trình của bạn, bạn không cần phải nhận thức bất kỳ của các
+Chi tiết nhỏ hơn. Mô hình mạng lớp làm cho nó đơn giản hơn để viết
+Các ứng dụng mạng bởi vì có quá nhiều chi tiết phức tạp về việc di chuyển dữ liệu
+Từ máy tính này đến máy khác có thể bị bỏ qua.
+
+Tiếp theo, chúng ta sẽ nói thêm về bốn lớp này.
+
+Bản chú giải
+---------
+
+** kfmclient**:
+Trong một ứng dụng mạng, ứng dụng khách là yêu cầu
+hoặc bắt đầu kết nối.
+
+** xơ hóa thị giác**:
+Một công nghệ truyền dữ liệu mã hóa dữ liệu sử dụng ánh sáng và gửi
+Ánh sáng xuống một chuỗi rất dài thủy tinh mỏng hoặc nhựa. quang học Fiber
+kết nối rất nhanh và có thể bao phủ rất xa.
+
+**offset**: Vị trí tương đối của một gói trong một thông điệp tổng thể
+hay dòng dữ liệu.
+
+**máy chủ**:
+Trong một ứng dụng mạng, ứng dụng máy chủ là thứ phản hồi
+yêu cầu dịch vụ hoặc đợi kết nối đến.
+
+**window kích cỡ**: Số lượng dữ liệu mà máy tính gửi được cho phép
+Gửi tới trước khi chờ nhận nhiệm vụ.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1. tại sao kỹ sư sử dụng "mdel" để tổ chức cách tiếp cận của họ
+Giải quyết một vấn đề lớn và phức tạp?
+a) Bởi vì nó cho phép họ xây một cái gì đó nhỏ và thử nghiệm nó trong một đường hầm gió
+b) Bởi vì nói về một mô hình làm trì hoãn việc bắt đầu làm việc khó nhọc
+c) Bởi vì họ có thể giải quyết vấn đề thành một tập hợp các vấn đề nhỏ hơn có thể
+được giải quyết độc lập
+d) Bởi vì nó giúp phát triển vật liệu tiếp thị
+
+2. tầng trên cùng của mô hình mạng được dùng bởi TCP/IP?
+a) Ứng dụng
+b) Vận chuyển
+c) Mạngwork
+d) Liên kết
+
+3. Mà các lớp liên quan đến chính nó với nhận được một gói dữ liệu
+thông qua một kết nối vật lý duy nhất?
+a) Ứng dụng
+b) Vận chuyển
+c) Mạngwork
+d) Liên kết
+
+4 CNMA/CD là gì?
+
+a) Nhiều cảm giác truy cập với phát hiện va chạm
+b) Truyền thông cảm nhận có sự hướng dẫn liên tục
+c) Sự định vị không gian liên quan đến phương tiện không gian với Division hằng số
+d) Hàng loạt địa chỉ Nhà nước
+
+5, mục tiêu của lớp Internet là gì?
+a) Đảm bảo rằng không có dữ liệu nào bị mất trong khi tiếp cận
+b) Chuyển một gói dữ liệu qua nhiều mạng từ nguồn đến đích
+c) Đảm bảo rằng chỉ người dùng đăng nhập có thể sử dụng Internet
+d) Bảo đảm hơn WiFi được chia sẻ khá nhiều máy tính
+
+6. Ngoài dữ liệu, nguồn và địa chỉ đích, còn gì khác
+là cần thiết để chắc chắn rằng một thông điệp có thể được lắp lại khi nó đến
+điểm đến của nó?
+a) Một sự bù đắp về nơi gói tài liệu thuộc về sự bắt đầu của thông điệp
+b) Một địa điểm để gửi dữ liệu đến nếu máy tính đích bị tắt
+c) Phiên bản nén và chưa nén trong gói
+d) Tọa độ GPS của máy tính đích
+
+7 là gì?
+
+a) Tổng chiều dài và chiều rộng của một gói
+b) Kích cỡ tối đa của một gói riêng lẻ
+c) Số gói tối đa có thể tạo nên một thông điệp
+d) Số dữ liệu tối đa mà máy tính có thể gửi trước khi nhận thông báo
+
+Trong một ứng dụng khách/máy chủ mạng điển hình, khách hàng ở đâu
+Chạy ứng dụng?
+a) Trên máy tính xách tay, bàn làm việc hoặc máy tính di động
+b) Trên điểm truy cập không dây
+c) Trên con đường gần nhất
+d) Trong một dây cáp quang dưới biển
+
+9 URL là gì?
+
+a) Mối liên hệ vũ trụ
+b) Đồng dạng hóa việc chuyển đổi logic
+c) Locator đồng bộ tài nguyên
+d) Danh sách phục hồi hợp nhất
+
+Lớp liên kết
+tôm
+
+\index{Link Layer}
+.index{Layer! Liên kết}
+Lớp thấp nhất của kiến trúc Internet là lớp Link. Chúng tôi gọi nó là
+tầng thấp nhất vì nó gần với mạng lưới vật lý.
+Thường lớp liên kết truyền dữ liệu bằng dây điện, dây cáp quang hay radio
+Tín hiệu. Một yếu tố quan trọng của lớp liên kết là dữ liệu thường chỉ có thể
+được truyền một phần của con đường từ máy tính nguồn đến đích
+Máy tính. Hệ thống điện thoại di động là ví dụ
+Các lớp liên kết có thể truyền dữ liệu khoảng 1 km. Dây cáp quang.
+Đặc biệt là những người ở dưới đại dương, có thể truyền dữ liệu đến hàng ngàn
+Hàng cây số. Liên kết vệ tinh cũng có thể gửi dữ liệu qua khoảng cách dài.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Bất kể khoảng cách chúng tôi có thể gửi dữ liệu, nó vẫn đi qua
+Một liên kết duy nhất, và để đạt được cuối cùng máy tính đích cần thiết phải chuyển tiếp
+gói tin qua nhiều liên kết. Trong phần này chúng tôi sẽ xem xét làm thế nào một trong
+các lớp liên kết phổ biến nhất hoạt động trong một số chi tiết. WiFi là một cách tuyệt vời để
+phải giải quyết nhiều vấn đề ở lớp liên kết. [Chúng tôi đơn giản hóa một số
+chi tiết kỹ thuật trong những mô tả này giúp chúng dễ hiểu hơn.]
+
+Chia sẻ không khí
+-----------------
+
+\index{Wifi}
+\index{cơ sở}
+\index{gateway}
+Khi máy tính xách tay hay điện thoại của bạn sử dụng WiFi để kết nối Internet, nó là
+Gửi và nhận dữ liệu bằng một bộ đàm nhỏ, năng lượng thấp. Đài phát thanh trong của bạn
+Máy tính chỉ có thể gửi dữ liệu khoảng 300 mét, vì vậy của bạn
+Máy tính gửi gói của bạn đến các rtrir trong nhà của bạn, mà tiếp tục
+gói tin dùng link để truy cập phần còn lại của Internet. Đôi khi chúng ta gọi người đầu tiên
+Bộ định tuyến xử lý gói tin của máy tính của bạn "cơ sở" hoặc "Deaway".
+
+Tất cả máy tính đủ gần với trạm căn cứ
+Khi radio của họ bật tất cả các gói tin trạm phát sóng,
+Bất kể máy tính nào gói hàng phải được gửi đến. Họ cũng vậy.
+"Nghe" tất cả các gói được gửi bởi mọi máy tính gần đó. Vì vậy, máy tính của bạn
+Cần một cách để biết những gói nào để xử lý như của nó và gói nào là
+được gửi đến các máy tính khác và có thể bị phớt lờ an toàn.
+
+Một tác dụng phụ thú vị của thực tế rằng tất cả các máy tính trong phạm vi có thể
+nghe tất cả gói tin là một máy tính giả cũng có thể lắng nghe và
+Thu thập gói tin của bạn, có lẽ nhận được dữ liệu quan trọng như ngân hàng
+Số tài khoản hoặc mật khẩu cho dịch vụ mạng. Chúng ta sẽ trở lại
+( Tỉnh Thức!)
+
+\index{MAC address}
+\index{Link address}
+Mỗi đài phát thanh WiFi trong mỗi thiết bị được xây dựng được cung cấp một thiết bị duy nhất
+Số xê-ri tại thời điểm nó được sản xuất. Điều này có nghĩa là mỗi
+Máy tính sử dụng WiFi có số sê-ri riêng của nó, và radio trong
+cánh cửa cũng có số sê-ri. Bạn thường có thể vào màn hình thiết lập
+Thiết bị của anh và tìm số sê-ri của radio WiFi trong thiết bị của anh.
+Điều này thường được thấy dưới hình thức sau:
+
+0f:2a:b3:1f:b3:1a
+
+Đây chỉ là hình ảnh đại diện của một số sê-ri 48 bit cho bộ đàm WiFi của bạn.
+Nó cũng được gọi là địa chỉ "Media Apion Control" hay "MAC". MEC
+Địa chỉ giống như địa chỉ "từ" hay "đến" trên bưu thiếp. Mỗi gói (radido
+bưu thiếp) được gửi qua WiFi có một nguồn và địa chỉ đích, vậy nên tất cả
+của máy tính biết những thông điệp của họ.
+
+Khi bạn bật máy tính của bạn và kết nối đến một mạng WiFi, máy tính của bạn
+Cần phải tìm ra địa chỉ nào trong số các MAC trên WiFi có thể được sử dụng
+gửi gói hàng đến bộ chỉ đường.
+Khi bạn di chuyển từ vị trí vật lý này sang địa điểm khác, máy tính của bạn sẽ
+là nói chuyện với các cổng ra vào khác nhau và mỗi cửa ra vào sẽ có một
+số sê-ri khác nhau. Vì vậy, khi bạn lần đầu tiên kết nối với một WiFi mới, của bạn
+Máy tính phải khám phá địa chỉ MAC cho cửa ra vào của chiếc WiFi đặc biệt đó.
+
+\index{broadcast địa chỉ}
+\index{gateway}
+Để làm điều này, máy tính của bạn gửi một thông điệp đặc biệt đến một địa chỉ phát thanh,
+Một cách hiệu quả đặt ra câu hỏi, "Ai là người phụ trách WiFi này?"
+Vì máy tính của bạn biết nó không phải là cánh cổng chính nó gửi một phát thanh
+Thông điệp với số sê-ri riêng của nó là địa chỉ "từ" và phát thanh
+địa chỉ là địa chỉ "để" để hỏi nếu có bất kỳ cổng ra có mặt trên
+Mạng WiFi.
+
+Từ: 0f:2a:b3:1f:b3:1a
+To: ff:ff:ff:ff:ff
+Dữ liệu: ai là đường cao tốc MAC
+vì mạng lưới này?
+
+Nếu có một cổng vào mạng, cổng ra gửi một thông điệp chứa
+số sê-ri của nó từ máy tính của anh.
+
+Từ: 98:2f:4e:78: 1:b4
+To: 0f:2a:b3:1f:b3:1a
+Dữ liệu: tôi là cánh cổng
+Chào mừng đến với mạng lưới của tôi.
+
+Nếu không có trả lời, máy tính của bạn chờ một vài giây và
+Sau đó giả sử không có cửa ngõ cho mạng lưới này. ♪ Khi không có ♪
+cửa ra, máy tính của bạn có thể hiển thị một biểu tượng WiFi khác hoặc không hiển thị biểu tượng WiFi
+Không hề. Đôi khi có thể có nhiều hơn một cánh cổng, nhưng chúng tôi sẽ bỏ qua rằng
+Trong một thời gian vì nó hơi phức tạp và không phổ biến lắm.
+
+Một khi máy tính của bạn nhận được một thông điệp với địa chỉ MAC của cánh cổng, nó có thể
+sử dụng địa chỉ đó để gửi những gói tin mà nó muốn mở đường cho Internet.
+Từ đó điểm trên, tất cả các gói của máy tính của bạn có số tuần hoàn thực tế của các
+Địa điểm. Bạn muốn sử dụng địa chỉ phát thanh càng ít càng tốt bởi vì
+Mỗi máy tính kết nối đến WiFi nhận và xử lý bất kỳ tin nhắn nào được gửi đến
+Địa chỉ phát thanh để đảm bảo thông điệp không dành cho họ.
+
+Lịch sự và hợp tác
+---------------------------
+
+\index{clincionbush}
+Bởi vì nhiều máy tính đang sử dụng chung tần số radio, điều này rất quan trọng
+Phối hợp cách họ gửi dữ liệu. Khi có một đám đông người trong phòng,
+họ không thể nói chuyện cùng một lúc hoặc mọi thứ sẽ được mặc quần áo. Cũng vậy.
+điều xảy ra khi nhiều đài phát thanh WiFi truyền đi cùng một lúc
+tần số. Vì vậy, chúng tôi cần một số cách để phối hợp tất cả các radio để làm cho sử dụng tốt nhất
+của tần số chung. Chúng tôi sẽ xem xét các cơ bản của phương pháp kỹ thuật
+để tránh bị mất dữ liệu do sự truyền tải của " bệnh tâm thần".
+
+\index{carrier feels}
+Kĩ thuật đầu tiên được gọi là "Sự cảm nhận." Kỹ thuật là trước tiên.
+lắng nghe để truyền tin, và nếu đã có một sự truyền tín hiệu,
+Chờ cho đến khi truyền tin hoàn tất. Có vẻ như anh có thể
+Đợi một thời gian dài, nhưng vì mọi tin nhắn được chia thành gói, thường
+Máy tính của bạn chỉ cần đợi máy tính gửi dữ liệu tới
+hoàn thành một gói, sau đó máy tính của bạn có cơ hội để gửi dữ liệu.
+
+Nếu đài phát thanh WiFi của bạn lắng nghe dữ liệu và nghe sự im lặng, nó có thể bắt đầu
+Truyền tín hiệu. Nhưng nếu một chiếc radio WiFi khác muốn
+Gửi một gói lắng nghe và nghe cùng một im lặng và quyết định
+Bắt đầu truyền tín hiệu chính xác cùng lúc? Nếu hai hay nhiều đài phát thanh WiFi khởi động
+Truyền cùng một lúc, tất cả dữ liệu đều bị hỏng và cả hai gói là
+mất tích. Vì vậy, một khi radio WiFi của bạn bắt đầu gửi một gói nó là quan trọng cho nó
+lắng nghe để chắc chắn rằng nó có thể nhận được dữ liệu riêng của nó. Nếu nó không nhận được
+Cũng giống như việc nó đang gửi tín hiệu WiFi của bạn giả định rằng một vụ va chạm đã xảy ra
+(Điều này được gọi là phát hiện va chạm) và dừng truyền tin, vì nó biết rằng không
+dữ liệu sẽ được nhận bởi đài phát thanh WiFi đích.
+
+Con người chúng ta cũng làm điều tương tự trong một căn phòng đầy người. Khi hai người bắt đầu nói chuyện
+Đồng thời, họ rất giỏi trong việc nhận thấy rằng một người khác đang nói và nhanh chóng
+Đừng nói nữa. Nhưng vấn đề là làm thế nào để bắt đầu lại cuộc trò chuyện. Sau một thời gian dài dừng lại
+Cả hai người đều bắt đầu nói chuyện cùng một lúc. Điều này có thể
+xảy ra liên tục và mỗi người nói "Không, bạn" liên tục để cố gắng
+Tìm cách khởi động lại cuộc nói chuyện. Đôi khi nó khá hài hước.
+
+\index{retransmit}
+Các đài phát thanh WiFi trong hai máy tính mà gửi colliid gói có thể
+Giải quyết vấn đề này tốt hơn nhiều so với mọi người có thể giải quyết vấn đề. Khi
+Các đài phát thanh WiFi phát hiện một vụ va chạm hoặc một sự truyền tải mặc quần áo, họ tính toán một ngẫu nhiên
+thời gian chờ trước khi thử lại đoạn truyền. Quy tắc cho
+Tính toán sự chờ đợi ngẫu nhiên được thiết lập để đảm bảo hai trạm giao thông
+Chọn số thời gian khác nhau để đợi trước khi cố gắng chuyển đổi lại
+Gói đồ.
+
+\index{CSMA/CD}
+Tên chính thức cho người nghe, gửi, lắng nghe và chờ đợi và thử lại nếu cần thiết
+được gọi là "Sự truy cập đa giác quan với khả năng phát hiện va chạm" hoặc CNMA/CD.
+
+\index{Ethernet}
+Nghe có vẻ hơi hỗn loạn khi "hãy thử một lần" và sau đó "cho nó
+nếu tín hiệu của bạn va chạm với tín hiệu của trạm khác.
+Nhưng trong thực tế nó hoạt động tốt. Có cả một loại lớp liên kết
+sử dụng mô hình cơ bản này của lắng nghe, truyền tải, lắng nghe và thử lại tùy chọn.
+Name
+(SMS/ Texting) Tất cả đều dùng phương pháp này để thử lại.
+
+Hợp nhất trong lớp liên kết khác
+-----------------------------------
+
+Đôi khi lớp liên kết có nhiều trạm truyền và cần phải hoạt động
+ở mức hiệu quả gần 100% trong một khoảng thời gian dài, thiết kế trở nên khác biệt
+Tiếp cận. Trong cách tiếp cận này, có một "tken" cho thấy khi
+Mỗi trạm được cho cơ hội truyền dữ liệu. Không thể khởi động trạm
+Nếu họ không có thẻ tín dụng. Thay vì nghe "sự im lặng"
+Và nhảy vào, họ phải chờ đến lượt mình.
+
+\index{token}
+Khi một trạm nhận được các biểu tượng và có một gói để gửi, nó gửi
+Gói đồ. Một khi gói hàng đã được gửi đi, trạm đã đưa ra vật kỷ niệm và
+Chờ đến khi nó quay lại. Nếu không có trạm nào có dữ liệu
+để gửi, tín hiệu được di chuyển từ máy tính này sang máy tính kế tiếp một cách nhanh chóng
+Càng tốt.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Một nhóm người ngồi xung quanh một cuộc họp có thể giao tiếp mà không bao giờ
+Làm gián đoạn nhau bằng cách có một trái banh nhỏ mà họ đi qua trong
+một vòng tròn và chỉ cho phép người có bóng phát biểu. ♪ Khi bạn ♪
+Lấy bóng và nói điều gì đó để nói bạn nói chuyện trong một thời gian ngắn ( Chuyển đổi
+rồi chuyền bóng.
+
+Cách tiếp cận "hãy thử lại" CNMA/CD làm việc rất tốt khi
+Không có dữ liệu hoặc khi mức độ dữ liệu thấp hoặc trung bình được gửi đi.
+Nhưng trên một mạng lưới kiểu tượng trưng, nếu không có dữ liệu được gửi và bạn muốn
+Gửi một gói hàng, bạn vẫn phải đợi một thời gian trước khi bạn nhận được biểu tượng
+và bắt đầu truyền tín hiệu. Khi bạn hoàn thành gói của bạn bạn bạn phải chờ đợi
+Cho đến khi vật kỷ niệm quay lại trước khi anh gửi cái túi tiếp theo. Nếu bạn là
+Chỉ trạm muốn gửi dữ liệu, bạn dành một chút thời gian tốt chờ đợi
+nó sẽ trở lại sau khi đi qua tất cả các trạm khác.
+
+Cách tiếp cận tượng trưng là tốt nhất khi sử dụng một phương tiện liên kết như
+như một liên kết vệ tinh hoặc một sợi quang dưới biển nơi nó có thể
+Mất quá lâu hoặc quá tốn kém để phát hiện một vụ va chạm. Name
+(nghe thử) là tốt nhất khi trung bình là rẻ tiền, khoảng cách ngắn hơn,
+Và có rất nhiều trạm chia sẻ phương tiện mà chỉ gửi dữ liệu trong ngắn
+nổ tung. Vì vậy, đó là lý do tại sao WiFi (và CNMA/CD) là rất hiệu quả để cung cấp
+Truy cập mạng lưới trong một quán cà phê, nhà hoặc phòng trong một trường học.
+
+Tóm tắt
+-----
+
+Vì vậy, bây giờ chúng tôi đã nhìn vào lớp "lowest" trong kiến trúc bốn mùa của chúng tôi.
+Và chúng tôi chỉ quan sát đơn giản lớp Link hoạt động như thế nào. Đó
+là nhiều chi tiết khác cần thiết để thiết kế thành lớp liên kết như kết nối
+khoảng cách, điện áp, tần số, tốc độ, và nhiều thứ khác.
+
+Một lợi ích quan trọng của kiến trúc lớp là các kỹ sư thiết kế và
+xây dựng công nghệ lớp liên kết có thể bỏ qua tất cả các vấn đề được xử lý bởi
+lớp trên lớp liên kết. Điều này cho phép họ tập trung vào việc xây dựng
+tốt nhất có thể giải pháp để chuyển dữ liệu qua một "tiệm". Liên kết hiện đại
+Những lớp như WiFi, vệ tinh, bộ điều giải cáp, Ethernet và kỹ thuật di động
+phát triển rất tốt. Dữ liệu di chuyển rất nhanh và liên tục mà một khi chúng tôi
+chúng ta hiếm khi phải lo lắng về lớp Link. Chỉ là...
+làm việc.
+
+Bản chú giải
+---------
+
+**Brase trạm**: Một từ nữa cho bộ định vị đầu tiên xử lý của bạn
+các gói hàng được gửi đến Internet.
+
+**broadcast**: Name
+đến một mạng địa phương sẽ nhận gói.
+
+**gateway**: Name
+đến một mạng lưới rộng hơn như Internet. Các máy tính muốn gửi
+dữ liệu bên ngoài mạng nội bộ phải gửi gói của họ đến cổng ra
+để chuyển tiếp.
+
+**MAC address**: Một địa chỉ được gán cho một phần của phần cứng mạng
+Khi thiết bị được sản xuất.
+
+Kĩ thuật cho phép nhiều máy tính chia sẻ cùng vật lý
+không có va chạm. Mỗi máy tính phải chờ đến khi nó nhận được
+trước khi nó gửi dữ liệu.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1. Khi dùng mạng WiFi để nói chuyện với Internet, máy tính của bạn sẽ ở đâu
+Gửi gói hàng của nó?
+a) Một cánh cửa
+b) Một vệ tinh
+c) Một tháp điện thoại di động
+d) Văn phòng trung tâm Internet
+
+2. Địa chỉ liên kết/vật lý cho một thiết bị mạng được chỉ định như thế nào?
+a) Gần tháp di động
+b) Bởi thẩm quyền số học trên Internet (IANA)
+c) Do nhà sản xuất thiết bị liên kết
+d) Bởi chính phủ
+
+3 cái nào là địa chỉ liên kết?
+
+a) 0f:2a:b3:1f:b3:1a
+b) 192.168.3.14
+c) www.khanacademy.com
+d) @drchuck
+
+Làm thế nào máy tính của bạn tìm thấy cánh cổng trên mạng WiFi?
+a) Nó có một địa chỉ cửa ra được cài đặt bởi nhà sản xuất
+b) Nó phát thanh một yêu cầu cho địa chỉ của cánh cổng
+c) Nó liên tục gửi thông điệp đến tất cả các địa chỉ cổng có thể
+Cho đến khi nó tìm thấy một trong những hoạt động
+d) Người dùng phải nhập địa chỉ cổng bằng tay
+
+5. Khi máy tính của bạn muốn gửi dữ liệu qua WiFi, điều đầu tiên là gì
+phải làm gì?
+a) Hãy nghe để xem máy tính khác có gửi dữ liệu không
+b) Chỉ cần bắt đầu gửi dữ liệu
+c) Gửi thông điệp đến cổng ra yêu cầu sự cho phép truyền
+d) Chờ cho đến khi thông báo rằng đến lượt bạn truyền
+
+6. Trạm làm việc kết nối WiFi làm gì khi nó cố gửi
+dữ liệu và cảm giác va chạm đã xảy ra?
+a) Hãy tiếp tục gửi thông điệp vì vậy một phần thông điệp giúp thông điệp đi qua
+b) Hãy chờ cho đến khi cánh cổng thông báo rằng vụ va chạm đã kết thúc
+c) Ngay lập tức bắt đầu lại truyền thông điệp ngay từ đầu
+d) Dừng truyền và đợi một thời gian ngẫu nhiên trước khi khởi chạy lại
+
+Khi một trạm muốn gửi dữ liệu qua một mạng lưới kiểu "tken",
+Điều đầu tiên nó phải làm là gì?
+a) Hãy nghe để xem máy tính khác có gửi dữ liệu không
+b) Chỉ cần bắt đầu gửi dữ liệu
+c) Gửi thông điệp đến cổng ra yêu cầu sự cho phép truyền
+d) Chờ cho đến khi thông báo rằng đến lượt bạn truyền
+
+Lớp làm việc trên mạng (IP)
+[TIẾNG TIẾNG]
+
+\index{Inter Works(IP) Layer}
+\index{Layer!
+Bây giờ chúng ta có thể chuyển dữ liệu qua một liên kết duy nhất, đã đến lúc tìm ra cách
+di chuyển nó khắp đất nước hay khắp thế giới. Gửi dữ liệu
+Từ máy tính của bạn đến bất kỳ điểm đến hàng tỉ, dữ liệu cần phải di chuyển qua
+Nhiều chuyến nhảy và nhiều mạng. Khi bạn đi từ nhà đến một
+Bạn có thể đi bộ từ nhà đến trạm xe buýt, đi xe lửa đến
+Thành phố, đi chuyến xe lửa khác đến sân bay, đi máy bay khác đến sân bay,
+Đi taxi vào thành phố, rồi đi xe lửa đến một thị trấn nhỏ hơn, một chiếc xe buýt đến một nơi công bằng.
+Thị trấn nhỏ hơn, và cuối cùng đi bộ từ trạm xe buýt đến khách sạn của bạn. Một gói cũng
+Cần phải có nhiều phương tiện vận chuyển để đến được đích. Cho một
+gói hàng mang "trip" của nó đến một quốc gia khác, "đi bộ", " bus", "trai", và "máy bay"
+Có thể được xem là các lớp liên kết khác nhau như WiFi, Ethernet, sợi quang,
+và vệ tinh.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Tại mỗi điểm trong chuyến đi, bạn (hoặc gói) đang được vận chuyển bằng cách sử dụng một
+trung bình chia sẻ. Có thể có hàng trăm người khác trên cùng một xe buýt, xe lửa,
+hoặc máy bay, nhưng chuyến đi của bạn khác với của tất cả các du khách khác bởi vì
+những quyết định mà bạn đưa ra ở cuối mỗi cửa hàng của bạn. Ví dụ, khi
+Bạn đến một trạm xe lửa, bạn có thể xuống một tàu, sau đó đi bộ qua
+ga và chọn một xe lửa để tiếp tục cuộc hành trình. Du khách
+với những điểm bắt đầu và điểm đến khác nhau tạo ra những lựa chọn khác nhau.
+Tất cả những lựa chọn của bạn trong chuyến đi đưa đến kết quả là bạn theo dõi một loạt các liên kết
+Dọc theo con đường dẫn bạn từ điểm bắt đầu đến điểm đến.
+
+Khi gói hàng của bạn đi từ điểm bắt đầu của nó đến đích, nó cũng đi qua
+thông qua một số trạm nơi một quyết định được thực hiện như kết xuất
+Kết nối gói hàng của bạn sẽ được chuyển tiếp. Cho gói hàng, chúng tôi gọi những nơi này là " roters".
+Giống như trạm xe lửa, các tuyến đường có nhiều đường dẫn đến và đi.
+Một số liên kết có thể là sợi quang, một số khác có thể là vệ tinh, và một số khác có thể là
+Không dây. Công việc của bộ chỉ đường là đảm bảo gói hàng di chuyển qua bộ chỉ đường và
+kết thúc trên lớp liên kết chính xác. Name
+5 đến 20 con đường khi nó di chuyển từ nguồn đến đích.
+
+Nhưng không giống như một trạm xe lửa nơi bạn cần phải xem hiển thị để tìm ra
+Chuyến xe lửa tiếp theo bạn cần đi, bộ chỉ đường xem địa chỉ đích để quyết định
+Mà ràng buộc bên ngoài gói hàng của bạn cần phải lấy. Nó giống như một nhân viên nhà ga
+gặp mỗi người xuống tàu, hỏi họ đang ở đâu
+và hộ tống họ đến chuyến xe lửa kế tiếp. Nếu anh là một cái túi, anh sẽ...
+Không bao giờ phải nhìn màn hình khác với một danh sách các chuyến tàu và đường ray!
+
+\index{IP address}
+Bộ chỉ đường có thể nhanh chóng xác định đường dẫn ra ngoài cho gói của bạn
+Bởi vì mỗi gói được đánh dấu bằng địa chỉ đích đến tối thượng của nó.
+Đây là địa chỉ giao thức Internet, hoặc địa chỉ IP cho ngắn. Chúng ta
+Xây dựng địa chỉ IP cẩn thận để làm cho công việc của rtrir của gói chuyển tiếp
+hiệu quả nhất có thể.
+
+Địa chỉ Mạng (IP)
+---------------------------------
+
+Ở phần trước, chúng tôi đã nói về địa chỉ lớp Link, chúng tôi nói
+địa chỉ liên kết đã được chỉ định khi phần cứng được sản xuất và ở lại
+trong suốt cuộc đời của một máy tính. Chúng tôi không thể sử dụng địa chỉ lớp liên kết
+để đưa gói tin qua nhiều mạng bởi vì không có mối quan hệ nào
+giữa địa chỉ lớp liên kết và địa điểm mà máy tính được kết nối
+đến mạng lưới. Với máy tính xách tay và điện thoại di động liên tục di chuyển,
+hệ thống sẽ cần theo dõi mỗi máy tính khi nó di chuyển từ một
+Vị trí của người khác. Và với hàng tỷ máy tính trên mạng, sử dụng
+liên kết địa chỉ lớp để đưa ra quyết định định định định định tuyến sẽ chậm và không hiệu quả.
+
+[Các lớp làm việc Internet]. (./hình ảnh/người làm việc qua mạng)
+
+\index{IV4}
+Để làm cho điều này dễ dàng hơn, chúng tôi chỉ định một địa chỉ khác đến mỗi máy tính dựa trên nơi
+máy tính được kết nối đến mạng. Có hai phiên bản khác nhau của
+Địa chỉ IP. Địa chỉ IPv4 cũ gồm bốn số
+tách ra bởi những chấm như thế này, và trông như thế này:
+
+22.78.1.25
+
+\index{IV6}
+Mỗi con số chỉ có thể từ 0 đến 257. Chúng tôi có rất nhiều máy tính
+đã kết nối đến Mạng ngay bây giờ mà chúng tôi đang chạy ra khỏi IPv4 địa chỉ cần gán
+với họ. Địa chỉ IP6 dài hơn và trông như:
+
+2001:0db8:85a3:0042: 1000:8a2e:0370:7334
+
+Đối với phần này chúng tôi sẽ tập trung vào địa chỉ IPv4 kinh điển, nhưng tất cả các
+Ý tưởng cũng áp dụng cho IPv4 và IPv6 địa chỉ.
+
+\index{số công việc}
+\index{máy nhận diện#
+Điều quan trọng nhất về địa chỉ IP là chúng có thể bị chia làm 2
+Phần.
+
+Số" và "Host Identifier" - cho ví dụ này, chúng tôi sẽ chỉ chia địa chỉ
+làm đôi. Phần đầu tiên của địa chỉ hai mảnh được gọi là "Network number".
+Nếu chúng ta đưa ra một địa chỉ IPv4 thành hai phần, chúng ta có thể tìm thấy như sau:
+
+Số mạng: 28278
+Nhận diện máy: 1. 25
+
+Ý tưởng là nhiều máy tính có thể kết nối thông qua một kết nối duy nhất với
+Internet. Cả một trường đại học, trường học, hoặc doanh nghiệp có thể kết nối bằng cách sử dụng một
+số mạng đơn, hoặc chỉ vài số mạng. Trong ví dụ trên,
+65,536 máy tính có thể được kết nối đến mạng bằng số mạng
+của "212.78". Vì tất cả các máy tính xuất hiện trên Internet
+trên một kết nối duy nhất, tất cả gói tin với địa chỉ IP của:
+
+28278.
+
+có thể đến cùng một địa điểm.
+
+Bằng cách sử dụng phương pháp này của một số mạng và một máy nhận diện, rmen số không
+phải theo dõi hàng tỉ máy tính cá nhân. Thay vào đó, họ
+Cần phải theo dõi có lẽ một triệu hoặc ít hơn số mạng lưới khác nhau.
+
+Vì vậy, khi gói hàng của bạn đến trong một rtrir và rver cần phải quyết định nào
+ra giới hạn liên kết để gửi gói của bạn để, rver không phải xem xét các
+Toàn bộ địa chỉ IP. Nó chỉ cần nhìn vào phần đầu của địa chỉ
+để xác định đường dẫn tốt nhất.
+
+Các tuyến đường định tuyến
+---------------------------------
+
+Trong khi ý tưởng về sụp đổ nhiều địa chỉ IP vào một mạng đơn
+Số điểm kết thúc cá nhân mà bộ chỉ đường phải theo dõi
+đúng lộ trình gói, mỗi bộ chỉ đường vẫn cần một cách để học đường
+từ chính nó tới mỗi số mạng lưới mà nó có thể gặp.
+
+Khi một bộ định tuyến lõi mới được kết nối với Internet, nó không biết tất cả
+các tuyến đường. Nó có thể biết một vài con đường đã được định sẵn, nhưng để xây dựng hình ảnh của
+Làm thế nào để di chuyển gói hàng nó phải khám phá các tuyến đường khi nó gặp các gói tin. Khi
+Bộ định tuyến gặp một gói mà nó chưa biết đường đi, nó
+Bảo vệ những con đường của nó. Những con đường kế cận mà
+biết làm thế nào để lộ trình số mạng gửi dữ liệu của họ trở lại yêu cầu
+Bộ định tuyến. Đôi khi các tuyến đường lân cận cần phải hỏi những người hàng xóm của họ và như vậy
+vào cho đến khi thực sự tìm thấy và gửi trở lại bộ định tuyến yêu cầu.
+
+Trong trường hợp đơn giản nhất, một bộ định tuyến lõi mới có thể được kết nối với Internet và chậm chạp
+Xây dựng bản đồ số mạng tới liên kết bị hạn chế để nó có thể đi đúng đường
+gói tin dựa trên địa chỉ IP cho mỗi gói gửi tới. Chúng tôi gọi đây là bản đồ
+số mạng tới liên kết bị giới hạn « Bàn xoay » cho một điều cụ thể
+Bộ định tuyến.
+
+Khi Internet chạy bình thường, mỗi bộ chỉ đường có độ hoàn chỉnh tương đối
+Bảng định tuyến và hiếm khi gặp một số mạng mới. Một lần trên đường
+Tìm ra đường đến một số mạng mới lần đầu tiên nó thấy một gói
+Định mệnh cho số mạng đó, nó không cần thiết để khám phá lại
+lộ trình tới số mạng trừ khi có gì đó thay đổi hoặc sai. Cái này
+có nghĩa là ryr làm một tra cứu trên bao thứ nhất, nhưng sau đó nó có thể
+di chuyển hàng tỉ gói tiếp theo đến số mạng đó chỉ bằng cách sử dụng
+Thông tin mà nó có trong bảng định tuyến.
+
+Khi tình hình trở nên tồi tệ hơn
+---------------------------------
+
+Đôi khi mạng có vấn đề và bộ định tuyến phải tìm ra cách để chuyển dữ liệu
+xung quanh các vấn đề. Một vấn đề thông thường là một trong những đường dẫn bị đứt.
+Có lẽ ai đó đã vấp phải sợi dây và tháo dây cáp quang. Vào
+điểm này, bộ định tuyến có một bó các số mạng mà nó muốn đường
+ra trên một liên kết đã thất bại. Sự hồi phục khi một con đường mất phương hướng
+Liên kết rất đơn giản. Bộ chỉ đường bỏ đi tất cả các mục trong
+bảng định tuyến của nó được định tuyến trên đường link đó. Sau đó là gói thêm
+Đến cho những số mạng đó, các chỉ dẫn đi qua đường
+Khám phá lại quá trình, lần này hỏi tất cả các tuyến đường lân cận
+Ngoại trừ những thứ không thể liên lạc được nữa do đường link bị đứt.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Gói tin được chuyển đi chậm hơn một thời gian khi các bảng định tuyến được xây dựng lại
+mà phản ánh các cấu hình mạng mới, nhưng sau một thời gian, mọi thứ là
+Hát thật hay.
+
+Đây là lý do tại sao nó là quan trọng để luôn luôn là ít nhất hai con đường độc lập
+từ một mạng lưới nguồn tới một mạng đích trong lõi mạng lưới. Nếu
+Luôn luôn có ít nhất hai con đường độc lập, chúng tôi nói rằng một
+mạng là mạng có hai kết nối. Một mạng hai kết nối có thể phục hồi từ
+Bất kỳ mối liên hệ nào. Ở những nơi có rất nhiều kết nối mạng,
+Như bờ biển phía đông của Hoa Kỳ, mạng lưới có thể mất nhiều liên kết
+mà không bao giờ trở nên hoàn toàn ngắt kết nối. Nhưng khi ở nhà
+hoặc trường học và chỉ có một kết nối, nếu kết nối đó đi xuống bạn
+hoàn toàn bị ngắt kết nối.
+
+Tại một số điểm liên kết bị hỏng được sửa chữa hoặc một liên kết mới được đưa lên, và
+Bộ chỉ đường muốn tận dụng các liên kết mới. Bộ định tuyến luôn quan tâm
+Cải thiện các bảng định tuyến, và tìm cơ hội để cải thiện việc định tuyến
+bàn trong thời gian rảnh. Khi có tiếng chuông giao tiếp, một bộ định tuyến sẽ
+Hãy hỏi tất cả hoặc một phần của bảng định tuyến. Bộ định tuyến
+nhìn qua bàn của hàng xóm và nếu nó trông giống như các định tuyến khác
+có một đường dẫn tốt hơn đến một số mạng cụ thể, nó cập nhật bảng mạng của nó
+để tiếp tục gói cho số mạng đó thông qua liên kết để rver mà
+có một con đường tốt hơn.
+
+Với những cách tiếp cận với ra ngoài và trao đổi thông tin bảng định tuyến,
+Name
+đó là xuống hoặc chậm để liên kết lên và nhanh hơn. Trong suốt thời gian đó,
+mỗi con đường đang đi đến những con đường lân cận để tìm cách cải thiện
+Bàn định tuyến riêng. Mặc dù không có nguồn trung tâm của "đường nhanh nhất"
+từ bất kỳ nguồn nào đến bất kỳ điểm đến, các r bánh xe là tốt tại biết nhanh nhất
+con đường từ nguồn đến điểm đến hầu như mọi lúc. Bộ chỉ huy cũng giỏi phát hiện và
+Các gói chuyển động xung quanh liên kết bị chậm hoặc bị quá tải tạm thời.
+
+Một trong những tác dụng phụ của việc làm thế nào các rmen khám phá cấu trúc của
+mạng là đường dẫn đến gói của bạn lấy từ nguồn đến đích
+có thể thay đổi theo thời gian. Bạn thậm chí có thể gửi một gói ngay lập tức theo bởi
+gói thứ hai có thể
+Đến điểm đến trước gói đầu tiên. Chúng tôi không yêu cầu lớp IP
+để lo lắng về thứ tự của các gói; nó đã có đủ để lo lắng về.
+
+Chúng tôi đổ gói tin của chúng tôi với nguồn và đích địa chỉ IP vào Internet
+Giống như chúng tôi gửi một đống thư trong bưu điện.
+Các gói hàng mỗi tìm thấy cách của họ mặc dù hệ thống và đến với họ
+Điểm đến.
+
+Xác định hướng đi của bạn
+-----------------------
+
+Không có nơi nào trên Internet biết trước con đường gói hàng của bạn
+sẽ đưa từ máy tính của bạn đến một điểm đến cụ thể. Thậm chí cả những con đường
+Tham gia vào việc chuyển gói của bạn qua Internet không biết
+Toàn bộ lộ trình của anh sẽ đi. Họ chỉ biết liên kết gửi cho bạn
+gói hàng đến để họ đến gần đích cuối cùng.
+
+Nhưng nó chỉ ra rằng hầu hết máy tính có một công cụ chẩn đoán mạng được gọi là
+"traceroute" (hay "tracist", phụ thuộc vào hệ điều hành)
+mà cho phép bạn theo dõi lộ trình giữa máy tính của bạn và a
+Máy tính đích đến. Cho rằng đường đi giữa bất kỳ hai máy tính có thể
+Nó chỉ là một
+"Hãy đoán chuẩn" về các gói hàng thực tế.
+
+Lệnh theo dõi không thực sự "trace" gói của bạn. Phải
+ưu tiên tính năng trong giao thức mạng IP được thiết kế để tránh
+gói hàng trở thành " mắc bẫy" trong mạng lưới và không bao giờ đến đích.
+Trước khi chúng ta có một cái nhìn vào định vị, hãy xem xét nhanh chóng làm thế nào một gói
+Có thể bị mắc kẹt trong mạng mãi mãi và làm thế nào giao thức IP giải quyết mà
+vấn đề.
+
+Hãy nhớ rằng thông tin trong một bộ chỉ đường là bất toàn và chỉ là một
+Ước tính đường dẫn tốt nhất cho một số mạng cụ thể, và
+Mỗi bộ định tuyến không có cách nào biết được bất kỳ bộ chỉ huy nào khác sẽ làm gì. Nhưng nếu chúng ta có
+3 bộ định tuyến với các lối vào bảng định tuyến tạo thành một vòng lặp vô tận?
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Mỗi người cho rằng nó biết đường dẫn tốt nhất cho địa chỉ IP
+bắt đầu với "212.78". Nhưng bằng cách nào đó, các tuyến đường có chút bối rối và
+bảng định tuyến tạo thành một vòng lặp. Nếu một gói với một tiền tố của "12.78" tìm thấy
+nó sẽ được định tuyến vòng tròn 3
+liên kết mãi mãi. Không có lối thoát đâu. Khi nhiều gói hàng đến với cùng một
+Đầu tiên, chúng sẽ chỉ được thêm vào "chập lốc xoáy vô hạn". Sớm thôi.
+Các liên kết sẽ đầy đủ giao thông đi vòng vòng, các tuyến đường sẽ
+chất đầy các gói hàng đợi gửi đi, và cả ba bánh xe sẽ bị sập.
+Vấn đề này còn tệ hơn là để ai đó đi qua sợi cáp quang,
+Vì nó có thể gây ra vài vụ tai nạn.
+
+Để giải quyết vấn đề này, các nhà thiết kế giao thức Internet thêm một số vào mỗi
+Gói tài liệu có tên là Thời gian để sống (TTL). Số này bắt đầu với
+giá trị khoảng 30. Mỗi lần một túi IP được chuyển xuống một liên kết,
+Bộ định tuyến trừ đi 1 từ giá trị TTL. Vì vậy, nếu gói đi 15 hops đến
+Vượt qua Internet, nó sẽ xuất hiện ở phía xa với TTL 15
+
+Nhưng bây giờ chúng ta hãy xem xét làm thế nào các chức năng TTL khi có một vòng lặp định tuyến (hoặc
+"Rắc khóa" cho một số mạng cụ thể. Kể từ khi gói giữ
+được chuyển tiếp vòng thời gian, cuối cùng TTL đạt 0. Và khi
+TTL đạt 0, rtrir giả định rằng một cái gì đó là sai và ném
+Dọn đồ đi. Cách tiếp cận này đảm bảo rằng định tuyến vòng lặp không mang lại toàn bộ
+Khu vực của mạng bị phá hủy.
+
+Vì vậy, đó là một chút khá thú vị của kỹ thuật giao thức mạng. Để phát hiện và
+Phục hồi từ vòng lặp định tuyến, chúng tôi chỉ cần đặt một số trong, trừ đi 1 từ đó
+số trên mỗi liên kết, và khi số đi đến zero ném gói đi.
+
+Nó cũng chỉ ra rằng khi các rtrir ném một gói đi, nó thường xuyên
+gửi về một thông báo lịch sự, đại loại như, "Xin lỗi tôi phải ném của bạn
+gói đồ đi." Name
+gói đồ đi.
+
+Vòng mạng thực sự khá hiếm, nhưng chúng tôi có thể sử dụng thông báo này rằng một
+Gói đã được thả để vẽ bản đồ con đường xấp xỉ một gói đi qua
+mạng lưới. Chương trình theo dõi gửi gói theo một cách khó khăn để có được
+Bộ định tuyến các gói tin của bạn gửi lại thông báo. Đầu tiên,
+Theo dõi gửi một gói với TTL 1. Cái túi đó được đưa tới trước.
+Bộ chỉ đường và bị hủy bỏ và máy tính của bạn nhận được thông báo từ đầu
+Bộ định tuyến. Sau đó, theo dõi gửi một gói với một TTL 2. Cái túi đó làm ra nó
+băng qua đường đi đầu tiên và được thả bởi đường thứ hai, gửi cho bạn
+để lại ghi chú về gói bỏ đi. Sau đó theo dõi gửi một gói với một
+TTL của 3, và tiếp tục tăng TTL cho đến khi gói làm cho nó tất cả các
+con đường đến đích.
+
+Với cách tiếp cận này, theo dõi xây dựng một con đường xấp xỉ mà gói của bạn
+đang vượt qua mạng lưới.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Phải mất 14 chuyến bay từ Ann Arbor, Michigan đến Palo Alto, California.
+Các gói hàng được gửi qua Kansas, Texas, Los Angeles và Oakland. Cái này
+Có lẽ không phải là con đường tốt nhất giữa hai thành phố nếu bạn lái xe
+hoặc đi tàu, nhưng vào ngày đó cho gói giữa hai thành phố này
+là tuyến đường tốt nhất trên Internet.
+
+Không!
+
+Bạn cũng có thể thấy nó mất bao lâu để làm cho nó từ nguồn đến
+rồi từ nguồn đến đích. Một mili giây (ms)
+là 1000 giây. Vậy 77.317 ms chỉ dưới 1 phần 10 giây. Cái này
+Mạng lưới khá nhanh.
+
+Đôi khi một định vị có thể mất một ít thời gian, đến một hoặc hai phút. Không
+Tất cả các tuyến đường sẽ cho anh thông điệp "Tôi đã hủy bỏ gói đồ của anh". Vào
+Ví dụ ở trên, bộ định tuyến tại hop 13 đã ném túi xách của chúng tôi đi mà không nói "Tôi
+Xin lỗi". Theo dõi chờ tin nhắn và sau vài giây
+từ bỏ và tăng giá trị TTL để vượt qua bộ đánh bạc thô lỗ.
+
+Nếu bạn chạy một định vị cho một kết nối bao gồm một dây cáp dưới biển, bạn
+Có thể thấy dữ liệu di chuyển nhanh dưới biển. Đây là dấu vết giữa
+Đại học Michigan và Đại học Bắc Kinh ở Trung Quốc.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Bạn có thể thấy khi các gói đang gặp phải một dây cáp dưới biển dài trong bước
+Bảy và tám. Thời gian đi từ ít hơn 1/10 giây đến gần 1/4 của
+Một giây thôi. Mặc dù 1/4 của một giây chậm hơn 1/10 một giây, nó là
+khá ấn tượng khi bạn xem xét rằng các gói đang đi gần như tất cả các
+cách mà vòng quanh thế giới trong 1/4 giây.
+
+Trung tâm của mạng IP rất đáng chú ý. Hầu hết thời gian chúng tôi không thực sự
+Quan tâm đến việc bộ định vị đang làm việc như thế nào để đảm bảo các gói hàng của chúng tôi di chuyển nhanh chóng
+từ máy tính của chúng tôi đến những điểm đến khác nhau trên thế giới. Kế
+Chúng tôi sẽ di chuyển từ xem xét làm thế nào lõi của mạng chức năng đến cách IP
+địa chỉ được quản lý ở rìa.
+
+Nhận một địa chỉ IP
+-----------------------
+
+Càng ngày máy tính càng di động. Chúng tôi vừa chỉ ra
+Nó quan trọng như thế nào cho lớp IP để theo dõi nhóm lớn của máy tính sử dụng
+Số mạng thay vì theo dõi từng máy tính một. Nhưng
+Vì những số mạng này chỉ ra một kết nối vật lý đặc biệt với
+mạng, khi chúng tôi di chuyển máy tính từ vị trí này sang vị trí khác, nó sẽ cần một máy tính mới
+Địa chỉ IP. Nhớ rằng địa chỉ lớp lớp liên kết được thiết lập khi một máy tính là
+Sản xuất và không bao giờ thay đổi trong suốt cuộc đời của máy tính. Nếu bạn
+Đóng laptop của bạn trong một quán cà phê và mở lại nó bằng cách sử dụng WiFi nhà của bạn,
+Máy tính sẽ cần một địa chỉ IP khác.
+
+Khả năng này cho máy tính của bạn để có được một địa chỉ IP khác khi nó được di chuyển
+từ mạng này đến mạng khác sử dụng một giao thức gọi là "Dynamic Host Cấu hình
+Giao thức" (hay DHCP cho ngắn). DHCP khá đơn giản. Trở lại Link
+Phần lớp, nhớ lại điều đầu tiên mà máy tính của bạn làm ở mức độ liên kết là
+
+Hỏi "Có trạm nào trên mạng này không?" bằng cách gửi một thông điệp đến một trạm đặc biệt
+Địa chỉ phát sóng. Một khi máy tính của bạn được kết nối thành công
+lớp xuyên qua căn cứ đó, nó gửi một thông điệp phát sóng khác, lần này
+Hỏi "Có một cánh cổng kết nối với mạng lưới này mà có thể đưa tôi đến
+Internet? Nếu có, cho tôi biết địa chỉ IP của bạn và cho tôi biết địa chỉ IP là gì
+nên dùng mạng này".
+
+Khi đường dẫn ra cổng trả lời, máy tính của bạn được cung cấp một địa chỉ IP tạm thời
+( Thí dụ, khi bạn đang ở quán cà phê). chứa
+Bộ định tuyến đã không nghe tin từ máy tính của bạn một thời gian, nó quyết định bạn đã đi
+và cho mượn địa chỉ IP khác.
+
+Nếu quá trình tái sử dụng địa chỉ IP cho vay sai, hai máy tính kết thúc
+trên cùng mạng với địa chỉ IP. Có lẽ bạn đã thấy một thông điệp trên
+Máy tính của bạn để hiệu ứng của, "Một máy tính khác đang sử dụng 192.168.0.5, chúng tôi có
+Đừng dùng địa chỉ này nữa". Máy tính của bạn thấy một máy tính khác với một liên kết
+địa chỉ khác ngoài địa chỉ IP của nó sử dụng địa chỉ IP mà máy tính của bạn nghĩ là
+Được chỉ định.
+
+[Tìm địa chỉ IP qua DHCP] (./sketchnote/Dhcp)
+
+Nhưng hầu hết thời gian bài tập IP năng động này (DHCP) hoạt động hoàn hảo.
+Bạn mở máy tính xách tay và trong vài giây bạn được kết nối và có thể sử dụng
+Internet. Sau đó bạn đóng máy tính xách tay của bạn và đi đến một địa điểm khác và
+đã đưa địa chỉ IP khác để sử dụng tại vị trí đó.
+
+Trong một số hệ điều hành, khi một máy tính kết nối đến một mạng lưới, vấn đề là DHCP
+yêu cầu, và không nhận được câu trả lời, nó quyết định tự chỉ định một địa chỉ IP
+Dù sao thì. Thường thì những địa chỉ này bắt đầu bằng "169...." Khi bạn
+Máy tính có một trong những địa chỉ IP tự cung cấp, nó nghĩ rằng nó được kết nối
+đến một mạng lưới và có một địa chỉ IP, nhưng nếu không có một cổng ra vào, nó có không
+Khả năng nhận gói được định tuyến qua mạng nội bộ và vào
+Internet. Điều tốt nhất có thể làm là một vài máy tính có thể kết nối với một
+Mạng nội bộ, tìm kiếm lẫn nhau, và chơi một trò chơi mạng. Không có nhiều
+còn có thể thực hiện với những địa chỉ IP này.
+
+Dùng lại địa chỉ khác
+-----------------------------------
+
+Nếu bạn biết làm thế nào để tìm được địa chỉ IP trên laptop của bạn, bạn có thể làm một
+Thử nghiệm nhỏ và nhìn vào các địa chỉ IP khác nhau bạn nhận được tại
+Vị trí khác nhau. Nếu bạn đã làm một danh sách các
+địa chỉ khác nhau bạn có thể tìm thấy
+rất nhiều địa điểm cung cấp địa chỉ với tiền tố là "1982168."
+Dường như điều này là vi phạm quy tắc mà số mạng (địa chỉ lP
+Tiền tố) được gắn vào nơi mà máy tính được kết nối với Internet,
+Nhưng một quy tắc khác áp dụng cho những địa chỉ bắt đầu với "192.168." (The
+Tiền tố "10." cũng đặc biệt.
+
+Địa chỉ bắt đầu với "192.168." được gọi là địa chỉ "không thể theo dõi". Cái này
+có nghĩa là chúng sẽ không bao giờ được sử dụng như địa chỉ thật mà sẽ tuyến đường dữ liệu
+qua trung tâm mạng lưới. Chúng có thể được sử dụng trong một mạng lưới địa phương,
+nhưng không dùng trên mạng toàn cầu.
+
+Vì vậy, làm thế nào để máy tính của bạn nhận được một địa chỉ như "192.168.0.5" trên của bạn
+Mạng nội bộ và nó hoạt động rất tốt trên toàn Internet? Đây là
+bởi vì nhà của bạn định tuyến /gateway/cơ sở đang làm một cái gì đó chúng tôi gọi là
+"Network address Translation", hay "NAT". Cánh cổng có IP riêng lẻ
+địa chỉ mà nó đang chia sẻ qua nhiều trạm làm việc kết nối với
+cánh cổng. Máy tính của bạn sử dụng địa chỉ không quay được của nó như "192.168.0" để
+Gửi gói hàng của nó, nhưng khi gói hàng di chuyển qua cánh cổng, cánh cổng
+Thay thế địa chỉ bằng địa chỉ thật. Khi gói hàng trở lại
+đến trạm làm việc của bạn, rver đặt trạm làm việc của bạn địa chỉ không theo dõi
+quay trở lại gói hàng.
+
+Cách tiếp cận này cho phép chúng tôi bảo tồn các địa chỉ thực sự routable và sử dụng
+Cùng một địa chỉ không phải là định hướng lặp đi lặp lại cho trạm làm việc di chuyển từ một
+kết nối với mạng khác.
+
+Địa chỉ IP toàn cục
+-----------------------------
+
+\index{IP]
+\index{IP
+\index{Nhà cung cấp dịch vụ mạng}
+\index{số công việc}
+Nếu bạn muốn kết nối mạng cho một tổ chức mới đến Internet bạn
+cần liên lạc với nhà cung cấp dịch vụ Internet và kết nối.
+IP của bạn sẽ cung cấp cho bạn một phạm vi địa chỉ IP (i.e., một hay nhiều mạng
+Số điện thoại) mà bạn có thể phân phát cho các máy tính được gắn vào mạng.
+IP chỉ định cho bạn con số mạng bằng cách cho bạn một phần của mạng
+Số lượng họ nhận được từ một nhà cung cấp dịch vụ Internet cao cấp.
+
+\index{RIRs}
+\index{Regional Internet Registries}
+\index{ARIN]
+\index{LACIC}
+\index{RIPE NCC}
+\index{APNC}
+\index{AFRIC}
+Ở mức độ cao nhất của địa chỉ IP, Internet 5 vùng
+Đăng ký (RIRs). Mỗi một trong năm đăng ký cho địa chỉ IP cho một
+khu vực địa lý lớn. Giữa năm kỳ đăng ký, mọi địa điểm trên thế giới
+có thể phân phát một số mạng. Năm triều đình là Bắc Mỹ.
+(ARIN), Nam Mỹ và Trung Mỹ (LACNC), Châu Âu (RIPE NCC), Asia-Pacify
+Và Châu Phi (AFRIC).
+
+\index{IV4}
+\index{IV6}
+Khi địa chỉ IPv4 cổ điển như "212.78.1.25" được phát minh, chỉ một vài
+1000 máy tính được kết nối với Internet. Chúng tôi không bao giờ tưởng tượng được.
+
+rằng một ngày nào đó chúng ta sẽ có một tỉ máy tính trên Internet. Nhưng hôm nay với
+Mở rộng Internet và mạng lưới mọi thứ, nơi có những chiếc xe thông minh,
+Tủ lạnh, máy điều nhiệt và thậm chí đèn cũng cần địa chỉ IP, chúng ta cần phải
+Kết nối hơn một tỷ máy tính với Internet. Để làm cho nó có thể
+để kết nối tất cả những máy tính này với Internet, các kỹ sư đã thiết kế
+Một thế hệ mới của giao thức Internet tên là "IPV6". Điểm 128-bit
+Địa chỉ IP6 dài hơn 32 bit địa chỉ IP4 nhiều.
+
+Các đăng ký Internet vùng (RIRs) đang dẫn đầu sự chuyển đổi từ IPv4 đến
+Việc chuyển từ IPv4 sang IPV6 sẽ mất nhiều năm. Trong thời gian đó,
+Cả IP4 và IPv6 phải làm việc liên tục với nhau.
+
+Tóm tắt
+-----
+
+Lớp giao thức làm việc Internet mở rộng mạng lưới của chúng tôi từ một hop
+(Link class) đến một loạt các hops mà kết quả trong gói nhanh chóng và
+Được chuyển hướng hiệu quả từ máy tính đến địa chỉ IP đích và
+Quay lại máy tính của anh. Lớp IP được thiết kế để phản ứng và di chuyển xung quanh
+mạng thoát ra và duy trì đường đi gần theo hướng định tuyến cho các gói đang di chuyển giữa
+Hàng tỷ máy tính không có nhà trống trung tâm nào. Mỗi
+Bộ chỉ đường học vị trí của nó trong toàn bộ mạng lưới, và bằng cách hợp tác với
+các tuyến đường lân cận giúp chuyển gói hàng hữu hiệu qua Internet.
+
+Lớp IP không chắc chắn 100%. Gói tin có thể bị mất do thời gian
+outouts hoặc bởi vì mạng là trong giây lát "bắp vá" về con đường mà a
+Gói hàng cần được chuyển qua mạng lưới. Gói tin hệ thống bạn gửi sau
+có thể tìm một con đường nhanh hơn thông qua mạng và đến trước khi gói dữ liệu đó
+Hệ thống được gửi đi sớm hơn.
+
+Nó có vẻ hấp dẫn để thiết kế lớp IP để nó không bao giờ mất gói hàng
+và đảm bảo rằng gói hàng đến theo thứ tự, nhưng điều này sẽ làm cho nó gần như
+Không thể cho lớp IP để xử lý các cực phức tạp tham gia
+Kết nối rất nhiều hệ thống.
+
+Vì vậy, thay vì yêu cầu quá nhiều của lớp IP, chúng tôi để lại vấn đề của gói
+Mất mát và gói hàng mà đến lớp tiếp theo của chúng tôi lên, vận chuyển
+lớp.
+
+Bản chú giải
+---------
+
+** dẫn đường **: Một bộ định tuyến đang di chuyển trong lõi của
+Internet.
+
+**DHCP**: Giao thức cấu hình máy động. DHCP là một máy tính xách tay
+Có địa chỉ IP khi nó được chuyển đến địa điểm mới.
+
+** straver**: Name
+và Internet. Tương đương với "Deaway".
+
+**Host Identifier**: Phần của một địa chỉ IP được sử dụng
+Xác định máy tính trong mạng nội bộ.
+
+**IP address**: Name
+Để nó có thể giao tiếp với các máy tính khác có địa chỉ IP và
+được kết nối với Internet. Để đơn giản hóa định tuyến trong trung tâm Internet
+Địa chỉ IP được đột nhập vào các số mạng và máy nhận diện. Một ví dụ
+Địa chỉ IP có thể là "212.78.1.25".
+
+Dịch địa chỉ Mạng. Kỹ thuật này cho phép một toàn cầu
+Địa chỉ IP được chia sẻ bởi nhiều máy tính trên một mạng địa phương.
+
+**Network number**: Phần của địa chỉ IP được dùng để nhận diện
+mà mạng nội bộ kết nối đến máy tính.
+
+**Papet hip**: Một trường hợp lỗi khi một gói đồ được đưa vào một vô hạn
+Lặp lại vì lỗi trong bảng định tuyến.
+
+Đăng ký địa phương. Năm RIRs tương ứng gần như
+cho lục địa thế giới và cho địa chỉ IP
+cho những khu vực địa lý chính trên thế giới.
+
+♪ Các bàn xoay: Name
+trong số đó nên dùng liên kết bị hạn chế cho mỗi số mạng.
+
+**Thời gian để sống (TTL)**: Một số được lưu trữ trong mỗi gói
+được giảm bởi một người khi gói hàng đi qua mỗi đường. Khi TTL
+Đến số không, gói bị hủy bỏ.
+
+**Traceroute**: Một lệnh sẵn sàng trên nhiều hệ thống Linux/UNIX
+cố gắng vẽ bản đồ đường đi của một gói khi nó di chuyển từ nguồn của nó đến
+Địa điểm. Có thể được gọi là "truyền thống" trên hệ thống Windows.
+
+** Mạng hai kết nối**: Một tình huống có ít nhất hai khả năng
+giữa hai nút trong mạng. Một mạng hai kết nối có thể
+mất bất kỳ liên kết nào mà không mất liên kết tổng thể.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1, mục tiêu của tầng Internet là gì?
+a) Chuyển gói tin qua nhiều chuyến nhảy từ nguồn đến máy tính đích
+b) Chuyển gói qua một kết nối vật lý duy nhất
+c) Đối phó với máy phục vụ web bị lỗi
+d) Đối phó với việc mã hóa dữ liệu nhạy
+
+2. Bao nhiêu liên kết vật lý khác nhau làm một gói thông thường vượt qua từ
+nguồn gốc của nó trên Internet?
+a) 1
+b) 4
+c) 15
+d) 257
+
+3 cái nào là địa chỉ IP?
+
+a) 0f:2a:b3:1f:b3:1a
+b) 192.168.3.14
+c) www.khanacademy.com
+d) @drchuck
+
+Tại sao cần phải chuyển từ IPv4 sang IPv6?
+a) Bởi vì IPv6 có bảng định tuyến nhỏ hơn
+b) Bởi vì IPv6 giảm số điệu nhảy một gói phải đi qua
+c) Vì chúng ta sắp hết địa chỉ IPv4
+d) Vì địa chỉ IPv6 được chọn bởi các nhà sản xuất phần cứng mạng
+
+Số 5. Số mạng là gì?
+a) Một nhóm địa chỉ IP có cùng tiền tố
+b) Tọa độ GPS của một LAN cụ thể
+c) Số hop cần thiết cho một gói để qua mạng
+d) Những gói tin bị trễ toàn bộ trải nghiệm qua mạng
+
+Có bao nhiêu máy tính có thể có địa chỉ trong số mạng "218.78"?
+a) 550
+b) 6500
+c) 62000
+d) 550000
+
+7. Làm thế nào người đi bộ xác định đường dẫn của một gói thông qua Internet?
+a) Các tuyến đường được điều khiển bởi IRG (Tổ chức Y tế mạng)
+b) Mỗi con đường xem một gói và cho biết nó dựa trên đoán tốt nhất
+là đường dẫn chính xác ra ngoài
+c) Mỗi mô- đun gửi tất cả gói tin trên mỗi liên kết bị hạn chế ( thuật toán đánh dấu)
+d) Mỗi định tuyến giữ trên một gói cho đến khi một gói đến từ
+Máy tính đích
+
+Bàn định tuyến là gì?
+a) Danh sách các địa chỉ IP được lập bản đồ đến địa chỉ liên kết
+b) Danh sách các địa chỉ IP được vẽ theo tọa độ GPS
+c) Danh sách các số mạng được vẽ theo tọa độ GPS
+d) Danh sách các số mạng được lập bản đồ tới các liên kết bị giới hạn từ bộ chỉ đường
+
+Làm thế nào một bộ định tuyến mới kết nối lại có đầy đủ các bảng định tuyến?
+a) Bằng cách tham khảo ý kiến IANA (Iternet giveed number Ause)
+b) Bằng cách tải về RFC định tuyến (Request for Comment
+c) Bằng cách liên lạc với Lực lượng Dịch vụ Kỹ thuật Mạng (IETF)
+d) Bằng cách hỏi những người đi đường lân cận cách họ đi gói hàng
+
+10 Một bộ định tuyến làm gì khi một đường dẫn vật lý đi xuống?
+
+a) ném đi tất cả các mục bảng định tuyến cho liên kết đó
+b) Tham khảo dịch vụ Internet Ánh xạ (IMAP)
+c) Tên miền (DNS) tìm địa chỉ IP
+d) Gửi tất cả các gói để liên kết đó trở lại máy tính nguồn
+
+Tại sao có ít nhất một mạng "hai mối quan hệ" là tốt?
+a) Bởi vì bảng định tuyến nhỏ hơn nhiều
+b) Vì nó loại bỏ sự cần thiết cho các số mạng
+c) Vì nó hỗ trợ thêm địa chỉ IP4
+d) Bởi vì nó tiếp tục hoạt động ngay cả khi một liên kết duy nhất đi xuống
+
+Có phải tất cả các gói từ một thông điệp đều đi cùng một con đường qua Internet không?
+a) Có
+b) Không
+
+13 Làm thế nào người đi đường tìm ra đường mới và cải thiện bảng định tuyến?
+
+a) Mỗi ngày vào nửa đêm họ tải về một bản đồ Internet mới từ IMAPP
+b) Họ thường xuyên hỏi những con đường lân cận về các bảng mạng lưới
+c) Họ bỏ gói ngẫu nhiên để kích hoạt mã sửa lỗi bên trong
+Internet
+d) Chúng được cung cấp dữ liệu truyền tải tốc độ bằng máy tính đích
+
+14 Mục đích của lĩnh vực "Thời gian để sống" là gì?
+
+a) Để chắc chắn rằng gói không kết thúc trong một vòng lặp vô hạn
+b) Để theo dõi cần bao nhiêu phút cho một gói thông qua mạng
+c) Để duy trì một bản đồ giữa các số mạng và tọa độ GPS
+d) Để nói cho bộ chỉ đường kết nối kết xuất đúng cho một gói cụ thể
+
+15 phút nữa, chỉ huy "traceroute" hoạt động thế nào?
+
+a) Nó gửi một loạt gói với giá trị thấp TTL để nó có thể nhận được a
+Name
+b) Nó nạp một đường dẫn mạng từ bản đồ Internet (IMAP)
+c) Nó liên lạc với máy chủ tên miền để có đường dẫn tới
+Số mạng cụ thể
+d) Nó yêu cầu ryrs để phụ thêm thông tin tuyến đường đến một gói như nó là
+đã định hướng từ nguồn này sang đích khác
+
+16 mất bao lâu để một gói hàng vượt Thái Bình Dương
+
+thông qua dây cáp quang dưới biển?
+a) 0,25 giây
+b) 0.025 giây
+c) 0.250 giây
+d) 2.5 giây
+
+17 Trên mạng Internet, làm thế nào máy tính có được địa chỉ Mạng (IP)?
+
+a) Dùng giao thức DHCP
+b) Dùng giao thức DNS
+c) Đang dùng giao thức HTTP
+d) Dùng giao thức IMAPP
+
+18, Bản dịch linh mục Nguyễn thế Thuấn là gì?
+a) Nó tìm địa chỉ IP tương ứng với tên văn bản
+như "www.dr-chuck.com"
+b) Nó cho phép IPv6 giao thông qua mạng IPv4
+c) Nó tìm đường dẫn tốt nhất cho một đường dẫn cụ thể
+và số mạng
+d) Nó tái sử dụng con số mạng đặc biệt như "192.168" trên đa số
+cổng ra mạng ở nhiều vị trí
+
+19 Địa chỉ IP và con số mạng được quản lý trên toàn cầu như thế nào?
+
+a) Có năm bộ quản lý mạng trong
+năm địa lý
+b) Địa chỉ IP được giao cho toàn thế giới một cách ngẫu nhiên trong một cuộc xổ số
+c) Địa chỉ IP được chỉ định bởi các thiết bị mạng sản xuất
+d) địa chỉ IP được dựa trên tọa độ GPS
+
+Địa chỉ IP6 lớn hơn địa chỉ IPv4 bao nhiêu?
+a) Chúng cùng cỡ
+b) Địa chỉ IPv6 lớn hơn 50% địa chỉ IP4
+c) Địa chỉ IPv6 lớn gấp đôi địa chỉ IP4
+d) Địa chỉ IPv6 lớn hơn 10 lần địa chỉ IPv4
+
+21 Nó có nghĩa là gì khi máy tính của bạn nhận được một địa chỉ IP bắt đầu với "169."?
+
+a) Kết nối của bạn đến Internet hỗ trợ giao thức Multicast
+b) Cánh cổng đang lập bản đồ địa phương của bạn đến một địa chỉ toàn cầu dùng NT
+c) Không có cổng mở sẵn để chuyển gói tin của bạn đến Internet
+d) Cổng ra cho mạng này là một cổng có tốc độ thấp với kích cỡ cửa sổ nhỏ
+
+Nếu bạn bắt đầu một nhà cung cấp dịch vụ Internet ở Ba Lan, nơi đăng ký Internet (RIR) sẽ cho bạn một dãy địa chỉ IP.
+a) ARIN
+b) LACNC
+c) RAPE NCC
+d) APNC
+e) AFRIC
+f) Liên Hiệp Quốc
+
+Hệ thống tên miền
+teppi82@ gmail. com
+
+\index{ Hệ thống tên người dùng}
+\index{DNS}
+Hệ thống tên miền cho bạn truy cập nơi Mạng bằng miền của chúng
+tên như (www.khanacademy.org), vì vậy bạn không cần phải
+Giữ một danh sách các địa chỉ Mạng số.
+Địa chỉ IP đã được xác định
+máy tính của bạn kết nối với Internet. Khi bạn có một di động
+Máy tính và bạn di chuyển từ nơi này đến nơi khác, bạn nhận được
+địa chỉ IP mới ở mỗi địa điểm mới. Vì không có ai kết nối với di động của bạn
+máy tính, nó không quan trọng nếu địa chỉ IP của bạn thay đổi theo thời gian. Nhưng
+kể từ khi rất nhiều người kết nối đến một máy chủ web, nó sẽ không tiện nếu
+Máy phục vụ chuyển sang địa điểm mới và cần phải thay đổi địa chỉ IP của nó.
+
+Khi máy tính của bạn kết nối đến hệ thống bằng địa chỉ tên miền,
+Điều đầu tiên máy tính của bạn làm là tìm kiếm địa chỉ IP tương ứng
+đến tên miền. Sau đó máy tính của bạn làm cho kết nối bằng cách sử dụng IP
+địa chỉ.
+
+Thêm bước riêng của việc tìm địa chỉ IP cho DNS
+địa chỉ cũng giúp cho việc di chuyển máy phục vụ từ nơi này sang nơi khác dễ dàng hơn.
+Máy phục vụ được cung cấp địa chỉ IP mới và mục nhập cho địa chỉ miền là
+Cập nhật. Một khi mục nhập DNS được cập nhật, yêu cầu mới cho tên miền là
+cho địa chỉ IP mới. Từ khi kết thúc truy cập phần lớn máy phục vụ dùng miền
+tên và không bao giờ thấy địa chỉ IP, máy phục vụ có thể được di chuyển sang mạng mới
+kết nối mà không ảnh hưởng đến khả năng truy cập máy phục vụ cuối.
+
+Đang chọn tên miền
+-------------------------
+
+\index{ICAN}
+\index{.com}
+\index{.org}
+\index{.duu}
+\index{TLL}
+\Index{cTL}
+Nếu bạn nhớ từ phần trước, địa chỉ IP sẽ được phân bổ dựa trên
+nơi bạn kết nối một mạng lưới mới với Internet. Tên miền được phân cấp
+dựa trên các tổ chức "chủ" tên miền. Ở trên cùng của miền
+xếp hạng tên là một tổ chức được gọi là Quốc tế
+Tập đoàn đã gán tên mạng và số điện thoại.
+ICAN chọn cấp cao nhất
+miền (TLs) như .com, .edu và .org và chỉ định những tổ chức khác
+Quản lý. Gần đây có một tập hợp mới của TLs như .club và .help.
+
+ICAN cũng chỉ định những tên miền có hai chữ cái như .za,
+.nl, và .jp đến các quốc gia trên khắp thế giới
+Chúng tôi gọi những tên miền quốc gia-Code top-Level (cTLLs). Các nước thường được thêm vào
+Tầng hai TLs, như .co.uk cho các tổ chức thương mại trong nước Anh. Chính sách
+để áp dụng cho tên miền với bất kỳ ccTD đặc biệt khác nhau rất nhiều so với một quốc gia
+cho người khác.
+
+[Tên người miền] (./sketchnote/DNS)
+
+Một khi tên miền được chỉ định cho một tổ chức, tổ chức kiểm soát
+được phép gán phần phụ trong miền. Ví dụ như...
+Khu vực cao nhất được chỉ định cho tổ chức Edu. Name
+Những lĩnh vực như umich.deu đến các tổ chức giáo dục cao cấp. Một lần đại học
+Michigan được trao quyền kiểm soát umich.du, nó có thể tự đưa ra lựa chọn cho
+phụ thuộc vào khu vực mới. Có thể mua các miền kết thúc trong .com và org
+của từng cá nhân. Chủ sở hữu của những vùng đó được phép quản lý
+Khu vực của họ và tạo ra các phần phụ dưới nó cho việc sử dụng hoặc sử dụng của người khác.
+
+Đọc tên miền
+---------------------
+
+Khi chúng ta nhìn vào một địa chỉ IP như "212.78.1.25", tiền tố trái là
+Số mạng, vì vậy theo một nghĩa chúng tôi đọc địa chỉ IP từ trái sang phải, nơi
+phần trái của địa chỉ IP là phần chung nhất của địa chỉ và
+
+phải một phần của địa chỉ là cụ thể nhất:
+
+22.78.1.25
+
+Broad --> hẹp
+
+Đối với tên miền, chúng tôi đọc từ phải sang trái:
+
+Cá nhân.
+hẹp
+
+Phần tổng quát nhất của tên miền này là ".deu", có nghĩa là cao hơn
+
+Học viện. Tàu ngầm "umich.duu" cao hơn một cách đặc biệt
+Viện giáo dục.
+
+Tóm tắt
+-----
+
+Trong khi hệ thống tên miền không phải là một trong bốn lớp của chúng tôi trong mô hình, nó là
+là một phần quan trọng trong việc khiến Internet dễ sử dụng hơn. Cho phép tên miền
+kết thúc người dùng dùng dùng dùng sử dụng tên tượng trưng cho máy phục vụ thay vì mạng số
+Địa chỉ giao thức. Bằng cách thêm dịch vụ mà vẽ tên miền vào IP
+địa chỉ, chúng tôi có thể di chuyển máy phục vụ từ một kết nối Internet tới máy khác
+kết nối không cần thiết người dùng tự thay đổi cấu hình của họ
+để kết nối tới máy phục vụ.
+
+\index{Domain Name Registrar}
+Nếu bạn muốn mua một tên miền cho bạn hoặc công ty của bạn, bạn có thể
+chọn từ bất kỳ tên miền nào đăng ký.
+
+Bản chú giải
+---------
+
+Hệ thống tên miền. Name
+cho phép các ứng dụng mạng tìm tên miền
+và lấy địa chỉ IP tương ứng cho tên miền.
+
+**domain name**: Một cái tên được gán trong một miền cấp cao.
+Ví dụ, khanacademy.org là một miền được chỉ định bên trong
+"org" thuộc địa cấp cao nhất.
+
+**ICAN**: Tập đoàn quốc tế dành cho các tên mạng và số.
+Chỉ định và quản lý các miền cấp cao nhất cho Internet.
+
+**registrar**: một công ty có thể đăng ký, bán và chủ nhà
+Tên miền.
+
+** Subdomain**: một tên được tạo ra « below » một tên miền.
+Ví dụ, "umich.edu" là một tên miền và
+Cả "www.umich.edu" và "mail.umich.du"
+là tàu ngầm trong "uich.deu".
+
+Miền thượng cấp. Phần gần nhất của tên miền.
+Ví dụ TLs bao gồm ".com", "org", và "ru". Gần đây, mới
+Các miền cấp cao như ".club" và ".help" đã được thêm vào.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1. Hệ thống tên miền làm được gì?
+a) Nó cho phép máy tính kết nối mạng dùng tên văn bản cho
+Name
+b) Nó theo dõi tọa độ GPS của mọi máy chủ
+c) Nó cho phép đăng ký trên Internet vùng (RIRs) quản lý địa chỉ IP
+Trên những lục địa khác nhau
+d) Nó chỉ định địa chỉ IP khác nhau cho máy tính xách tay
+khi chúng di chuyển từ WiFi này sang dạng khác
+
+Tổ chức nào chỉ định các miền cấp cao như ".com", ".org",
+và ".club"?
+a) IANA - Internet được ủy quyền cho các con số
+b) Lực lượng kỹ thuật IEF - Internet
+c) ICAN - Tập đoàn quốc tế để gán tên và số điện thoại
+d) IMAP - Giao thức tạo quyền truy cập Internet
+
+3, đây là địa chỉ miền?
+a) 0f:2a:b3:1f:b3:1a
+b) 192.168.3.14
+c) www.khanacademy.org
+d) @drchuck
+
+Cái nào trong số đó là chủ sở hữu không thể làm gì với lãnh thổ của mình?
+a) Tạo các phần phụ
+b) Bán tiểu khu
+c) Tạo miền cấp cao mới
+d) Gán địa chỉ IP cho miền hay phụ
+
+Lớp vận chuyển
+(TIẾNG CÒI)
+
+\index{Transport Layer}
+.index{Layer! Vận chuyển
+\index{TCP}
+
+Lớp tiếp theo từ lớp chăm sóc Internet là lớp vận chuyển.
+Một yếu tố quan trọng của lớp làm việc Internet là nó không cố gắng
+để đảm bảo giao bất cứ kiện hàng nào. Lớp làm việc trên Internet
+gần như hoàn hảo, nhưng đôi khi gói hàng có thể bị mất hoặc bị đánh lạc hướng.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Nhưng người dùng của mạng muốn đáng tin cậy gửi toàn bộ tập tin hay tin nhắn qua
+Internet. Một mạng lưới không tốt cho chúng tôi nếu nó chỉ có thể gửi gói tin
+mà hầu hết thời gian nhận được.
+Để mạng có ích, tất cả các gói cần được lắp lại vào
+đúng thứ tự để tái tạo thông điệp trên hệ thống nhận. Mạng
+cũng phải đối phó với các gói có được trong trật tự hoặc không bao giờ đến tất cả.
+Lớp vận chuyển là nơi chúng tôi xử lý sự đáng tin cậy và thông điệp tái thiết trên
+Máy tính đích đến.
+
+Giống như lớp IP,
+lớp vận chuyển thêm một lượng nhỏ dữ liệu vào mỗi gói để giúp giải quyết
+những vấn đề của việc sắp xếp lại và tái phát.
+
+Đầu gói tin
+---------------
+
+Nếu bạn đã nhìn vào một gói đi qua một trong nhiều liên kết
+giữa nguồn gốc và máy tính đích, bạn sẽ thấy một đầu mối,
+một tiêu đề IP, và một giao thức điều khiển giao thức (TCP) cùng với các
+dữ liệu trong gói.
+
+[Các công ty và dữ liệu] (../hình ảnh/đầu)
+
+Đầu mối được gỡ bỏ khi gói được nhận trên một liên kết và một
+Liên kết mới được thêm khi gói được gửi ra trên liên kết tiếp theo trên nó
+hành trình. Địa chỉ IP và TCP ở lại với một gói như nó đang đi qua mỗi
+liên kết trong hành trình của nó. Nhớ rằng một gói có thể đi qua nhiều loại liên kết
+Các tầng lớp được định tuyến qua Internet.
+
+Địa chỉ IP chứa mã nguồn và đích của giao thức Mạng (IP)
+cũng như thời gian để sống (TTL) cho gói. Mục tiêu IP được đặt trên các
+Máy tính nguồn và không thay đổi (ngoài TTL) khi di chuyển gói
+đi qua nhiều tuyến đường khác nhau.
+
+Đầu đề TCP cho biết dữ liệu trong mỗi gói thuộc về đâu. Là nguồn tin
+Máy tính phá vỡ thông điệp hoặc tập tin vào gói, nó giữ theo dõi vị trí
+của mỗi gói so với đầu của thông điệp hoặc tập tin và vị trí
+Chuyển vào mỗi gói được tạo ra và gửi.
+
+Name
+---------------------------------------
+
+Khi máy tính đích nhận gói, nó nhìn vào các bù đắp
+vị trí từ đầu của thông điệp vì vậy nó có thể đặt các gói vào
+đúng chỗ trong thông điệp được lắp ráp lại. Đơn giản bằng cách chắc chắn để đặt các
+@ info/ rich
+lớp vận chuyển dễ dàng xử lý những gói hàng đi quá trật tự. Nếu nó
+Nhận được một gói thêm xuống một thông điệp, nó đặt mà gói trong một bộ đệm,
+theo dõi thực tế rằng có một khoảng cách trong thông điệp đang tồn tại
+Đã tái tạo. Khi gói trước đến một chút sau đó, nó phù hợp
+hoàn toàn vào khoảng trống trong dữ liệu được lắp lại.
+
+\index{window kích cỡ}
+Để tránh tràn ngập mạng lưới, lớp vận chuyển trong gửi
+Máy tính chỉ gửi một số dữ liệu nhất định trước khi đợi một
+Công nhận từ lớp vận chuyển trên máy tính đích mà
+đã nhận được gói tin. Số lượng dữ liệu mà máy tính sẽ gửi
+trước khi tạm dừng để chờ nhận diện được gọi là kích thước gió.
+
+Máy tính gửi đi ghi lại xem nó bắt đầu nhận nhanh như thế nào
+Công nhận từ máy tính nhận. Nếu người ta nhận ra
+Nhanh chóng, gửi máy tính tăng kích thước cửa sổ của nó, nhưng nếu
+Nhận dạng từ từ, máy tính gửi ít dữ liệu hơn. By
+Điều chỉnh kích cỡ cửa sổ, gửi máy tính có thể gửi một lượng lớn
+dữ liệu nhanh chóng qua các kết nối nhanh có tải nhẹ. Khi gửi dữ liệu
+qua các liên kết có tải chậm hoặc nặng, họ có thể gửi dữ liệu theo cách mà
+không bị áp đảo mạng lưới.
+
+Nếu một gói đồ bị mất, nó sẽ không bao giờ đến được máy tính đích và như vậy
+Máy tính đích sẽ không bao giờ gửi dữ liệu đó.
+Bởi vì máy tính gửi không nhận được sự công nhận, nó nhanh chóng
+đến điểm mà nó đã gửi đủ dữ liệu chưa được hiểu biết để điền vào
+cửa sổ và dừng gửi gói mới.
+
+Tại thời điểm này, cả hai máy tính đang chờ. Name
+cho một công nhận cho một gói bị mất mà sẽ không bao giờ đến và nhận
+Máy tính đang chờ gói đồ bị mất mà sẽ không bao giờ đến. Để chắc chắn rằng
+máy tính không đợi mãi, máy tính đích giữ theo dõi
+lượng thời gian kể từ khi nó nhận được gói dữ liệu cuối cùng. Đến một lúc nào đó,
+nhận được máy tính quyết định quá nhiều thời gian đã qua và gửi một gói đến
+Name
+đã nhận dữ liệu. Khi máy tính gửi thư nhận được tin nhắn này, nó sẽ "trở lại"
+và khôi phục dữ liệu từ vị trí cuối cùng mà máy tính nhận đã
+Đã nhận thành công.
+
+[ Chờ đợi cho một Lost Packet](../sketchnote/Transport)
+
+Sự kết hợp của máy tính nhận dữ liệu nhận được, không phải
+Cho phép máy tính truyền tín hiệu đi quá xa ( Cỡ gió) và
+nhận được máy tính yêu cầu gửi máy tính tới « trở lại và khởi động lại »
+Khi nó xuất hiện rằng dữ liệu đã bị mất tạo ra một phương pháp tương đối đơn giản để
+Gửi tin nhắn hay tập tin lớn qua mạng.
+
+Trong khi lớp vận chuyển đang gửi một luồng dữ liệu, nó liên tục giám sát
+nhanh như thế nào nó nhận được công nhận và chủ động điều chỉnh kích thước cửa sổ của nó.
+Điều này đảm bảo rằng dữ liệu được gửi nhanh chóng khi kết nối giữa hai
+Máy tính nhanh và chậm hơn nhiều khi kết nối có liên kết chậm hoặc
+Một gánh nặng.
+
+Lớp vận chuyển đang hoạt động
+---------------------------------
+
+Một trong những yếu tố quan trọng của lớp vận chuyển là máy tính gửi
+Phải giữ tất cả các dữ liệu nó đang gửi cho đến khi dữ liệu đã được
+Chấp nhận. Một khi máy tính nhận được thừa nhận
+dữ liệu, máy tính gửi có thể loại bỏ dữ liệu đã gửi. Chúng ta có thể xem cái này.
+Một cách đồ họa khi một thông điệp được chia thành nhiều gói. Ở đây, mười gói đầu tiên
+của thông điệp đã được gửi và thừa nhận bởi máy tính đích ('a).
+Máy tính gửi đã gửi thêm sáu gói ('S'), và sau đó dừng lại vì nó
+Đến cỡ cửa sổ.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Có ba gói tin đã được gửi nhưng chưa nhận được ("S"). Kể từ đó
+là rất nhiều hop trong mạng lưới, nó là rất phổ biến cho hơn một gói được
+Kết nối trong mạng lưới cùng lúc.
+
+Lớp vận chuyển trên máy tính nhận đã nhận và thừa nhận mười
+gói tin và giao chúng cho ứng dụng nhận ('a).^[Chúng ta nói về
+Lớp ứng dụng sau tài liệu] Name
+Máy tính đã nhận thêm ba gói ('R'), nhưng một gói bị hỏng.
+Nhận được một gói ra khỏi trật tự không phải là một lý do cho lo lắng nếu thiếu
+Gói hàng sẽ đến trong thời gian ngắn. Miễn là tất cả
+gói tin đã được nhận, lớp vận chuyển sẽ được tái tạo
+Name
+để nhận đơn.
+
+Ứng dụng khách và máy chủ
+-------------------------------
+
+\index{ kfmclient}
+\index{ Server}
+Mục đích của lớp vận chuyển là để cung cấp kết nối đáng tin cậy giữa
+
+Các ứng dụng mạng để các ứng dụng này có thể gửi và nhận luồng của
+dữ liệu. Đối với một ứng dụng, điều này là đơn giản như yêu cầu lớp vận chuyển
+để kết nối đến một ứng dụng chạy trên máy ở xa. Chúng ta
+gọi ứng dụng khởi động kết nối đến máy tính cục bộ
+"khách hàng" và ứng dụng đáp ứng yêu cầu kết nối
+"máy chủ". Chúng tôi gọi sự kết hợp của hai ứng dụng mạng tại các
+kết thúc kết nối một ứng dụng « máy chủ/ khách hàng » vì hai mảnh của
+phải thực hiện cùng nhau.
+
+Rất nhiều kỹ sư đã đi vào ba lớp dưới của kiến trúc của chúng tôi
+để dễ dàng mở một kết nối tới một máy tính từ xa và sau đó gửi
+và nhận dữ liệu qua kết nối đó.
+
+Ứng dụng máy phục vụ và cổng
+-----------------------------
+
+Khi một ứng dụng khách hàng muốn kết nối đến một máy tính từ xa,
+nó là quan trọng để kết nối đến ứng dụng máy phục vụ đúng
+trên cái máy tính đó. Một máy tính từ xa có thể có bất kỳ
+Số ứng dụng máy phục vụ khác nhau chạy cùng một lúc. Ví dụ
+ứng dụng máy phục vụ sẽ bao gồm:
+
+Máy phục vụ mạng
+Máy chủ phim
+Máy phục vụ thư
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Ví dụ, một trình khách web (một trình duyệt) cần kết nối
+Máy phục vụ mạng chạy trên máy tính từ xa. Vì vậy một ứng dụng khách không chỉ
+Cần phải biết máy tính từ xa nào để kết nối, nó cũng cần phải chọn một máy tính cụ thể
+ứng dụng tương tác với máy tính từ xa.
+
+Chúng tôi sử dụng một khái niệm gọi là "ports" để cho phép một ứng dụng khách hàng để chọn mà
+ứng dụng máy phục vụ mà nó muốn tương tác. Cổng như điện thoại.
+Phần mở rộng. Tất cả các phần mở rộng có cùng số điện thoại (địa chỉ IP) nhưng
+
+mỗi phần mở rộng ( Ứng dụng máy chủ) có một số phần mở rộng khác nhau (xem
+số điện thoại).
+
+Khi một ứng dụng máy phục vụ khởi động, nó "nghe" cho kết nối đến
+cổng đã ghi rõ. Một khi ứng dụng máy phục vụ đã đăng ký rằng nó là
+đã sẵn sàng để nhận kết nối đến, nó chờ cho đến khi kết nối đầu tiên
+kết nối được tạo ra.
+
+Vì vậy, các ứng dụng khách biết cổng để kết nối, có một danh sách
+của cổng mặc định nổi tiếng cho ứng dụng máy phục vụ khác:
+
+* Telnet (23) - đăng nhập
+* SSH (22) - Đăng nhập bảo mật
+* HTTP (80) - World Wide Web
+* HTTPS (43) - Mạng bảo mật
+Comment
+* IMAP (143/220/993)
+
+Stencils
+* DNS (53) - Độ phân giải tên miền
+* FTP (1) - Truyền tập tin
+
+Đây là các cổng thông thường cho các ứng dụng này. Đôi khi máy chủ sẽ
+làm cho ứng dụng sẵn sàng tại cổng không chuẩn. Nếu bạn đang phát triển web,
+Anh có thể chạy một máy chủ web ở một cổng không chuẩn như 3000, 8080, hay 8888. ♪ Nếu bạn thấy
+một địa chỉ Mạng như:
+
+Name
+
+"80" ngụ ý trình duyệt của bạn sẽ sử dụng giao thức web để tương tác
+với máy phục vụ, nhưng kết nối tới cổng 8080 thay vì cổng mặc định là 80.
+
+Tóm tắt
+-----
+
+Theo một nghĩa nào đó, mục đích của lớp vận chuyển là để bù đắp cho sự thật
+Liên kết và các lớp làm việc trên Internet có thể mất dữ liệu. ♪ Khi cả hai
+lớp thấp hơn mất hay chuyển hướng gói, lớp vận chuyển hoạt động lại để lắp lại
+và/hoặc chuyển đổi dữ liệu đó. Sự tồn tại của lớp vận chuyển làm nó
+Có thể cho hai lớp thấp hơn bỏ qua việc gửi lại và hạn chế tốc độ
+vấn đề.
+
+Một phần của mục tiêu của một kiến trúc có lớp là phá vỡ một quá phức tạp
+vấn đề thành các tiểu cầu nhỏ hơn. Mỗi lớp tập trung vào giải quyết một phần của
+Vấn đề tổng thể và giả định rằng các lớp khác giải quyết các vấn đề của họ
+Lẽ ra phải giải quyết.
+
+Bản chú giải
+---------
+
+Phát hiện ra rồi. Khi máy tính nhận thông báo trở lại
+máy tính nguồn chỉ ra rằng dữ liệu đã được nhận.
+
+**buffering**: Tạm thời giữ vào dữ liệu đã được gửi hoặc nhận đến
+Máy tính chắc chắn rằng dữ liệu không còn cần thiết nữa.
+
+**Nghe này**: Khi một ứng dụng máy phục vụ được chạy và sẵn sàng chấp nhận
+Name
+
+**port**: Một cách để cho phép nhiều ứng dụng máy phục vụ khác nhau đang chờ
+cho các kết nối đến trên một máy tính đơn. Mỗi ứng dụng lắng nghe
+một cảng khác. Name
+Số hiệu cổng để đảm bảo chúng đang nói chuyện với ứng dụng máy phục vụ đúng.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1.
+
+a) Chuyển gói tin qua nhiều chuyến nhảy từ nguồn đến máy tính đích
+b) Chuyển gói qua một kết nối vật lý duy nhất
+c) Xử lý với gói bị mất và không trật tự
+d) Đối phó với việc mã hóa dữ liệu nhạy
+
+Có gì trong đầu trang TCP?
+a) Địa chỉ thể chất
+b) Địa chỉ IP và thời gian để sống
+c) Cổng số và bù đắp
+d) Tài liệu nào đang được yêu cầu
+
+3. Tại sao kích thước gió là quan trọng đối với hoạt động đúng của mạng lưới?
+a) Vì các gói quá lớn sẽ nối sợi quang với nhau
+b) Nó ngăn cản một máy tính nhanh gửi quá nhiều dữ liệu về kết nối chậm
+c) Nó giới hạn số hops một gói có thể lấy trước khi nó được thả xuống
+d) Nó quyết định phần nào của địa chỉ IP là số mạng
+
+4. Điều gì xảy ra khi một máy tính gửi nhận được một công nhận từ
+nhận được máy tính?
+a) Máy tính gửi sẽ sửa đổi dữ liệu để chắc chắn nó là
+truyền chính xác
+b) Máy tính gửi nhiều dữ liệu lên kích cỡ cửa sổ
+c) Máy tính gửi một "sự hiểu biết để nhận biết"
+d) Máy tính gửi thông báo tới bản đồ Mạng (IMAP)
+
+5 phát hiện và hành động khi bị mất gói nào?
+
+a) Đang gửi máy tính
+b) Cổng ra mạng
+c) Bộ chỉ đường Internet lõi
+d) Nhận máy tính
+
+6 cái nào giữ lại gói dữ liệu để chúng có thể được chuyển đổi lại
+
+Nếu mất gói đồ thì sao?
+a) Đang gửi máy tính
+b) Cổng ra mạng
+c) Bộ chỉ đường Internet lõi
+d) Nhận máy tính
+
+Cái nào tương tự như cổng TCP nhất?
+a) Ga xe lửa
+b) Dưới cáp mạng biển
+c) Số căn hộ
+d) Khu vườn khắc
+
+8 phần nào của ứng dụng khách/máy chủ phải bắt đầu trước?
+
+a) trạm
+b) Máy phục vụ
+
+9 Số hiệu cổng của hệ thống tên miền là gì?
+
+a) 22
+b) 80
+c) 53
+d) 143
+
+10 là số hiệu cổng của giao thức nhận thư IMAPP?
+
+a) 22
+b) 80
+c) 53
+d) 143
+
+Lớp ứng dụng
+¢Ü Cảm ơn anh.
+
+\index{Một lớp ứng dụng}
+.index{Layer! Ứng dụng
+Chúng tôi đã làm việc từ dưới xuống đầu trang của chúng tôi bốn máy tính mạng TCP/IP
+và cuối cùng chúng ta đã lên đến đỉnh. Lớp ứng dụng là nơi phần mềm mạng
+Như trình duyệt web, chương trình thư, cầu thủ video, hoặc các cầu thủ truyền hình mạng hoạt động.
+Chúng tôi khi người dùng tương tác với các ứng dụng này và các ứng dụng tương tác
+với mạng lưới thay mặt chúng tôi.
+
+[Một lớp ứng dụng] (./hình ảnh/ hình ảnh/ máy phát điện)
+
+Ứng dụng khách và máy phục vụ
+-------------------------------
+
+Nó là quan trọng để nhớ rằng hai phần được yêu cầu cho một mạng
+ứng dụng vào chức năng. Kiến trúc cho một ứng dụng mạng là
+Gọi là "khách hàng/máy chủ". Phần trình phục vụ của ứng dụng chạy ở đâu đó
+Trên Internet và có thông tin mà người dùng muốn xem hoặc tương tác với.
+Phần khách hàng của ứng dụng kết nối đến ứng dụng máy chủ,
+
+lấy thông tin, và cho người dùng xem. Ứng dụng
+sử dụng lớp vận chuyển trên mỗi máy tính để trao đổi dữ liệu.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Để duyệt một địa chỉ web như www.khanacademy.org, bạn phải có một
+Ứng dụng web chạy trên máy tính của bạn. Khi bạn gõ một địa chỉ vào
+Trình duyệt web, nó kết nối đến máy phục vụ web thích hợp, lấy lại
+rồi cho bạn xem các trang đó.
+
+Trình duyệt web trên máy tính của bạn gửi một yêu cầu để kết nối
+www.khanacademy.org. Máy tính của bạn tìm tên miền để tìm
+Địa chỉ IP tương ứng cho máy phục vụ và làm cho một kết nối giao thông tới
+địa chỉ IP, sau đó bắt đầu yêu cầu dữ liệu từ máy chủ trên đó
+kết nối mạng. Khi nhận dữ liệu, trình duyệt web hiển thị nó cho bạn.
+Đôi khi trình duyệt web hiển thị một biểu tượng hoạt hình nhỏ để cho bạn biết rằng
+dữ liệu đang được khôi phục qua mạng.
+
+Ở đầu kia của kết nối là một ứng dụng khác được gọi là a
+"máy chủ". Chương trình máy phục vụ web luôn luôn lên và đợi đến
+kết nối. Vì vậy, khi bạn muốn xem một trang web, bạn đang kết nối với một
+ứng dụng máy phục vụ đang chạy và đang đợi kết nối của bạn.
+
+Theo một nghĩa nào đó, các lớp giao thông, Internet và liên kết cùng với miền
+Hệ thống tên, giống như mạng điện thoại cho ứng dụng mạng. Họ "có liên quan
+lên" ứng dụng máy chủ khác nhau trên mạng và có "chiến đấu"
+với những ứng dụng để trao đổi dữ liệu.
+
+Giao thức lớp ứng dụng
+-----------------------------
+
+\index{ kfmclient}
+\index{ Server}
+Giống như những người nói chuyện qua điện thoại, mỗi cặp mạng
+ứng dụng cần một bộ luật chi phối cuộc trò chuyện. Hầu hết
+văn hóa, khi điện thoại reo và bạn nhấc điện thoại lên và nói "Xin chào".
+Thông thường người gọi (người khách hàng) im lặng cho đến khi
+Người đã nhận điện thoại (người máy chủ) nói "xin chào". Nếu có
+Đã bao giờ gọi ai đó không tuân theo quy tắc đơn giản này, nó có thể được khá
+bối rối. Bạn có thể giả định rằng kết nối không hoạt động, treo
+lên, và thử lại cuộc gọi.
+
+\index{protocol}
+Một bộ luật chi phối cách chúng ta giao tiếp được gọi là "protocol". Hạt
+định nghĩa của từ giao thức là "một quy tắc mô tả làm thế nào một hoạt động
+nên được thực hiện, đặc biệt là trong lĩnh vực ngoại giao." Ý tưởng là
+rằng trong những trường hợp chính thức, chúng ta nên cư xử theo một cách chính xác
+quy tắc. Chúng tôi sử dụng từ này để mô tả các ứng dụng mạng, bởi vì
+Không có quy tắc chính xác, ứng dụng không có cách nào để thiết lập và quản lý a
+Nói chuyện. Máy tính thích độ chính xác.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+\index{RFC-7230 HTTP}
+Name
+Và điều quan trọng là mỗi ứng dụng có mạng có một thông tin tốt
+Giao thức để tất cả máy chủ và khách hàng có thể can thiệp. Một số
+Giao thức rất phức tạp và phức tạp.
+
+Các giao thức mô tả làm thế nào một
+Trình duyệt web liên lạc với máy phục vụ web được mô tả trong một số lớn
+tài liệu bắt đầu với điều này:
+
+[https mỡs.ietf.org/html/rfc7230] (../https mỡ.ietf.org/hml/rfc7230.
+
+\index{Hyper text Reviction}
+\index{HTTP}
+Tên chính thức của giao thức giữa khách hàng web và máy phục vụ web là
+Giao thức vận chuyển văn bản, hay HTTP cho ngắn. Khi bạn đặt "htp:" hoặc
+"htops:" trên bắt đầu của một URL mà bạn gõ vào trình duyệt, bạn đang
+ngụ ý bạn muốn lấy một tài liệu bằng giao thức HTTP.
+
+Nếu bạn đã đọc các tài liệu trên, và đi đến phần 5.3.2 ở trang 41, bạn
+Tìm đoạn chính xác của một trình khách web gửi cho máy chủ:
+
+Nhập địa chỉ < t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ n  t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ n  t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t\ t  t  con HTTP/1. 1
+
+Một trong những lý do mà HTTP rất thành công là nó tương đối
+đơn giản so sánh với đa số giao thức ứng dụng khách. Mặc dù việc sử dụng cơ bản của
+HTTP tương đối đơn giản, có rất nhiều chi tiết cho phép khách hàng web và
+Máy phục vụ giao tiếp hiệu quả và truyền một loạt thông tin và
+dữ liệu. Sáu tài liệu khác nhau miêu tả giao thức HTTP, trong tổng cộng 305
+trang. Điều đó có vẻ như rất nhiều chi tiết, nhưng chìa khóa trong việc thiết kế các giao thức
+là suy nghĩ thông qua tất cả các có thể sử dụng giao thức và mô tả mỗi trường hợp
+Cẩn thận.
+
+Kích nổ giao thức HTTP
+-----------------------------
+
+Trong phần này chúng tôi sẽ tự thực hiện giao thức HTTP bằng cách giả vờ
+là một trình duyệt web và gửi lệnh HTTP tới một máy phục vụ web để lấy dữ liệu.
+Để chơi với giao thức HTTP, chúng tôi sẽ sử dụng một trong những Internet cũ nhất
+đã từng xây dựng.
+
+\index{RFC-15 Telnet}
+\index{telnet}
+Ứng dụng "telnet" lần đầu tiên được phát triển vào năm 1968, và được phát triển
+Theo một trong những tiêu chuẩn đầu tiên của Internet:
+
+[https mỡs.ietf.org/html/rfc15] (../htops mỡ.ietf.org/html/rfc15)
+
+\index{ARPENT}
+\index{NSFNet}
+Tiêu chuẩn này chỉ dài năm trang và tại thời điểm này, bạn có thể
+Dễ dàng đọc và hiểu hầu hết những gì trong tài liệu. Name
+Ứng dụng khách hàng quá cũ đến nỗi nó là một con khủng long hiệu quả, vì nó đến từ
+Thời đại của Internet. Internet
+đã được tạo ra vào năm 1985 bởi dự án KSFNet và tiền đề của NSFNet
+Năm 1969. Telnet được thiết kế và xây dựng
+Ngay cả trước khi mạng TCP/IP đầu tiên được sản xuất.
+
+Điều thú vị là ứng dụng telnet vẫn còn trong hầu hết các hoạt động hiện đại
+Hệ thống. Bạn có thể truy cập telnet từ thiết bị cuối (dòng lệnh) trong Mactosh
+và Linux. Ứng dụng telnet cũng có trong Windows 95 thông qua Windows
+XP, nhưng không bao gồm các phiên bản sau này của Windows. Nếu sau này anh rảnh.
+phiên bản của Windows, bạn có thể tải xuống và cài đặt một trình khách telnet
+làm các ví dụ trong phần này.
+
+Telnet là một ứng dụng đơn giản. Chạy telnet từ dòng lệnh (hoặc
+dòng lệnh) và gõ lệnh sau:
+
+telnet www.dr-chuck.com 80
+
+\index{TCP cổng}
+\index{port 80}
+Tham số đầu tiên là tên miền (địa chỉ IP cũng sẽ hoạt động ở đây)
+và một cổng để kết nối với vật chủ đó. Chúng tôi sử dụng cổng để chỉ ra rằng
+Máy phục vụ ứng dụng chúng tôi muốn kết nối. Cổng 80 là nơi chúng tôi thường
+mong đợi tìm một trình phục vụ HTTP (web) trên máy. Nếu không có mạng
+máy chủ lắng nghe trên cổng 80, kết nối của chúng tôi sẽ thời gian ra và thất bại. Nhưng nếu
+có một máy chủ web, chúng tôi sẽ được kết nối đến đó máy chủ web và bất cứ điều gì chúng tôi
+Gõ trên bàn phím của chúng tôi sẽ được gửi trực tiếp đến máy phục vụ. Tại thời điểm này, chúng tôi
+Cần phải biết giao thức HTTP và gõ chính xác các lệnh như mong đợi.
+Nếu chúng ta không biết quy định, máy chủ web sẽ không thân thiện. Đây
+là một ví dụ về những điều không tốt:
+
+telnet www.dr-chuck.com 80
+Thử 198.251.66.43...
+Kết nối với www.dr-chuck.com.
+Nhân vật trốn thoát là "x".
+Cứu
+<!DOTYPE HTML xác nhận "-//IETF///DTDD HTML 2.0/EN">
+<Html> <head>
+Tên
+...
+
+</body></i>
+Kết nối đóng cửa bởi vật chủ nước ngoài.
+
+Chúng tôi gõ "telnet" trong thiết bị cuối yêu cầu một kết nối đến cổng 80
+Trên máy chủ www.dr-chuck.com. Bạn có thể thấy là phương tiện vận chuyển của chúng tôi
+lớp đang tìm tên miền, tìm ra địa chỉ thật
+"198.251.66.43", và sau đó kết nối thành công với máy chủ đó. Một lần
+chúng tôi đã kết nối, máy phục vụ chờ chúng tôi gõ một lệnh theo sau
+chìa khóa nhập hoặc trả lại. Vì chúng tôi không biết giao thức, chúng tôi gõ
+"HELP" và nhập. Máy phục vụ không hài lòng, cho chúng tôi một thông điệp lỗi, và
+thì kết nối lại. Chúng ta không có cơ hội thứ hai. Nếu chúng ta không biết
+trình phục vụ Mạng không muốn nói chuyện với chúng tôi.
+
+\index{Hacking HTTP}
+Nhưng hãy quay lại và đọc phần 5.3.2 của tài liệu RFC-7230 và thử lại lần nữa.
+yêu cầu một tài liệu dùng cú pháp đúng:
+
+telnet www.dr-chuck.com 80
+Thử 198.251.66.43...
+Kết nối với www.dr-chuck.com.
+Nhân vật trốn thoát là "x".
+Gỡ bỏ<br/>tiếng Việt hoá KDE
+
+HTTP/1.1 200 OK
+
+Cuối cùng sửa đổi: Sun, 19 Jan 14:25:43 GMT
+Nội dung: 131
+Nội dung
+
+Trang đầu
+<p>
+Nếu bạn muốn, bạn có thể chuyển sang
+<a href="htp mỡwww.dr-chuck.com/page.htm">
+Trang 2</a>
+</p>
+Kết nối đóng cửa bởi vật chủ nước ngoài.
+
+Chúng tôi làm cho kết nối đến trình duyệt web một lần nữa sử dụng telnet, sau đó chúng tôi gửi một
+Hãy ra lệnh cho biết chúng tôi muốn lấy tài liệu nào. Chúng tôi sử dụng
+phiên bản 1. 0 của giao thức HTTP vì nó đơn giản hơn HTTP 1.1.
+Sau đó chúng tôi gửi một đường trắng bằng cách nhấn "trở lại" hoặc "về" để chỉ rằng
+yêu cầu của chúng tôi xong rồi.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+\index{ HTML}
+\index{Hyper text Markup Language}
+Vì chúng tôi đã gửi yêu cầu đúng đắn, chủ nhà trả lời với một
+Một loạt đầu đề mô tả tài liệu, sau đó theo một đường trắng, sau đó nó
+gửi tài liệu thật.
+
+\index{HTTP code!200}
+\index{HTTP code Trạng thái !301}
+\index{HTTP code!404}
+Đầu đề liên lạc siêu dữ liệu (dữ liệu về dữ liệu) về tài liệu mà chúng tôi
+Đã yêu cầu lấy lại. Ví dụ, dòng đầu tiên chứa mã trạng thái.
+
+Trong ví dụ này, mã trạng thái của "200" nghĩa là mọi thứ diễn ra tốt đẹp. Trạng thái
+Mã số "404" trong dòng đầu tiên của đầu đề cập đến yêu cầu
+Không tìm thấy tài liệu. Mã trạng thái "301" ngụ ý tài liệu
+đã chuyển đến một địa điểm mới.
+
+Mã trạng thái HTTP được nhóm lại thành phạm vi:
+Mã 2X chỉ ra thành công, mã 3X chỉ để chuyển hướng,
+Mã 4XX cho thấy rằng ứng dụng khách hàng đã làm gì đó sai,
+Và mã 5x cho thấy máy chủ đã làm gì đó sai.
+
+Đây là tài liệu đánh dấu siêu Văn bản, vì vậy nó được đánh dấu
+với những thẻ như <h1> và <p\. Khi trình duyệt của bạn nhận được
+tài liệu định dạng HTML, nó nhìn vào đánh dấu trong tài liệu, giải thích
+nó, và giới thiệu cho bạn một phiên bản có định dạng của tài liệu.
+
+Giao thức IMAP để lấy thư
+-----------------------------------------
+
+Giao thức HTTP chỉ là một trong nhiều giao thức ứng dụng khách/máy chủ dùng trên
+Internet. Một giao thức phổ biến khác được dùng để một ứng dụng thư điện tử chạy
+trên máy tính của bạn có thể lấy thư từ một máy chủ trung tâm. Kể từ khi gặp riêng anh.
+Máy tính có thể không được bật bất cứ lúc nào, khi thư được gửi đến bạn nó là
+được gửi tới máy phục vụ và lưu vào máy phục vụ đó cho đến khi bạn bật máy tính và
+lấy bất kỳ email mới nào.
+
+\index{RFC-3501 IMAP}
+.index giao thức{mail}
+\index{IMAP}
+Giống như nhiều tiêu chuẩn ứng dụng khác, giao thức truy cập thông điệp Internet (IMAP) là
+được mô tả trong một loạt các tài liệu yêu cầu cho Chú thích (RFC) bắt đầu với điều này
+RFC:
+
+Name
+
+IMAP là một giao thức phức tạp hơn các giao thức web, vì vậy chúng tôi sẽ không thể
+dùng lệnh telnet để làm giả giao thức. Nhưng nếu anh định...
+phát triển một ứng dụng đọc thư, bạn có thể đọc cẩn thận tài liệu này và
+Phát triển mã để có một cuộc trò chuyện thành công với một IMAP phụ thuộc chuẩn
+máy chủ. Đây là một ví dụ đơn giản từ phần 6.3.1 của tài liệu trên
+hiển thị những gì trình khách (C:) gửi và máy phục vụ đáp ứng:
+
+C: A142 SELECT INBOX
+
+S: * 182 TIẾNG TÂM
+
+S: * 1 CÂU HỎI
+
+S: * OK [UNSEEN 12] Thông điệp 12 là đầu tiên không nhìn thấy
+S: * OK [ bại sản 3857529045] UIDs hợp lệ
+S: * Được rồi Đã dự đoán UID kế
+S: * FLAGS (\ Anssad\Flaid\ Đã xóa\ Semen\ Draft)
+S: * Được rồi. Giới hạn
+S: A142 OK [RED-WATE] SLECT hoàn tất
+
+Các tin nhắn gửi bởi khách hàng và máy chủ không được thiết kế để có
+Xem bởi một người dùng cuối cùng vì vậy họ không đặc biệt miêu tả. Những tin nhắn này
+có thông tin chính xác và được gửi theo thứ tự chính xác để chúng có thể
+tạo ra và đọc bởi các ứng dụng máy tính mạng trên mỗi đầu của các
+kết nối.
+
+Điều khiển luồng
+-------------
+
+\index{ kiểm soát luồng}
+\index{window kích cỡ}
+Khi chúng tôi nhìn vào lớp vận chuyển, chúng tôi đã nói về kích thước gió, mà
+là số lượng dữ liệu mà lớp vận chuyển trên máy tính gửi
+Trước khi dừng lại để chờ thông báo.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Trong con số này, chúng ta thấy một thông điệp bị chia thành gói, với một số
+đã gửi và thừa nhận. Sáu gói hàng đã được gửi nhưng chưa được gửi
+nhận và gửi lớp đã đạt đến giới hạn của
+cửa sổ gửi, vì vậy nó đang tạm dừng cho đến khi nó nhận được một công nhận
+từ lớp vận chuyển của máy tính. Name
+đã nhận được ba gói, một trong số đó là bị mất trật tự.
+
+Khi chúng tôi đã nhìn vào ví dụ này trước khi từ góc nhìn của
+Lớp vận chuyển, chúng tôi bỏ qua nơi gói tin được gửi đến
+và nơi các gói hàng sẽ đi đến trong máy tính nhận. Bây giờ đó
+Chúng tôi đang nhìn vào lớp ứng dụng, chúng tôi có thể thêm hai ứng dụng
+Đó là nguồn và điểm đến của dòng dữ liệu.
+
+Hãy giả sử rằng trình duyệt web đã thực hiện một kết nối giao thông đến máy chủ web
+và bắt đầu tải về một tập tin ảnh. Máy phục vụ web đã mở
+tập tin ảnh và đang gửi dữ liệu từ tập tin tới lớp vận chuyển của nó như
+Nhanh nhất có thể. Nhưng lớp vận chuyển phải theo quy tắc của
+Kích cỡ cửa sổ, vì vậy nó chỉ có thể gửi một số dữ liệu cùng một lúc.
+Khi cửa sổ được lấp đầy, máy phục vụ web bị dừng cho đến khi giao thông
+lớp trên máy tính đích đã bắt đầu nhận và thừa nhận
+gói hàng.
+
+Khi lớp vận chuyển trên máy tính đích bắt đầu nhận gói hàng,
+Xây dựng lại dòng dữ liệu, và thừa nhận gói hàng, nó cung cấp
+Comment
+màn hình của người dùng. Đôi khi trên một kết nối chậm bạn có thể xem trình duyệt của bạn
+Ảnh sơn khi dữ liệu được tải về. Trên một kết nối nhanh dữ liệu
+đến nhanh đến nỗi những bức ảnh xuất hiện ngay lập tức.
+
+Nếu chúng tôi vẽ lại hình ảnh của gói hàng trong lớp vận chuyển, thêm cả hai
+của các lớp ứng dụng nơi các gói ở giữa một bức ảnh,
+Bây giờ nó trông như thế này:
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Máy phục vụ web đang đọc tập tin ảnh ('F') và gửi nó như một luồng lên web
+Trình duyệt nhanh nhất có thể gửi dữ liệu. Lớp giao thông nguồn đã
+Chia dòng thành gói và sử dụng IP để gửi các gói đến
+Máy tính đích đến.
+
+Lớp vận chuyển đã gửi sáu gói ('S') và đã dừng lại
+Gửi bởi vì nó đã đạt kích cỡ cửa sổ và tạm dừng trình phục vụ web.
+Ba trong sáu gói đã làm cho nó đến lớp vận chuyển trên
+Máy tính đích ('R') và ba gói tin vẫn đang đi đúng đường
+('S').
+
+Khi điểm đến lớp vận chuyển phân hủy dòng
+quay trở lại với nhau, nó đều gửi một công nhận (ACK) và cung cấp dữ liệu đến
+nhận ứng dụng (bộ duyệt web). Name
+ảnh ('A) và hiển thị nó cho người dùng khi nhận dữ liệu.
+
+Một điều quan trọng cần chú ý trong bức tranh này là các lớp vận chuyển không giữ
+gói hàng cho toàn bộ file. Họ chỉ giữ lại các gói là "đi lại"
+và không biết gì cả. Một khi gói hàng đã được công nhận và chuyển đến
+Ứng dụng đích, không có lý do gì cho nguồn hoặc đích
+Di chuyển lớp để giữ các gói.
+
+Khi sự thừa nhận từ máy tính đích về nguồn
+máy tính, lớp giao thông trên máy tính nguồn không dùng máy phục vụ mạng
+ứng dụng và trình phục vụ web tiếp tục đọc dữ liệu từ tập tin và gửi nó
+đến lớp dịch chuyển nguồn để truyền.
+
+Khả năng này để khởi động và dừng ứng dụng gửi để đảm bảo chúng tôi gửi
+dữ liệu nhanh nhất có thể mà không cần gửi dữ liệu nhanh đến nỗi họ viết blog
+Internet được gọi là "điều khiển dòng chảy". Name
+Điều khiển dòng chảy, họ chỉ cố gắng để gửi hoặc nhận dữ liệu nhanh nhất có thể và
+hai lớp vận chuyển bắt đầu và dừng ứng dụng khi cần thiết dựa trên
+Tốc độ và sự đáng tin cậy của mạng lưới.
+
+Viết các ứng dụng mạng
+-------------------------------
+
+\index{set}
+Các ứng dụng gửi và nhận dữ liệu trên mạng được ghi
+trong một hay nhiều ngôn ngữ lập trình. Nhiều ngôn ngữ lập trình có
+Thư viện mã hóa làm cho nó khá đơn giản để viết mã ứng dụng
+Gửi và nhận dữ liệu qua mạng.
+Với một thư viện lập trình tốt, tạo một kết nối đến một ứng dụng
+chạy trên máy phục vụ, gửi dữ liệu đến máy phục vụ và nhận dữ liệu
+từ máy phục vụ thường dễ dàng như đọc và ghi tập tin.
+
+\index{ Lập trình lỗ hổng}
+Ví dụ như, mã dưới là tất cả những gì nó cần trong Python
+Name
+và lấy một tài liệu:
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Trong khi bạn có thể hoặc không biết ngôn ngữ lập trình Python, điểm mấu chốt là
+rằng nó chỉ mất mười dòng mã ứng dụng để làm và sử dụng một mạng
+kết nối. Bộ mã này đơn giản vì giao thông, Internet và Link
+Các lớp như vậy giải quyết hiệu quả các vấn đề ở mỗi lớp của họ mà
+ứng dụng sử dụng mạng có thể bỏ qua hầu hết các chi tiết về cách thức
+mạng đã được thực hiện.
+
+Trong ứng dụng Python, trong dòng mã này
+
+mysock.connect('www.py4inf.com', 80)
+
+Chúng tôi đã xác định rằng chúng tôi đang kết nối với ứng dụng đang lắng nghe
+để kết nối đến cổng 80 trên www.py4inf.com.
+
+Bằng cách chọn
+Cổng 80 chúng tôi đang chỉ ra rằng chúng tôi muốn kết nối đến một máy chủ World Wide Web trên
+máy chủ đó và mong đợi giao tiếp với máy chủ đó bằng cách sử dụng Siêu Văn bản
+Giao thức vận chuyển.
+
+Tóm tắt
+-----
+
+Toàn bộ mục đích của ba lớp dưới (Transport, Internetwork, và
+Liên kết là làm cho nó để các ứng dụng chạy trong lớp ứng dụng có thể
+tập trung vấn đề ứng dụng cần được giải quyết và để lại
+Hầu như tất cả sự phức tạp của việc di chuyển dữ liệu qua mạng
+Điều khiển bởi các lớp thấp hơn của mô hình mạng.
+
+Bởi vì cách tiếp cận này làm cho nó rất đơn giản để xây dựng các ứng dụng mạng, chúng tôi
+đã thấy rất nhiều ứng dụng mạng bao gồm trình duyệt web, thư điện tử
+ứng dụng, trò chơi điện tử mạng, ứng dụng điện thoại mạng và
+rất nhiều người khác. Và điều thú vị hơn là nó dễ dàng để thí nghiệm
+và xây dựng các loại ứng dụng mạng mới để giải quyết các vấn đề mà
+Chưa được tưởng tượng.
+
+Bản chú giải
+---------
+
+Ngôn ngữ đánh dấu chữ cao. Name
+văn bản sử dụng thẻ được bao quanh bởi ít hơn và lớn hơn nhân vật.
+Ví dụ HTML trông giống:\ <p\> Đây là</i></i></i>Biểu tượng mạnh.</i></i>
+
+Giao thức vận chuyển đa văn bản. Giao thức lớp ứng dụng
+mà cho phép trình duyệt web lấy tài liệu web từ máy phục vụ web.
+
+Giao thức truy cập Internet. Một giao thức cho phép
+Khách hàng để đăng nhập và lấy thư từ máy chủ tài khoản IMAPP.
+
+** kiểm soát dòng chảy**: Khi một máy tính gửi đi chậm lại để làm
+Chắc chắn nó không lấn át mạng lưới hoặc máy tính đích.
+Điều khiển luồng cũng khiến máy tính gửi để tăng tốc độ dữ liệu
+được gửi khi nó chắc chắn rằng máy tính đích và mạng có thể xử lý
+Tỷ lệ dữ liệu nhanh hơn.
+
+**sopet**: Một thư viện phần mềm có trong nhiều ngôn ngữ lập trình
+mà tạo ra kết nối mạng và trao đổi dữ liệu
+gần như dễ dàng như mở và đọc một tập tin trên máy tính của bạn.
+
+**status code**: Một khía cạnh của giao thức HTTP chỉ ra tổng thể
+Thành công hay thất bại khi yêu cầu một tài liệu. Người nổi tiếng nhất
+Mã trạng thái HTTP là "404", đó là cách một máy chủ HTTP nói một
+Trình khách HTTP (tức là một trình duyệt) mà nó đã yêu cầu tài liệu
+Không tìm thấy.
+
+**telnet**: Name
+đến các tổ hợp địa chỉ/ cổng khác nhau và cho phép gõ dữ liệu được gửi qua
+kết nối. Vào những ngày đầu của Internet, người ta dùng telnet
+để đăng nhập từ xa vào máy tính qua mạng.
+
+**web - trình duyệt**: Một ứng dụng khách mà bạn chạy trên máy tính
+để lấy và hiển thị các trang web.
+
+**web server**: Một ứng dụng cung cấp (phục vụ lên) trang web
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+Lớp nào ở ngay dưới lớp ứng dụng?
+a) Vận chuyển
+b) Làm việc trên Internet
+c) Lớp liên kết
+d) Lớp Obtose
+
+Loại tài liệu nào được dùng để miêu tả rộng rãi
+Giao thức lớp ứng dụng?
+a) DHCP
+b) RFC
+c) APPDOC
+d) Page size
+
+3. Ý tưởng nào được phát minh trong lớp học ứng dụng?
+a) 0f:2a:b3:1f:b3:1a
+b) 192.168.3.14
+c) www.khanacademy.com
+d) http://www.dr-chuck.com /
+
+4 trong số đó không phải là lớp ứng dụng
+
+Lo lắng?
+a) Cho dù máy khách hay máy chủ bắt đầu nói chuyện trước
+b) Định dạng các lệnh và đáp ứng trao đổi qua ổ cắm
+c) Kích cỡ cửa sổ thay đổi như thế nào khi dữ liệu được gửi qua ổ cắm
+d) Dữ liệu được thể hiện như thế nào khi nó được gửi qua mạng tới
+Đảm bảo tính tương tác.
+
+Trong số này có giao thức lớp ứng dụng?
+a) HTTP
+b) TCP
+c) DHCP
+d) Ethernet
+
+6, cảng nào thường được dùng để nói chuyện với một máy chủ web?
+a) 23
+b) 80
+c) 103
+d) 143
+
+7. Lệnh mà trình duyệt web gửi cho máy chủ web là gì?
+để lấy lại một tài liệu web?
+a) RTR
+b) Bộ Tư liệu
+c) 404
+d) get
+
+8 Mục đích của "kiểu đối xứng" là gì khi bạn
+
+lấy một tài liệu qua giao thức web?
+a) Cho trình duyệt biết cách hiển thị tài liệu đã lấy
+b) Cho trình duyệt biết phải đi đâu nếu không tìm thấy tài liệu
+c) Nói cho trình duyệt biết tài liệu đã lấy có trống hay không
+c) Cho trình duyệt biết kết thúc ở đâu và nội dung bắt đầu
+
+9 Lệnh UNIX thông thường có thể dùng để gửi lệnh đơn giản cho
+
+Máy chủ mạng?
+a) ftp
+b) ping
+c) vết
+d) ttelnet
+
+10 Một mã status HTTP là gì?
+
+a) Tài liệu đã di chuyển
+b) khôi phục tài liệu thành công
+c) Lỗi giao thức
+d) Không tìm thấy tài liệu
+
+11. Các ký tự nào được dùng để đánh dấu các tài liệu HTML?
+a) Ít hơn và lớn hơn dấu hiệu < >
+b) Phát tán điểm!
+c) Hình vuông [ ]
+d) dấu ngoặc nhọn
+
+12 Một phương thức áp dụng thông thường cho việc lấy thư là gì?
+
+a) RFC
+b) HTML
+c) ICAN
+d) IMAP
+
+13 Giao thức áp dụng RFC15 mô tả như thế nào?
+
+a) telnet
+b) ping
+c) vết
+d) www
+
+14. Điều gì xảy ra cho một ứng dụng máy phục vụ gửi một lớn
+Tập tin khi lớp TCP đã gửi đủ dữ liệu để điền vào kích cỡ cửa sổ
+và chưa nhận được một sự công nhận?
+a) Ứng dụng này chuyển sự truyền nhiễm sang ổ cắm mới
+b) Ứng dụng sụp đổ và phải được khởi chạy lại
+c) Ứng dụng bị dừng cho đến khi máy tính từ xa chấp nhận
+mà nó đã nhận được một số dữ liệu
+d) Đường dẫn cổng gần nhất bắt đầu để bỏ gói đó
+sẽ vượt quá kích cỡ cửa sổ
+
+15 là gì?
+
+a) Một cách để thiết bị có điện không dây
+b) Cách để thiết bị có địa chỉ IP
+c) Một mục trong bảng định tuyến
+d) Một kết nối dữ liệu hai chiều giữa hai ứng dụng khách và máy chủ
+
+16 Một ứng dụng phải biết gì để tạo một kết nối ổ cắm trong phần mềm?
+
+a) Địa chỉ của máy phục vụ và số cổng trên máy phục vụ
+b) Đường dẫn giữa máy tính gốc và đích
+c) Một phần của địa chỉ IP là số mạng
+d) Kích cỡ ban đầu của cửa sổ TCP trong khi truyền
+
+Lớp vận chuyển bảo mật
+teppi82@ gmail. com
+
+\index{Transport Layer}
+.index{Layer! Vận chuyển
+Trong những ngày đầu của Internet, mạng lưới rất nhỏ và tất cả
+Các tuyến đường ở những địa điểm an toàn. Miễn là mỗi máy tính được kết nối
+để Internet tự bảo vệ khỏi những kết nối không mong muốn,
+Nó được cảm thấy rằng không cần thiết để bảo vệ dữ liệu từ tò mò mắt
+trong khi nó đang vượt qua mạng lưới.
+
+Vì vậy, liên kết, làm việc trên Internet và các lớp vận chuyển tập trung vào
+Di chuyển dữ liệu hiệu quả và giải quyết các vấn đề của quy mô lớn
+Chia sẻ mạng lưới phân phối mà không lo lắng về sự riêng tư của dữ liệu đó.
+
+Nhưng khi việc sử dụng Internet phát triển nhanh chóng vào cuối những năm 1980 và nghĩa đen
+Phát nổ khi Web trở nên phổ biến vào năm 1994, an ninh và sự riêng tư của
+Giao thông mạng trở thành vấn đề rất quan trọng để giải quyết. Khi chúng ta bắt đầu
+dùng Internet để quản lý thương mại, thẻ tín dụng và tài khoản ngân hàng
+Số điện thoại được gửi qua mạng thường xuyên, bảo vệ dữ liệu
+trở nên cần thiết. Và khi chúng tôi bắt đầu sử dụng công nghệ không dây như WiFi,
+Sự an toàn trở nên cần thiết ngay cả cho việc sử dụng Internet đơn giản nhất.
+
+\index{ Bảo mật vật lý}
+Có hai cách tiếp cận chung để bảo vệ các hoạt động mạng lưới. Đầu tiên
+Đảm bảo rằng tất cả phần cứng mạng (máy quay và liên kết) đều nằm trong
+nên không ai có thể lẻn vào.
+và theo dõi giao thông khi nó vượt qua Internet. Cách tiếp cận này không phải
+Thực tế cho hàng trăm ngàn chỉ dẫn mạng được sở hữu và hoạt động bởi
+Nhiều tổ chức khác nhau. Trong khi bạn có thể đảm bảo rằng một số
+Các nhà điều hành đường bộ tuân theo các thủ tục an ninh và chính sách nghiêm ngặt,
+Sớm muộn gì cũng có sai lầm. Và một khi WiFi được thêm vào hỗn hợp
+Và gói hàng của bạn đi qua sóng radio, một kẻ tấn công mạng có thể chỉ ngồi
+trong một quán cà phê và các gói hàng khi họ đi ngang qua không khí.
+
+Dưới những điều kiện này, giải pháp hợp lý duy nhất là mã hóa dữ liệu trong
+máy tính của bạn trước khi nó được gửi qua liên kết vật lý đầu tiên của nó, và sau đó giải mã
+dữ liệu trong máy tính đích sau khi nó đến. Sử dụng cách tiếp cận này, chúng tôi
+Giả sử một kẻ tấn công có thể thấy tất cả các gói bạn gửi, nhưng họ
+Không thể giải mã dữ liệu mà họ đã thu được. Mã hóa cũng đảm bảo
+rằng không có cách nào để thay đổi dữ liệu của bạn khi nó đang qua Internet.
+
+Mã hóa và giải mã dữ liệu
+-------------------------------
+
+\index{Sconsign}
+\index{ văn bản giải thích}
+\index{cipher text}
+Khái niệm bảo vệ thông tin vì vậy nó không thể được đọc khi nó đang tồn tại
+vận chuyển qua một trung tâm bất an là hàng ngàn năm tuổi. Các nhà lãnh đạo
+trong quân đội La Mã gửi tin nhắn mật mã cho nhau sử dụng một mã gọi là
+"Trích dẫn" Phiên bản đơn giản nhất của phương pháp này là để lấy mỗi của các
+ký tự của tin nhắn thực sự (chúng tôi gọi đây là « Văn bản giải thích » và thay đổi
+mỗi kí tự một khoảng cách cố định xuống bảng chữ cái để sản xuất
+Gửi tin nhắn hay "trích dẫn".
+
+Sau đó, chúng tôi gửi các mật mã văn bản thông qua người đưa thư hoặc các bất an vận chuyển đến
+Người kia. Người đưa thư không thể đọc thông điệp vì nó xuất hiện
+là những nhân vật ngẫu nhiên trừ khi bạn biết kỹ thuật dùng để mã hóa
+Tin nhắn.
+
+Miễn là người nhận thông điệp biết số điện thoại
+Chuyển đổi thông điệp, họ có thể bỏ thay đổi các ký tự trong thông điệp đã mã hóa
+để sao chép thông điệp gốc.
+
+Dưới đây là một ví dụ đơn giản về văn bản và mật mã bằng cách sử dụng một chuyển một:
+
+Chữ thường: Đi đến dòng sông
+Văn bản mật mã: Hp up uif sjwfs
+
+\index}
+\index{decrypt}
+Chúng tôi sử dụng từ "giải mã" để mô tả chuyển đổi văn bản đơn giản thành
+Mật mã và mật mã để mô tả quá trình đảo ngược.
+
+Mật mã Caesar rất đơn giản để đánh bại, nhưng nó được dùng để bảo vệ
+Thông điệp quan trọng cho đến 150 năm trước. Kỹ thuật mã hóa hiện đại
+nhưng tất cả
+Hệ thống mã hóa phụ thuộc vào một số loại chìa khóa bí mật mà cả hai bên là
+Nhận thức được để họ có thể giải mã dữ liệu.
+
+Hai loại bí mật
+---------------------
+
+\index{shared bí mật}
+Cách truyền tin truyền thống để mã hóa là sử dụng một
+Bí mật chung (một mật khẩu, một câu, một số) mà chỉ gửi và
+nhận được bữa tiệc biết. Với bí mật, thật dễ để giải mã người nhận.
+dữ liệu, nhưng nếu bạn nhận được dữ liệu mà không sở hữu bí mật, nó sẽ được
+không thể giải mã thông điệp.
+
+[Shared so sánh nghịch lý phím bất đối xứng](../sketchnote/Shared vs A đấu thủ)
+
+Trong những ngày đầu của Internet, hai người có thể gửi email mật mã đến mỗi người
+Người kia gọi điện cho người kia và đưa cho họ
+Bí mật giải mã. Điều này làm việc tốt khi chỉ có một vài người dùng trên
+mạng lưới, nhưng không thể quy mô đến những tình huống mà công ty có thể có hàng triệu
+của khách hàng và không thể đủ khả năng để thực hiện một cuộc gọi điện thoại cho mỗi khách hàng để
+Hãy tạo một bí mật chung trước khi họ có thể mua.
+
+Nó có vẻ là một ý tưởng tốt để phân phối các bí mật chung trên
+Internet, nhưng nếu chúng ta giả định rằng những kẻ tấn công đang theo dõi và bắt giữ tất cả
+Giao thông mạng, họ cũng có thể thu được thông điệp chưa mã hóa chứa
+bí mật chung. Tại thời điểm đó nó sẽ là tầm thường đối với kẻ tấn công
+sử dụng bí mật chung để giải mã một thông điệp. Và tệ hơn nữa, kẻ tấn công có thể
+Ngăn chặn một thông điệp, trì hoãn nó, sau đó giải mã nó, thay đổi và mã hóa nó, và
+Gửi thông điệp đã được sửa đổi trở lại. Máy tính nhận được sẽ
+Giải mã thông điệp và không bao giờ biết rằng nó đã bị sửa đổi bởi một
+Kẻ tấn công trong lúc đang trên đường đi.
+
+Vì vậy, chia sẻ bí mật rõ ràng sẽ không giải quyết được vấn đề bảo vệ
+Giao thông mạng giữa hàng tỷ cặp máy tính mạng.
+
+\index{Một khóa đối xứng}
+\index{pate key}
+\index{ Phím công cộng}
+Giải pháp này đến từ những năm 1970 khi khái niệm về sự đối xứng
+Mã hóa phím đã được phát triển. Ý tưởng về mã hóa phím đối xứng là
+Một phím được dùng để mã hóa thông điệp và một phím khác được dùng để giải mã nó.
+Máy tính sẽ nhận dữ liệu đã mã hóa chọn cả hai
+chìa khóa mã hóa và khoá giải mã. Sau đó chìa khóa mã hóa được gửi đến
+máy tính sẽ gửi dữ liệu. Name
+dữ liệu và gửi qua mạng. Máy tính nhận được sử dụng
+Chìa khóa giải mã để giải mã dữ liệu.
+
+Chúng tôi gọi chìa khóa mã hóa là chìa khóa "công cộng" vì nó có thể được chia sẻ rộng rãi.
+Chúng tôi gọi chìa khóa giải mã là chìa khóa " cá nhân" vì nó không bao giờ rời khỏi
+Máy tính nơi nó được tạo ra. Tên khác cho phím đối xứng là
+Phím công cộng/ cá nhân.
+
+Toàn bộ quá trình được thiết kế để nếu một kẻ tấn công có chìa khóa công cộng (mà
+đã được gửi chưa mã hóa) và văn bản đã mã hóa, hầu như không thể nào
+Giải mã dữ liệu đã được mã hóa. Có rất nhiều toán học với số nguyên tố lớn
+Điều đó làm cho nó khó đoán chìa khóa riêng tư từ công cộng và mã hóa
+dữ liệu.
+
+Vì vậy với sự ra đời của công nghệ chủ chốt công cộng/ cá nhân, câu hỏi duy nhất còn lại
+là cách áp dụng nó vào mô hình mạng lưới của chúng tôi.
+
+Lớp ổ cắm bảo mật (SSL)
+---------------------------
+
+\index{Secure Socket Layer}
+\index{SSL}
+\index{TLLS}
+\index{Transport Security}
+Kể từ khi các kỹ sư mạng quyết định tăng cường an ninh gần 20 năm sau Internet
+Giao thức đã được phát triển, điều quan trọng là không phá vỡ bất kỳ Internet nào đã có
+Giao thức hoặc kiến trúc. Giải pháp của họ là thêm một lớp phần tùy chọn
+giữa lớp vận chuyển và lớp ứng dụng. Họ gọi nó là
+Lớp bộ phận bảo mật lớp (SSL) hay lớp bảo mật vận chuyển (TLS).
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Ann, Yuki, Phương The Vampire3X Subteam
+
+Khi một ứng dụng yêu cầu lớp vận chuyển kết nối
+máy ở xa, nó có thể yêu cầu kết nối được mã hóa hoặc
+Không mã hóa. Nếu yêu cầu kết nối được mã hóa, lớp vận chuyển
+Đã mã hóa dữ liệu trước khi chia dòng thành gói. Điều này có nghĩa là
+lớp vận chuyển, lớp làm việc trên Internet, và các lớp vật lý (link) vẫn có thể
+Thực hiện chính xác cùng một cách cho dù các gói đã được mã hóa hay
+Không mã hóa. Các ứng dụng làm cho các kết nối cũng phụ thuộc các
+Chi tiết về cách mã hóa và giải mã hoạt động.
+
+Vì mã hóa là một phần bổ sung đơn giản và trong suốt cho lớp vận chuyển,
+không cần phải thay đổi các rmen hoạt động tại Internet và
+Các lớp liên kết. Không cần thay đổi bất kỳ phần cứng lớp Link nào để làm
+Công việc mã hóa. Và ứng dụng không cần phải được sửa đổi ngoại trừ
+yêu cầu mật mã kết nối khi thích hợp.
+
+Name
+-------------------------------
+
+\index{htps}
+Vì các trình duyệt web và máy phục vụ web hoạt động ở lớp ứng dụng, nên chúng tôi hầu như không
+thông báo cho dù chúng tôi đang sử dụng mã hóa hoặc không mã hóa kết nối. Trình duyệt web
+sử dụng địa chỉ URL để thay thế "htp:" với "htops:" để ngụ ý rằng
+Bộ duyệt là để liên lạc với máy phục vụ web bằng lớp vận chuyển bảo mật
+Thay vì lớp vận chuyển không mã hóa. Trình duyệt của bạn thường sẽ hiển thị một
+Biểu tượng " Khóa" trong thanh địa chỉ để cho bạn biết rằng bạn đang liên lạc với
+Một trang web bảo mật.
+
+Có một chi phí nhỏ trong việc thiết lập kết nối https và một chi phí nhỏ
+mã hóa và giải mã dữ liệu đang được gửi đi. Bởi vì https là chút
+chi phí hơn, trong một thời gian nó chỉ được sử dụng cho các trang có mật khẩu,
+Số tài khoản ngân hàng, hay dữ liệu nhạy cảm khác.
+
+Nhưng qua thời gian, mạng lưới đã trở nên nhanh hơn và việc thực hiện https đã
+trở nên hiệu quả hơn nhiều, có một xu hướng mã hóa tất cả các máy phục vụ mạng
+Tương tác khi bạn tương tác với một máy chủ web nơi bạn có một
+tài khoản. Hiện nay xu hướng sử dụng https cho tất cả các giao thông web.
+
+Chứng nhận và chứng nhận
+-----------------------------------------------------
+
+\index{CA}
+\index{Chính thức uy quyền}
+Trong khi công cộng/ cá nhân mã hóa phím hoạt động để cho phép phân phối
+của phím mã hóa trên mạng không an toàn và sử dụng các phím đó
+để mã hóa thông tin, vẫn còn một vấn đề phải biết liệu
+Phím công cộng mà bạn đã nhận được khi bạn kết nối đến máy phục vụ là
+Thực sự từ tổ chức mà nó tuyên bố là từ.
+
+Dịch bởi Vũ Hạnh, Mai Linh, Nga, Huy Tô, Yuki, Ann, Phương
+
+Có lẽ bạn nghĩ rằng bạn đang kết nối với www.mazon.com nhưng một máy tính giả
+ngăn chặn giao thông của bạn, tuyên bố là www.mazon.com và cung cấp cho bạn một công chúng
+Chìa khóa để dùng để mã hóa. Nếu trình duyệt web tin vào chìa khóa,
+nó sẽ sử dụng chìa khóa công cộng của máy tính để mã hóa thông tin ngân hàng của bạn
+Và gửi nó đến máy tính giả. Kể từ khi máy tính bẩn đã đưa cho bạn
+Phím công cộng, nó cũng có chìa khóa tương ứng và có thể giải mã
+và bỏ qua thông tin ngân hàng.
+
+\index{ Chữ ký số}
+\index{ Phím ký}
+Vì vậy, máy tính của bạn cần biết ai là chìa khóa thực sự đến từ. Đây là
+đạt được bằng cách gửi cho bạn một khóa công cộng được ký bởi chứng nhận
+Uy quyền (CA). Khi máy tính hay trình duyệt của bạn được cài đặt đầu tiên, nó biết
+về một số nhà chức trách chứng nhận nổi tiếng. Nếu trình duyệt của bạn được đưa ra
+Một chìa khóa công cộng được ký bởi một trong những nhà chức trách chứng nhận nổi tiếng,
+Nó tin vào chìa khóa và sử dụng nó để mã hóa và gửi dữ liệu của bạn. Nếu máy tính của bạn
+Nhận một phím công cộng không được ký bởi một trong những chứng nhận tin cậy của nó
+Chính quyền, nó sẽ cảnh báo bạn trước khi gửi dữ liệu của bạn bằng chìa khóa.
+
+Nếu bạn thấy một thông điệp cảnh báo về một chứng nhận không đáng tin cậy, bạn nên
+có lẽ nói "không" và tìm hiểu tại sao giao thông mạng của bạn không được định tuyến
+để máy chủ mà bạn nghĩ rằng nó sẽ được thực hiện trước khi gửi bất kỳ dữ liệu nhạy cảm.
+
+Tóm tắt
+-----
+
+Vì Internet đã gần 20 tuổi trước khi chúng tôi cần lắp đặt rộng rãi
+An ninh, chúng tôi phải tìm cách để tăng cường an ninh cho những người đã có sẵn.
+Người mẫu 4 máy. Nơi hoàn hảo để thêm an ninh là một lựa chọn trong
+Lớp vận chuyển. Đây là lý do tại sao chúng tôi gọi cho kết nối an toàn trên Internet
+"Secure Socket Lớp" (SSL) hoặc "Transport class Security" (TLSS). Đó
+là sự khác biệt tinh tế giữa SSL và USD nhưng cả hai đều mã hóa dữ liệu
+ở lớp vận chuyển.
+
+Việc phát minh ra mật mã chủ chốt công cộng/ cá nhân là đúng thời gian để giải quyết vấn đề
+vấn đề phân phối chủ yếu của cách tiếp cận mật mã chia sẻ. Với
+Các phím công cộng/ độc lập, phím mã hóa công cộng có thể được thường xuyên chia sẻ trên
+Truyền thông bất an. Điều này có nghĩa là chúng tôi có thể sử dụng một kết nối không mã hóa để trao đổi
+dữ liệu và nâng cấp kết nối tới một kết nối bảo mật.
+
+Bằng cách chèn lớp bảo mật ở trên lớp vận chuyển, chúng tôi đã có thể
+tránh thay đổi ứng dụng, làm việc Internet và liên kết lớp trong khi vẫn còn
+Dễ dàng bảo vệ bất kỳ kết nối lớp vận chuyển nào. Cách này
+Đảm bảo rằng tất cả dữ liệu được gửi qua một kết nối được mã hóa trước khi nó
+Để lại máy tính. Cho rằng nhiều người trong chúng ta sử dụng kết nối không dây như WiFi,
+là một ý tưởng tốt để mã hóa dữ liệu
+trước khi nó được gửi qua WiFi.
+
+Các trình duyệt hỗ trợ kết nối bảo mật bằng cách thay đổi tiền tố trên URL
+từ "http:" đến "htops:". Bằng cách giữ mắt trên URL, người dùng cuối có thể làm
+Đảm bảo họ không bao giờ gửi dữ liệu nhạy cảm qua các kết nối không an toàn. Một loạt
+Nhà cầm quyền chứng nhận uy tín sẽ ký khóa công cộng để đưa
+bạn bảo đảm rằng chìa khóa bạn nhận được là từ tổ chức
+Anh cũng nghĩ vậy.
+
+Thiết kế của lớp vận tải bảo mật cung cấp một an toàn nhưng dễ sử dụng
+Cơ chế để liên lạc an toàn trên Internet với quy mô hàng nghìn tỷ
+hai máy tính tương tác.
+
+Bản chú giải
+---------
+
+**Một phím đối xứng**: Một phương pháp mã hóa nơi dùng phím (công cộng)
+để mã hóa dữ liệu trước khi truyền đi và một phím khác (phụ kiện) được dùng
+Dữ liệu giải mã khi nó được nhận.
+
+**Chính quyền cấp cao**: Name
+Sau khi xác minh rằng tên được liệt kê trong phím công cộng thực sự là người
+hoặc tổ chức sở hữu chìa khóa công cộng.
+
+**ciphertext**: Name
+biết chìa khóa và kỹ thuật giải mã.
+
+**Recrypt**: Hành động chuyển đổi một thông điệp mật mã thành một tin nhắn đơn giản
+sử dụng một bí mật hoặc chìa khóa.
+
+**Brime**: Name
+sử dụng một bí mật hoặc chìa khóa.
+
+** giải thích văn bản**: Một thông điệp có thể đọc được sắp được mã hóa trước khi được gửi đi.
+
+** Phím rirvate**: Phần của một cặp chìa khóa dùng để giải mã sự truyền nhiễm.
+
+** Phím công cộng**: Phần của một cặp chìa khóa dùng để mã hóa thông tin.
+
+**shared bí mật**: Một cách tiếp cận để mã hóa sử dụng cùng một phím cho mã hóa
+và giải mã.
+
+Lớp ổ cắm bảo mật. Một cách tiếp cận cho phép một ứng dụng
+yêu cầu kết nối lớp vận chuyển sẽ được mã hóa như nó
+Vượt qua mạng lưới. Tương tự như bảo mật lớp vận chuyển (TLS).
+
+Bảo vệ lớp vận chuyển. Một cách tiếp cận cho phép một ứng dụng
+yêu cầu kết nối lớp vận chuyển sẽ được mã hóa như nó
+Vượt qua mạng lưới. Tương tự với lớp ổ cắm bảo mật (SSL).
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1. làm thế nào để chúng tôi cho thấy chúng tôi muốn một kết nối an toàn khi sử dụng một
+Trình duyệt web?
+a) Dùng thư mục https bật trong URL
+b) Dùng một trình duyệt web bảo mật
+c) Mở cửa sổ ẩn danh
+d) Bằng tay mã hóa địa chỉ của máy phục vụ bằng cách sử dụng ir1
+
+Tại sao một phương pháp bí mật chia sẻ không thích hợp để sử dụng trên Internet?
+a) Bởi vì người ta sẽ mất hoặc đặt sai chỗ
+b) Khó mà phân phát những bí mật
+c) Mã hóa và giải mã với những bí mật chung quá dễ dàng bị phá vỡ
+d) Mã hóa và giải mã với những bí mật chia sẻ mất quá nhiều sức mạnh tính toán
+
+3. Các khái niệm toán học ẩn làm cho khóa công cộng/ cá nhân
+Mã hóa an toàn?
+a) Các chức năng liên tục
+b) Chuỗi Taylor
+c) Bản đồ Karnaugh
+d) Số nguyên tố
+
+4 phím nào có thể gửi qua Internet mà không cần
+
+Phá vỡ an ninh?
+a) Khóa mã hóa
+b) Khóa giải mã
+c) Bí mật chia sẻ
+d) Khóa an toàn không ngăn cản (USK)
+
+5. Lớp ổ cắm bảo mật (SSL) phù hợp ở đâu
+Kiến trúc mạng 4 tầng?
+a) Dưới lớp liên kết
+b) Giữa các lớp liên kết và Internet
+c) Giữa các lớp làm việc trên Internet và các lớp vận chuyển
+d) Giữa các lớp vận chuyển và ứng dụng
+
+Nếu bạn đã sử dụng https trong một trình duyệt trên WiFi trong một quán cà phê,
+Đó là rủi ro lớn nhất cho sự mất mát của bạn
+Thông tin về thẻ khi mua hàng trực tuyến?
+a) Ai đó đã bắt được những gói tin được gửi qua Internet
+b) Một người nào đó đã bắt được gói tin trong đường dẫn ra cổng
+c) Ai đó đã bắt được gói tin khi họ đi qua một đường dẫn đồ họa lõi
+d) Bạn có một con virus trên máy tính của bạn đang nắm bắt phím
+
+7. Lớp Socket bảo mật được mã hóa và giải mã ở đâu?
+a) Chúng được mã hóa và giải mã khi chúng đi qua bộ định tuyến
+b) Mỗi liên kết vật lý có mã hóa riêng
+c) Chúng được mã hóa trong máy tính của bạn và được giải mã trong máy chủ
+d) Chúng được mã hóa trong cổng WiFi và được giải mã trong
+bộ chỉ đường cuối trước máy tính đích
+
+8 Điều gì thay đổi lớp IP để đảm bảo an toàn
+
+Lớp ổ cắm (SSL) làm việc?
+a) Không cần thay đổi
+b) Chúng tôi đã phải thêm hỗ trợ cho IP bảo mật (IPEC)
+c) Chúng tôi cần phải hỗ trợ gói dài hơn trong IP
+d) Giá trị Time-To-Live (TTL) cần được mã hóa
+
+9. Nếu một yếu tố đảo ngược có thể theo dõi tất cả gói đang đi qua một
+cáp dưới biển và anh đã sử dụng mật mã công cộng/ cá nhân đúng cách,
+Điều nào là khó nhất cho họ?
+a) Bạn đã liên lạc với máy chủ nào
+b) Bạn thường dùng máy phục vụ
+c) Bao nhiêu dữ liệu bạn lấy từ máy chủ
+d) Tài liệu nào bạn lấy từ máy chủ
+
+10 Mục đích của một giấy chứng nhận ở nơi công cộng/ cá nhân
+
+Mã hóa chìa khóa?
+a) Để đảm bảo rằng người ta không giả huy hiệu cho các hoạt động học tập
+b) Để chắc chắn gói tin sẽ được chuyển đến máy tính đích đúng
+c) Để đảm bảo với chúng tôi rằng một chìa khóa công cộng đến từ tổ chức mà nó tuyên bố là từ
+d) Để chọn khi nào một quốc gia nhất định phải chuyển từ IPv4 sang IPv6
+
+Mạng ARPANAT bắt đầu hoạt động từ những năm 1960. Bảo mật
+Lớp ổ cắm không được phát minh vào những năm 1980. Làm thế nào mà chiếc ARPANAT
+để đảm bảo an toàn cho dữ liệu trên mạng?
+a) Bằng cách sử dụng các khóa công cộng/ cá nhân và mã hóa mọi thông tin
+b) Bằng cách dùng mã hóa tại lớp liên kết
+c) Bằng cách đảm bảo không ai có thể truy cập các liên kết vật lý
+d) Chỉ bằng cách sử dụng các đường dẫn WiFi bảo mật
+
+12 câu trả lời là "Sự tin tưởng rất thú vị" được mã hóa bằng Caesar.
+
+Đổi mật mã 1.
+
+a) Ptsjduao rt dii
+b) Vănnudhs di dju
+c) Tfdvsjuz jt gvo
+d) Asdfghjk qw zxc
+
+Số 13 mà Caesar Code được dùng để mã hóa "V yvxr frphevgl"?
+
+a) 1
+b) 6
+c) 13
+d) 24
+
+Mô hình hệ điều hành
+===Cấp lánh
+
+Cho đến nay chúng tôi đã dành tất cả thời gian của chúng tôi mô tả bốn người máy
+sử dụng để thiết kế và thực hiện giao thức TCP/IP và ứng dụng mà
+tạo ra Internet. Tuy nhiên, mô hình TCP/IP không phải là mô hình duy nhất
+chúng ta có thể sử dụng để giúp chúng ta hiểu cách các mạng lưới hoạt động. Cái kia.
+Mô hình thường được dùng để làm cho ý nghĩa của thiết kế mạng được gọi là
+Mô hình Giao thoa Hệ thống Mở (OSI) Trong khi mô hình TCP/IP
+đã được thiết kế và tiến hóa khi giao thức TCP/IP được phát triển,
+triển khai, và thay đổi, mô hình hệ điều hành là kết quả của một thiết kế cẩn thận
+Quá trình của nhiều chuyên gia mạng những người làm việc để phát triển chung
+Tiếp cận với mô hình mạng.
+
+Trong thế giới mạng ngày nay, mô hình hệ điều hành và mô hình TCP/I phục vụ hai
+Các mục đích khác nhau. Trước năm 1990,
+có * các hoạt động mạng dựa trên các đặc tả ISO
+Nó theo sát mô hình mạng OSI. Nhưng hôm nay, những ISO/OSI
+Mạng thực hiện không còn được sử dụng rộng rãi.]
+Mô hình TCP/IP là một mô hình để cung cấp
+hướng dẫn cho những người xây dựng phần cứng mạng TCP/P tương thích
+hoặc phần mềm. Mô hình hệ điều hành giống như mô hình "abstract" hơn
+có thể sử dụng để hiểu một loạt các cấu trúc mạng lưới.
+
+Trong khi TCP/IP là công nghệ mạng được sử dụng rộng rãi nhất ngày nay, nhiều người
+Name
+Trong suốt 50 năm qua. Và khi chúng ta tiếp tục cải tiến và phát triển mạng lưới,
+Mô hình thực hiện mới có thể xuất hiện.
+
+Mô hình hệ điều hành có bảy lớp thay vì bốn lớp
+Mô hình TCP/IP. Bắt đầu từ dưới đáy
+Kết nối) của mô hình hệ điều hành, các lớp là: (1) Vật lý, (2) Dữ liệu
+Liên kết, (3) Mạng, (4) Chuyến đi, ( 5) Phiên chạy, Hội nghị,
+và ( 7) Ứng dụng. Chúng tôi sẽ xem xét mỗi lớp trong mô hình hệ điều hành
+Rồi bắt đầu với lớp học.
+
+Thể chất (Layer 1)
+---------------------
+
+Lớp vật lý hệ điều hành xử lý các thuộc tính vật lý của các
+đó là
+sử dụng để chuyển dữ liệu qua một liên kết duy nhất. Lớp thể chất cũng
+định nghĩa hình dạng của các liên kết và loại phương tiện có thể sử dụng.
+Một vấn đề khác được giải quyết ở lớp này là làm thế nào để mã hóa các bit
+(0 và 1) mà tạo nên dữ liệu được gửi qua
+trung bình.^[" Bảng mãManchester" là một kỹ thuật phổ biến cho mã hóa
+bit để truyền qua một dây.]
+Bộ mã "bit" (hay chuyển đổi) quyết định dữ liệu nhanh cỡ nào
+có thể gửi qua đường dẫn.
+
+Liên kết Dữ liệu (Layer 2)
+-----------------------
+
+Lớp liên kết dữ liệu hệ thống quan tâm đến cách sử dụng
+liên kết thể chất với nhau. Khi dữ liệu bị hỏng
+vào gói, lớp dữ liệu liên kết định nghĩa chuỗi đặc biệt đến
+Cho thấy sự khởi đầu và kết thúc của mỗi gói. Các trạm
+Name
+để cho phép sử dụng hiệu quả các phương tiện truyền thông. Đôi khi có nhiều trạm
+đang chia sẻ cùng phương tiện (như trên mạng không dây) và các
+Lớp liên kết dữ liệu định nghĩa các trạm sẽ chia sẻ các kết nối
+kết nối đến mạng. Liên kết Dữ liệu Phần lớn
+Các lớp cũng có một số hình thức của tổng kiểm tra để phát hiện và/hoặc chính xác cho
+lỗi trong dữ liệu được truyền.
+
+Vấn đề thiết kế được giải quyết trong các lớp liên kết vật lý và dữ liệu.
+Mô hình hệ điều hành được chỉ định bởi lớp Link của mô hình TCP/I.
+
+Mạng (Layer 3)
+---------------------
+
+Như lớp làm việc Internet (IP) trong mô hình TCP/IP, hệ điều hành
+Lớp mạng xử lý nhiệm vụ toàn cục của "Gấu"
+địa chỉ tới nhiều hệ thống kết nối đến mạng. Hạt
+Lớp mạng quản lý các gói định tuyến qua nhiều
+nhảy từ nguồn đến đích. Giống như IP
+lớp, lớp hệ điều hành không cố gắng để được miễn phí,
+giả định rằng dữ liệu bị mất sẽ được phát hiện và chuyển đổi tại
+lớp tiếp theo.
+
+Vận chuyển (Layer 4)
+-----------------------
+
+Các lớp vận chuyển trong mô hình hệ điều hành quản lý mất gói và
+Chuyển đổi cũng như điều khiển dòng chảy và kích cỡ cửa sổ. Hạt
+Phần còn lại của chức năng của lớp giao thông TCP/IP đã được xử lý
+
+trong lớp học của mô hình hệ điều hành.
+
+Phiên chạy (Layer 5)
+---------------------
+
+Lớp phiên chạy hệ thống xử lý các kết nối giữa
+ứng dụng. Lớp phiên chạy đối phó với "Các thể thao" để mà một
+kết nối ứng dụng khách có thể "tìm" máy phục vụ đúng
+ứng dụng vào một hệ thống đặc biệt. Một số khía cạnh của sự an toàn
+Việc truyền tải cũng được xử lý trong lớp học phiên chạy OSI.
+
+Trình chiếu (Layer 6)
+-------------------------
+
+Lớp trình diễn tập trung vào cách mà dữ liệu được đại diện và
+Được mã hóa để truyền tín hiệu qua mạng. Ví dụ,
+Lớp trình diễn sẽ mô tả cách mã hóa các điểm ảnh
+ảnh để ứng dụng nhận có thể đúng
+Giải mã dữ liệu. Lớp trình diễn cũng xử lý dữ liệu
+Mã hóa và giải mã.
+
+Ứng dụng (Layer 7)
+-------------------------
+
+Lớp ứng dụng Comment
+Trong mô hình TCP/IP, nó chứa các ứng dụng.
+Một số ứng dụng là ứng dụng khách hàng để bắt đầu kết nối,
+và các ứng dụng khác là các ứng dụng máy chủ đáp ứng
+những yêu cầu kết nối. Các cặp ứng dụng khác nhau
+có tiêu chuẩn giao thức xác định khả năng tương tác giữa nhiều người
+Khách hàng và nhiều máy chủ từ các nhà cung cấp khác nhau.
+
+[Làm xong các mô hình TCP và hệ điều hành] (../ Images/iso-tcp)
+
+So sánh các mô hình hệ điều hành và TCP/IP
+---------------------------------------
+
+Chúng tôi có thể sử dụng mô hình hệ điều hành để cung cấp một "xem" thay thế của các
+Mô hình TCP/IP bằng cách so sánh mô hình hệ thống phá vỡ như thế nào
+Hoạt động vào các lớp của nó và cách mô hình TCP/IP phá vỡ
+chức năng của nó thành nhiều lớp.
+
+Liên kết Lớp (TCP/IP)
+---------------------
+
+Lớp TCP/IP liên kết kết kết kết kết kết hợp các lớp vật lý và dữ liệu liên kết
+Từ mô hình hệ điều hành. Các lớp liên kết vật lý và dữ liệu thường
+Thực hiện trong phần cứng. Sản phẩm như Ethernet, WiFi, vệ tinh,
+hoặc sợi quang thường được thực hiện trong một thẻ điều khiển mạng mà
+cắm vào phía sau máy tính hoặc bộ định tuyến. Trình điều khiển mạng
+Thẻ thường thực hiện cả mặt vật lý lẫn khía cạnh liên kết dữ liệu
+kết nối phần cứng trên thẻ. Trong hầu hết các trường hợp, dữ liệu
+Các lớp liên kết được điều chỉnh theo những giới hạn và yêu cầu của chúng
+Những lớp vật lý tương ứng. Vì vậy, trong hệ thống thực tế, nó là phần nào
+hiếm cho một lớp dữ liệu đặc biệt liên kết để được tự do kết hợp với
+bất kỳ số lớp nào. Bởi vì nó có thể khó khăn để tách
+Các khía cạnh vật lý và dữ liệu liên kết cho công nghệ liên kết,
+Mô hình TCP kết hợp chúng thành một lớp đơn giản.
+
+Lớp làm việc Internet (TCP/IP)
+-----------------------------
+
+Một nơi mà bản đồ khá sạch sẽ giữa hai mô hình là
+Các lớp mạng giả lập và TCP/IP. Họ biểu diễn
+Cùng chức năng tạo ra không gian địa chỉ toàn cầu và
+Xây dựng các tuyến đường để đảm bảo gói hàng đó tìm đúng cách
+từ nguồn đến điểm đến xuyên qua nhiều chuyến nhảy.
+
+Lớp vận chuyển (TCP/IP)
+-------------------------
+
+Các tính năng của lớp vận chuyển trong TCP/IP được lan rộng qua
+Các lớp vận chuyển và phiên chạy của mô hình hệ điều hành. Giao thông qua hệ điều hành
+lớp đối phó với kiểm soát dòng chảy và tái truyền tải gói,
+Trong khi lớp trình bày hệ điều hành xử lý nhiều ứng dụng
+chạy trên nhiều cổng cũng như thiết lập phiên chạy và phá hủy.
+
+Lớp ổ cắm bảo mật (SSL) trong mô hình TCP/IP tương ứng
+Các phần của phiên chạy và trình diễn các lớp trong mô hình hệ điều hành.
+
+Lớp ứng dụng (TCP/IP)
+---------------------------
+
+Lớp ứng dụng TCP/IP kết hợp các khía cạnh không bảo mật của các
+Trình diễn lớp OSI và lớp chương trình OSI. Trong khi
+nhiều ứng dụng TCP/IP xử lý các vấn đề như mã hóa và giải mã
+Mô hình TCP/IP không thấy định dạng dữ liệu
+là "kẻ giết thuê" riêng biệt. Comment
+được dùng trong ứng dụng TCP/IP, nhưng TCP/IP có xu hướng điều trị chúng
+Khả năng là mã thư viện mà ứng dụng sử dụng khi cần thiết
+cho đơn xin việc.
+
+Kết thúc
+-----------
+
+Trong khi mô hình TCP/IP được mô tả trong sách này được sử dụng rộng rãi để hướng dẫn
+Việc thực hiện mạng TCP/IP, phần cứng và phần mềm,
+Mô hình hệ điều hành có thể giúp chúng ta nhìn vào và so sánh một phạm vi mạng khác nhau
+Kiến trúc từ các mạng lưới công khai đến quyền sở hữu
+Mạng lưới riêng của người bán hàng.
+
+Bản chú giải
+---------
+
+♪Người mẫuabstract**: Một mô hình và tập hợp các thuật ngữ được sử dụng chung
+hiểu một vấn đề và hướng dẫn sự phát triển của tiêu chuẩn và
+Thực hiện để giải quyết vấn đề.
+
+Mô hình tăng cường **: Một mô hình và tập hợp các thuật ngữ được sử dụng
+Hướng dẫn sự phát triển của tiêu chuẩn và thực hiện một điều cụ thể
+vấn đề.
+
+Tổ chức quốc tế tiêu chuẩn hóa. Một cơ thể toàn cầu
+mà phát triển các tiêu chuẩn về điện toán, mạng lưới và nhiều lĩnh vực khác.
+
+Mở hệ thống liên kết. Name
+thiết kế của nhiều cách tiếp cận với cấu trúc mạng.
+
+Câu hỏi
+---------
+
+Bạn có thể thực hiện bài kiểm tra trực tuyến này tại http://www.net-intro.com/quiz/
+
+1.
+
+a) Các mạng OSI được sử dụng ở Nam bán cầu
+b) Cách tiếp cận hệ điều hành có thể được dùng để phân tích nhiều mô hình mạng khác nhau
+c) Mạng OSI sử dụng băng thông giới hạn tốt hơn
+d) Các mạng OSI bảo mật hơn
+
+Có bao nhiêu lớp mô hình hệ điều hành?
+a) Bốn
+b) Sáu
+c) Bảy
+c) Chín
+
+3 Trong các lớp hệ điều hành xử lý hình dạng của các kết nối mạng lưới?
+
+a) Thể chất
+b) Liên kết dữ liệu
+c) Mạng
+d) Vận chuyển
+
+4 lớp nào tương tự nhau nhất giữa các mô hình hệ điều hành và TCP?
+
+a) Lớp liên kết TCP và lớp liên kết dữ liệu OSI
+b) Lớp làm việc Internet TCP và Lớp mạng OSI
+c) Lớp giao thông TCP và Lớp vận chuyển hệ thống OSI
+d) Lớp ứng dụng TCP và Lớp phiên chạy Comment
+
+5. Lớp nào bảo mật bản đồ Lớp ổ chuột trong mô hình mạng OSI?
+a) Lớp liên kết dữ liệu bảo mật (SDIL)
+b) Lớp mạng bảo mật (SNL)
+c) Lớp vận chuyển bảo mật (STL)
+d) Phiên chạy và trình chiếu Lớp
+
+Tại sao mô hình TCP kết hợp liên kết dữ liệu hệ điều hành và các lớp vật lý thành một lớp liên kết duy nhất?
+a) Bởi vì mô hình TCP không lo lắng về lớp vật chất
+b) Bởi vì các nhà thiết kế TCP đã bị bỏ qua tại cuộc họp OSI năm 1981 ở Utrect, Hà Lan
+c) Bởi vì khá thường xuyên thiết kế của Data Link và các lớp vật lý được kết nối chặt chẽ với một công nghệ cụ thể
+d) Để làm cho mô hình TCP dễ dàng hơn để hiểu theo cuối người dùng
+
+Cuộn lại
+teppi82@ gmail. com
+
+Người ta nói rằng xây dựng Internet giải quyết được phức tạp nhất thế giới
+Vấn đề kỹ thuật cho đến nay. Thiết kế và kỹ thuật của Internet
+Bắt đầu cách đây hơn 50 năm. Nó đã được cải thiện liên tục
+và tiến hóa trong 50 năm qua và sẽ tiếp tục tiến hóa trong tương lai.
+
+Hiện nay Internet kết nối hàng tỉ máy vi tính bằng cách sử dụng hàng ngàn tuyến đường
+và kết nối cấp độ liên kết. Internet quá phức tạp đến nỗi nó không bao giờ hoàn toàn
+Hoạt động, Internet ít nói về "hoàn hảo" và nhiều hơn về
+Thích nghi với các vấn đề, thất bại, lỗi lầm, dữ liệu bị mất và nhiều bất ngờ khác
+vấn đề. Internet được thiết kế để linh động và thích nghi với bất cứ điều gì
+Vấn đề được giải quyết.
+
+[Một mô hình 4-Layer] (... / Hình ảnh/người giảm giá)
+
+Để xây dựng một giải pháp tổng thể hiệu quả ở quy mô lớn, nó là quan trọng để
+Phân chia các vấn đề kỹ thuật Internet thành bốn lớp riêng biệt:
+
+* Lớp liên kết/Physical bao gồm tất cả các kỹ thuật phức tạp
+Cần thiết để chuyển dữ liệu qua một cửa hàng riêng lẻ, cho dù hop là một WiFi không dây,
+Kết nối Ethernet, sợi quang hay kết nối vệ tinh.
+
+* Giao thức làm việc Internet (IP) là cách thức định tuyến dữ liệu
+Vượt qua một loạt các chuyến nhảy để có được nhanh chóng và hiệu quả từ một trong một tỷ
+Máy tính nguồn cho bất kỳ máy tính đích đến nào trong hàng tỉ người. Lớp IP
+Điều chỉnh động lực và chuyển hướng dữ liệu dựa trên tải mạng, hiệu suất kết nối,
+hoặc mất mạng. Trong khi lớp IP rất đáng tin cậy và nhanh, tại
+thời gian nó mất hoặc thậm chí ném đi dữ liệu. Lớp IP không chịu trách nhiệm cho
+Đảm bảo sự đáng tin cậy của mạng lưới. Nó chỉ chuyển dữ liệu
+Tốt nhất là vậy.
+
+* Lớp vận chuyển bù đắp cho bất kỳ sự bất toàn nào trong IP
+hay lớp liên kết. Lớp vận chuyển đảm bảo rằng bất kỳ gói bị mất là
+Đã chuyển đổi và gói đến ra khỏi trật tự được đặt lại vào thứ tự
+trước khi được chuyển sang đơn xin việc. Lớp vận chuyển cũng
+hành động như kiểm soát lưu giữa gửi và nhận ứng dụng để thực hiện
+Đảm bảo rằng dữ liệu được di chuyển nhanh khi mạng nhanh và các liên kết là
+không quá tải, và để làm chậm việc truyền dữ liệu khi sử dụng chậm hơn hoặc nặng
+liên kết đã nạp. Dữ liệu lưu thông và hạn chế tốc độ trong lớp vận chuyển cho phép
+Internet sẽ tiếp tục hoạt động trơn tru ngay cả khi nó được tải nặng.
+
+* Ba lớp khác làm cho việc sử dụng mạng rất đơn giản
+cho lớp ứng dụng. Một ứng dụng có thể kết nối mạng và
+Gửi/nhận dữ liệu về sự kết nối đó chỉ với vài dòng mã. Bằng cách tạo ra
+sử dụng đơn giản mạng, ứng dụng có thể tập trung vào việc giải quyết người dùng cuối
+Họ cần giải quyết những vấn đề. Bởi vì nó rất dễ dàng cho ứng dụng sử dụng
+chúng tôi đã nhìn thấy sự xuất hiện của một rộng
+phạm vi các ứng dụng có độ sáng tạo cao mà hoạt động mà không cần thay đổi nào cần thiết
+Các giao thức Internet.
+
+Mà không phá vỡ các vấn đề kỹ thuật và xây dựng Internet vào
+Bốn lớp riêng biệt này, sẽ khó hơn rất nhiều để xây dựng và triển khai
+phiên bản chấp nhận mãi mãi của mạng lưới. Và nếu mỗi ứng dụng cần thiết
+để nhận thức đầy đủ mọi chi tiết phức tạp cần thiết để sử dụng Internet,
+nó sẽ giới hạn sự phong phú và đa dạng của các ứng dụng mạng
+chúng ta có ngày hôm nay.
+
+Thật đáng ngạc nhiên khi nhận ra những gì đã được thực hiện trong việc xây dựng Internet
+Trong suốt 50 năm qua. Nhưng theo một cách nào đó, chúng tôi chỉ mới chỉ bắt đầu kỹ thuật
+đi xây dựng mạng lưới ứng dụng. Không cần nhiều để tưởng tượng
+Internet nơi mọi công tắc đèn, bóng đèn, tủ lạnh, bàn, xe hơi,
+Con đường, máy bay không người lái, và ghế có một địa chỉ Internet và tất cả đều muốn
+Hãy liên lạc với nhau. Vấn đề kỹ thuật mới sẽ phải được giải quyết,
+Và có lẽ ngay cả mô hình mạng bốn người sẽ cần phải tiến hóa để đáp ứng những
+Thử thách kỹ thuật mới.
+
+Nhưng cũng giống như những kỹ sư tài năng được thiết kế và phát triển các giao thức mạng để
+chuyển từ hàng trăm máy tính kết nối mạng sang hàng tỷ
+Máy tính kết nối mạng, các kỹ sư hiện tại và tương lai của chúng tôi chắc chắn sẽ
+Giải quyết các vấn đề và thách thức chúng tôi sẽ đối mặt khi mạng tiến hóa để kết nối
+Hàng tỷ máy tính.
+
+\ Kiểu trang này{unty}
+
+Nguồn tư liệu
+-----
+
+Minh họa: Mauro Toselli
+Hỗ trợ biên tập: Sue Blumenberg
+Thiết kế bìa: Điểm ảnh
+
+Các hình vẽ trên một iPad được vẽ
+*Paper* by www.503.com sử dụng bút chì stylus.
+Các minh họa được chuyển từ PNG sang
+SVG và EPS định dạng véc tơ dùng www.vetor ma thuật.com.
+Những con số kỹ thuật của cuốn sách được vẽ bằng chữ OmniGlotle.
+
+Lịch sử in
+--------------- ---
+
+2015- 500-25 bản in đầu tiên - Tạo không gian
+
+Chi tiết bản quyền
+-------------------
+
+Cuốn sách này là Bản quyền Charles R. Severance.
+
+Phiên bản in của cuốn sách này được cấp bằng dưới một
+Công nghệ sáng tạo chung Atribution-NonCommericaal 4.0 Giấy phép quốc tế.
+Giấy phép được cấp đặc biệt để sao chép
+cần thiết cho tất cả hoặc một phần của các tài liệu trong cuốn sách này
+là một phần của khóa học hoặc khóa học.
+
+http://creativecommons.org/licenses/ by-c/4.0.
+
+Bản sao điện tử của sách này bằng EPBB, PDF và HTML
+được cấp bằng
+Sáng tạo chung cách phân phối 4.0 Giấy phép quốc tế.
+
+Thư mục homeComment
+
+Nếu bạn muốn dịch cuốn sách này ra một ngôn ngữ
+ngoài tiếng Anh ra, xin hãy liên lạc với tôi. Tôi sẵn sàng
+cung cấp quyền phân phối in thương mại cho toàn bộ và
+có trách nhiệm dịch.
+
+\ rõ ràng 2 trang
+
+Mặt trước
+teppi82@ gmail. com
+\ Kiểu trang này{unty}
+
+Mục tiêu của cuốn sách này là cung cấp một sự hiểu biết cơ bản về
+
+thiết kế kỹ thuật và kiến trúc của Internet.
+Cuốn sách nhắm vào tất cả khán giả -- ngay cả những khán giả không có tiền lệ.
+Kinh nghiệm kỹ thuật hoặc kỹ năng toán học. Internet là một thứ đẹp tuyệt vời
+Thiết kế và nên được hiểu bởi tất cả những ai dùng nó.
+
+Trong khi cuốn sách này không phải là về mạng+ hoặc CCNA
+Chứng nhận, tôi hy vọng nó là cách để cung cấp cho học sinh
+Quan tâm đến những chứng nhận này là một điểm khởi đầu tốt.
+
+Tôi muốn cảm ơn Pamela Fox của học viện Khan vì đã đến với
+ý tưởng về một khóa học công nghệ giới thiệu bằng cách sử dụng mở
+vật liệu.
+
+Ban đầu tôi phát triển tài liệu này như một bài giảng trong một tuần
+Khóa học mà tôi dạy ở
+Đại học Michigan School of Intels bắt đầu từ năm 2008.
+Tôi tinh luyện và mở rộng tài liệu thành ba tuần của
+Khóa học lịch sử Internet, công nghệ và bảo mật (IHTS)
+mà tôi đã dạy cho hơn 100.000 sinh viên trên coursera
+bắt đầu từ năm 2012. Cuốn sách này thêm chi tiết để tạo ra một đứng yên
+văn bản có thể đọc để thích thú hoặc sử dụng để hỗ trợ khóa học giới thiệu
+tập trung vào cấu trúc Internet.
+
+Cuốn sách này đặc biệt thú vị vì nó là sự hợp tác
+với bạn bè của tôi Mauro Toselli (@xlontrax) và Sue Blumenberg. Tôi đã gặp Mauro và
+Sue năm 2012 khi họ tình nguyện trở thành trợ lý giảng dạy cộng đồng (CTA)
+Cho khóa học về coursera của tôi. Trong ba năm qua chúng ta đã trở thành
+Bạn bè và đồng nghiệp. Đó là một ví dụ tuyệt vời về sự mở rộng giáo dục
+có thể mang mọi người lại với nhau.
+
+Có những tài liệu hỗ trợ cho cuốn sách này tại
+
+http việc intro.com/
+
+Nếu anh thích cuốn sách, hãy cho chúng tôi biết. Gửi cho chúng tôi một tweet với suy nghĩ của bạn.
+Bạn cũng có thể gửi một tweet nếu tìm thấy lỗi trong sách.
+
+Charles R. Severance (@dchuck)
+www.dr-chuck.com
+Ann Arbor, MI USA
+Ngày 20 tháng 5 năm 2015
