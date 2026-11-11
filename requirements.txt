@@ -1,0 +1,6 @@
+# CEH v12 & Red Team Operations Curriculum Dependencies
+# Tested with CPython 3.11
+
+pytest>=8.0.0
+requests>=2.28.0
+pyyaml>=6.0

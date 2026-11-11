@@ -1,0 +1,50 @@
+name: CEH v12 & Red Team Operations CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  curriculum-integrity:
+    name: Verify Curriculum, Labs & Exam Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up CPython 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Verify Lab Configuration & Port Bindings
+        run: |
+          python labs/scripts/verify_lab_config.py
+
+      - name: Verify Exam Simulator & Question Banks
+        run: |
+          python exam_simulator.py test
+
+      - name: Run Full Pytest Test Suite
+        run: |
+          python -m pytest -v tests/test_sec_curriculum_integrity.py
+
+      - name: Check Strict Pure Markdown Invariant (Zero self-generated DOCX/PDF)
+        run: |
+          echo "[*] Checking for extraneous DOCX outside External_Downloads..."
+          find . -name "*.docx" ! -path "*/docs/References/External_Downloads/*" ! -path "*/.git/*" | tee stray_docx.txt
+          test ! -s stray_docx.txt || (echo "[FAIL] Stray DOCX found!" && exit 1)
+          
+          echo "[*] Checking for duplicate PDFs of authored markdown..."
+          test ! -f DIEU_PHOI_LO_TRINH_DOC.pdf || exit 1
+          test ! -f docs/Roadmap/01_Master_Study_Roadmap.pdf || exit 1
+          echo "[SUCCESS] Zero extraneous DOCX/PDF detected."

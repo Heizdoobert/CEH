@@ -161,6 +161,7 @@ def test_no_self_generated_docx_or_pdf():
     
     # Ensure all authored master documents have NO parallel .docx or .pdf
     authored_markdowns = [
+        SEC_DIR / "README.md",
         SEC_DIR / "DIEU_PHOI_LO_TRINH_DOC.md",
         DOCS_DIR / "Roadmap" / "01_Master_Study_Roadmap.md",
         DOCS_DIR / "Lectures" / "02_Master_Lecture_and_Lab_Plan.md",
@@ -218,6 +219,7 @@ def test_arsenal_scripts_execution():
 def test_link_integrity_in_markdown():
     """Verify that all file:/// links in coordinator guide, matrix, readme, labs, reports, cheatsheets point to existing files."""
     docs_to_check = [
+        SEC_DIR / "README.md",
         SEC_DIR / "DIEU_PHOI_LO_TRINH_DOC.md",
         DOCS_DIR / "Matrix" / "03_Knowledge_Linkage_and_Cross_Reference_Matrix.md",
         DOCS_DIR / "README.md",
@@ -262,3 +264,25 @@ def test_sec_navigator_cli():
     res_stream = subprocess.run(["/usr/bin/python3.11", str(nav_script), "stream", "5"], capture_output=True, text=True, check=True)
     assert "TÁC CHIẾN RED TEAM" in res_stream.stdout
     assert "[V] OK" in res_stream.stdout
+
+def test_root_readme_and_ci_workflow():
+    """Verify root README.md, CI workflow, requirements, and lab control scripts."""
+    root_readme = SEC_DIR / "README.md"
+    req_file = SEC_DIR / "requirements.txt"
+    ci_workflow = SEC_DIR / ".github" / "workflows" / "ci.yml"
+    start_script = LABS_DIR / "start_labs.sh"
+    stop_script = LABS_DIR / "stop_labs.sh"
+    
+    # 1. Root README
+    assert root_readme.exists(), "Root README.md must exist"
+    assert root_readme.stat().st_size > 2000, "Root README.md must be populated"
+    assert not root_readme.with_suffix(".docx").exists(), "Root README.docx must not exist"
+    assert not root_readme.with_suffix(".pdf").exists(), "Root README.pdf must not exist"
+    
+    # 2. Requirements & CI
+    assert req_file.exists() and "pytest" in req_file.read_text(encoding="utf-8")
+    assert ci_workflow.exists() and "actions/checkout" in ci_workflow.read_text(encoding="utf-8")
+    
+    # 3. Lab scripts
+    assert start_script.exists() and os.access(start_script, os.X_OK), "start_labs.sh must be executable"
+    assert stop_script.exists() and os.access(stop_script, os.X_OK), "stop_labs.sh must be executable"
