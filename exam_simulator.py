@@ -232,6 +232,37 @@ def cmd_scenario(args, non_interactive=False):
         
     return 0
 
+def cmd_flashcard(args, non_interactive=False):
+    questions = load_ceh_questions()
+    if not questions:
+        print("[FAIL] Không tìm thấy ngân hàng câu hỏi để tạo Flashcard.")
+        return 1
+        
+    count = min(args.count, len(questions))
+    selected = random.sample(questions, count) if not non_interactive else questions[:count]
+    
+    print("\n" + "=" * 65)
+    print(f"       CHẾ ĐỘ FLASHCARD ÔN TẬP NHANH ({count} THẺ GHI NHỚ)")
+    print("=" * 65)
+    
+    for idx, q in enumerate(selected, 1):
+        print(f"\n[FLASHCARD {idx}/{count}] [{q['module']}]")
+        print(f"❓ CÂU HỎI / KHÁI NIỆM:\n{q['prompt']}\n")
+        
+        if not non_interactive:
+            try:
+                input(">> Nhấn [ENTER] để lật thẻ (xem đáp án & giải thích)...")
+            except (EOFError, KeyboardInterrupt):
+                break
+                
+        print(f"💡 ĐÁP ÁN ĐÚNG: [{q['answer']}] - {q['options'].get(q['answer'], '')}")
+        print(f"📖 GIẢI THÍCH:\n{q['explanation']}")
+        if q['link']:
+            print(f"🔗 LIÊN KẾT: {q['link']}")
+        print("-" * 65)
+        
+    return 0
+
 def main():
     parser = argparse.ArgumentParser(description="Cybersecurity Exam Simulator CLI")
     subparsers = parser.add_subparsers(dest="command")
@@ -246,6 +277,9 @@ def main():
     scen_parser = subparsers.add_parser("scenario", help="Xem kịch bản tác chiến Red Team")
     scen_parser.add_argument("--count", type=int, default=3, help="Số kịch bản muốn ôn tập")
     
+    fc_parser = subparsers.add_parser("flashcard", help="Ôn tập nhanh với thẻ ghi nhớ Flashcard")
+    fc_parser.add_argument("--count", type=int, default=5, help="Số lượng flashcard muốn lật")
+    
     subparsers.add_parser("test", help="Chạy chế độ kiểm thử tự động không chặn stdin")
     
     args = parser.parse_args()
@@ -256,6 +290,8 @@ def main():
         cmd_quiz(args)
     elif args.command == "scenario":
         cmd_scenario(args)
+    elif args.command == "flashcard":
+        cmd_flashcard(args)
     elif args.command == "test":
         print("[*] Running programmatic automated tests...")
         cmd_stats()
@@ -263,6 +299,8 @@ def main():
         cmd_quiz(dummy_quiz_args, non_interactive=True)
         dummy_scen_args = argparse.Namespace(count=2)
         cmd_scenario(dummy_scen_args, non_interactive=True)
+        dummy_fc_args = argparse.Namespace(count=2)
+        cmd_flashcard(dummy_fc_args, non_interactive=True)
         print("\n[SUCCESS] exam_simulator test passed!")
     else:
         parser.print_help()

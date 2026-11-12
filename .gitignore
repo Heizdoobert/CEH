@@ -17,3 +17,6 @@ htmlcov/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Lab Progress state
+.lab_progress.json

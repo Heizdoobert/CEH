@@ -63,6 +63,11 @@ Môi trường lab gồm 5 container cô lập trên dải mạng riêng `172.28
 # Khởi động toàn bộ 5 container và kiểm tra tính toàn vẹn
 ./labs/start_labs.sh
 
+# Kiểm tra kết nối dịch vụ hoặc nộp cờ thẩm định đáp án CTF
+python3 labs/lab_checker.py health
+python3 labs/lab_checker.py submit -c 1 -f "FLAG{...}"
+python3 labs/lab_checker.py status
+
 # Khi hoàn thành thực hành, tắt lab an toàn
 ./labs/stop_labs.sh
 ```
@@ -88,7 +93,10 @@ python3 exam_simulator.py quiz --mode ceh --count 20
 # 2. Luyện phỏng vấn kịch bản Red Team (5 tình huống bất kỳ)
 python3 exam_simulator.py scenario --count 5
 
-# 3. Xem bảng thống kê ngân hàng đề
+# 3. Ôn tập nhanh với thẻ ghi nhớ Flashcard (lật thẻ kiểm tra định nghĩa)
+python3 exam_simulator.py flashcard --count 10
+
+# 4. Xem bảng thống kê ngân hàng đề
 python3 exam_simulator.py stats
 ```
 
@@ -218,13 +226,15 @@ pip install -r requirements.txt
 │   │   └── 02_Blue_Team_Detection_and_Event_IDs.md # Event ID & KQL Detection Rules
 │   └── Playbooks/
 │       ├── 01_Incident_Response_Playbook_Ransomware.md # Ứng cứu sự cố Ransomware
-│       └── 02_Threat_Hunting_Playbook_Active_Directory.md # Săn lùng mối nguy AD
+│       ├── 02_Threat_Hunting_Playbook_Active_Directory.md # Săn lùng mối nguy AD
+│       └── 03_Cloud_Pentesting_AWS_Azure_Playbook.md # Tác chiến thâm nhập AWS & Azure
 │
 ├── labs/                               # Môi trường thực hành Docker Compose
 │   ├── docker-compose.yml              # Cấu hình 5 container lab
 │   ├── README.md                       # Hướng dẫn bài tập và sơ đồ mạng
 │   ├── start_labs.sh                   # Script khởi động 1-click
 │   ├── stop_labs.sh                    # Script dọn dẹp lab an toàn
+│   ├── lab_checker.py                  # CLI kiểm tra kết nối & nộp cờ CTF SHA-256
 │   ├── challenges/                     # 5 bài tập CTF có cờ và lời giải
 │   ├── scripts/                        # Script xác thực cấu hình lab
 │   └── vulnerable-api/                 # Mã nguồn Flask API mục tiêu OWASP Top 10

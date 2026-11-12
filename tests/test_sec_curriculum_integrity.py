@@ -13,6 +13,7 @@ REPORTS_DIR = DOCS_DIR / "Reports"
 CHEATSHEETS_DIR = DOCS_DIR / "Cheatsheets"
 LABS_DIR = SEC_DIR / "labs"
 ARSENAL_DIR = SEC_DIR / "scripts" / "arsenal"
+PLAYBOOKS_DIR = DOCS_DIR / "Playbooks"
 
 def test_root_coordinator_exists():
     """Verify master coordinator exists at root in pure .md, with no .docx or .pdf."""
@@ -286,3 +287,19 @@ def test_root_readme_and_ci_workflow():
     # 3. Lab scripts
     assert start_script.exists() and os.access(start_script, os.X_OK), "start_labs.sh must be executable"
     assert stop_script.exists() and os.access(stop_script, os.X_OK), "stop_labs.sh must be executable"
+
+def test_lab_checker_and_cloud_playbook():
+    """Verify lab_checker.py CLI, CTF verification, and cloud playbook integrity."""
+    checker_script = LABS_DIR / "lab_checker.py"
+    cloud_playbook = PLAYBOOKS_DIR / "03_Cloud_Pentesting_AWS_Azure_Playbook.md"
+    
+    # 1. Cloud Playbook
+    assert cloud_playbook.exists() and cloud_playbook.stat().st_size > 2000, "Cloud playbook must exist and be populated"
+    assert not cloud_playbook.with_suffix(".docx").exists(), "No DOCX for cloud playbook"
+    assert not cloud_playbook.with_suffix(".pdf").exists(), "No PDF for cloud playbook"
+    
+    # 2. Lab Checker CLI
+    assert checker_script.exists() and os.access(checker_script, os.X_OK), "lab_checker.py must be executable"
+    res = subprocess.run(["/usr/bin/python3.11", str(checker_script), "test"], capture_output=True, text=True, check=True)
+    assert "[SUCCESS] lab_checker test passed!" in res.stdout
+    assert "Verified all 5 challenges" in res.stdout

@@ -58,16 +58,15 @@ Phòng Lab được cô lập hoàn toàn trên dải mạng ảo riêng biệt 
 ## 3. HƯỚNG DẪN VẬN HÀNH
 
 ### 3.1. Khởi động toàn bộ phòng Lab
-Đứng tại thư mục gốc của repository, di chuyển vào thư mục `labs` và chạy:
+Đứng tại thư mục gốc của repository hoặc trong thư mục `labs`, chạy script 1-click:
 ```bash
-cd /mnt/second_drive/DOCS/SEC/labs
-docker-compose up -d
+./labs/start_labs.sh
 ```
-*Lưu ý: Đối với Docker v2, lệnh tương đương là `docker compose up -d`.*
+*Script tự động kiểm tra cấu hình mạng, dựng 5 container và hiển thị danh mục cổng kết nối.*
 
-### 3.2. Kiểm tra trạng thái các container
+### 3.2. Kiểm tra kết nối các dịch vụ Lab (Health Check CLI)
 ```bash
-docker-compose ps
+python3 labs/lab_checker.py health
 ```
 
 ### 3.3. Kiểm tra tự động cấu hình Lab bằng Python
@@ -76,10 +75,19 @@ Trước khi khởi chạy thực tế, bạn có thể kiểm tra cú pháp và
 /usr/bin/python3.11 labs/scripts/verify_lab_config.py
 ```
 
-### 3.4. Dừng và dọn dẹp môi trường Lab
+### 3.4. Nộp Cờ CTF & Theo Dõi Tiến Độ Thực Hành (CTF Checker)
+Khi giải thành công các kịch bản thực hành (lấy được cờ `FLAG{...}`):
 ```bash
-cd /mnt/second_drive/DOCS/SEC/labs
-docker-compose down
+# Nộp cờ cho Thử thách 1
+python3 labs/lab_checker.py submit -c 1 -f "FLAG{...}"
+
+# Xem bảng điểm và tiến độ cá nhân (tính điểm / 1000 pts)
+python3 labs/lab_checker.py status
+```
+
+### 3.5. Dừng và dọn dẹp môi trường Lab
+```bash
+./labs/stop_labs.sh
 ```
 
 ---

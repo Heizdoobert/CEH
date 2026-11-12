@@ -34,6 +34,10 @@ jobs:
         run: |
           python exam_simulator.py test
 
+      - name: Verify Lab CTF Checker & Cryptographic Hashes
+        run: |
+          python labs/lab_checker.py test
+
       - name: Run Full Pytest Test Suite
         run: |
           python -m pytest -v tests/test_sec_curriculum_integrity.py
